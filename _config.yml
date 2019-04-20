@@ -1,0 +1,64 @@
+# Site settings
+title: Mahendrata Harpi | piharpi
+projects: true # false to hide my work
+description:  >-
+ Blog ini tempat saya menulis informasi dan teknologi yang saya 
+ suka dan juga sebagai jurnal untuk mendokumentasikan hal-hal yang sudah saya pelajari.
+lang: en-US
+timezone: Asia/Jakarta
+icon: '/assets/icon.png'
+
+# User settings
+author: 
+  name: Mahendrata Harpi
+  username: piharpi
+  email: justharpi@gmail.com
+  avatar: '/assets/img/avatar.jpg'
+
+# Url settings
+url: https://piharpi.com
+baseurl: ""
+permalink: /:categories/:title/
+google_analytics: UA-105586262-2
+fb_appid: 1806380839422028
+
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: post
+      image: /assets/img/avatar.png
+      comments: true
+
+# Build settings
+sass:
+  style: compressed
+include:
+  - _redirects
+  - .htaccess
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules 
+  - bangsring.gemspec
+  - CODE_OF_CONDUCT.md
+  
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sass-converter
+  - jekyll-sitemap
