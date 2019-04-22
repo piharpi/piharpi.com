@@ -5,7 +5,7 @@ excerpt: Hello folks, My full name is Choirul Mahendrata Harpi, I'm programmer f
 comments: false
 ---
 
-Hello folks, My full name is Choirul Mahendrata Harpi, I'm programmer from Banyuwangi, Indonesia now living in Yogyakarta. This blog for documentation about 🎒 my programming journey in Bahasa, running on jekyll, hosting on netlify and using [Bangsring](http://github.com/piharpi/bangsring) jekyll theme. 
+Hello folks, My name is Mahendrata Harpi, I'm ~~programmer~~ learner from Banyuwangi, Indonesia now living in Yogyakarta. This blog for documentation about 🎒 my programming journey in Bahasa, running on jekyll, hosting on netlify and using [Bangsring](http://github.com/piharpi/bangsring) jekyll theme. 
 
 Please report if there is an error on this blog via github  **[issue](https://github.com/piharpi/me/issues/new?template=bug_report.md)**.
 
