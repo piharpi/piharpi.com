@@ -5,15 +5,15 @@
   description : 🏖 Bangsring is minimalist Jekyll theme for running a personal site and blog.
   action : <a class="github-button" href="https://github.com/piharpi/bangsring" rel="noreferrer" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star piharpi/bangsring on GitHub">Star</a>
 
-- title : ruby-book
+- title : "[WIP] ruby-book" 
   url   : https://piharpi.gitbook.io/ruby-in-bahasa/
   description : Ruby ebook in bahasa indonesia, free and open source.
   action : <a class="github-button" href="https://github.com/piharpi/rubyinbahasa/issues" rel="noreferrer" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue piharpi/rubyinbahasa on GitHub">Issue</a>
 
-- title : osingdev.org
+- title : "[WIP] banyuwangidev.org"
   url   : https://github.com/osingdev
   description : A community of programmers @banyuwangi, to discuss and share knowledge.
-  action : <a class="github-button" href="https://github.com/osingdev/osingdev.github.io/fork" rel="noreferrer" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork osingdev/osingdev.github.io on GitHub">Fork</a>
+  action : <a class="github-button" href="https://github.com/osingdev/osingdev.github.io/fork" rel="noreferrer" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork osingdev/osingdev.github.io on GitHub">Contribute</a>
 
 
 - title : piharpi.com
