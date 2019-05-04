@@ -12,9 +12,7 @@ comments: false
 - [Work Experience](#work-experience)
 
 ### Biography
-I am a student of the [Amikom University Informatics](http://informatika.amikom.ac.id/) program, and to be a professional software engineer, specializing in web technologies. I am most well-known 
-
-You can usually find me coffee in-hand, humming my latest gospel favourite. If I’m not coding, I’m probably out on a long run, taking a photo of something pretty, or enjoying a delicious German beer.
+I am a student of the [Amikom University Informatics](http://informatika.amikom.ac.id/) blabla ....
 
 ### Education
 ##### Amikom University
