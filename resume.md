@@ -30,11 +30,7 @@ Love, but my class ~nice, in there I was started learn about Algorithm, HTML5, C
 __Activity:__ LKS 2017 Tingkat Provinsi.
 
 ### Skills
-As I said, I write software. I write in __Go, UNIX/GNU via Bash, JavaScript, Ruby, HTML, CSS__ daily, and store it all in git. I’m proficient in a bunch of other languages and love to learn new ones, but I don’t use them regularly. I learned how to program using Java and PHP, so I would say I know them fairly well.
-
-Jekyll and Goji (a Go library) are my two favourite tools for website creation. My static sites are tossed behind nginx, because I believe in good memory practices.
-
-I’m concise, task-oriented, and am a lover of IRC/IM for communicating with team members. I’m a big believer in __asynchronous communication__ for discussion and code review beyond initial planning stages. I like a good challenge.
+On going upgrading my skill.
 
 ### Work Experience
 ##### Internship Programmer    
