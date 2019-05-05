@@ -1,4 +1,4 @@
-# piharpi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/0e92d3ee-a4c8-45c3-8000-6dee5c3e3876/deploy-status)](https://app.netlify.com/sites/conkytreasuremekypumaossie14032019/deploys)
+# piharpi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/0e92d3ee-a4c8-45c3-8000-6dee5c3e3876/deploy-status)](https://app.netlify.com/sites/piharpi/deploys)
 
 Personal website running on Jekyll, Ruby, and Netlify.
 
@@ -7,7 +7,7 @@ Personal website running on Jekyll, Ruby, and Netlify.
 Run local server:
 
 ```bash
-git clone https://github.com/taniarascia/taniarascia.com
+git clone https://github.com/piharpi/piharpi.com.git
 cd piharpi.com
 bundle install
 bundel exec jekyll serve
