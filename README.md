@@ -19,7 +19,7 @@ Navigate to `localhost:4000`.
 
 - Posts and pages in Markdown
 - Tags and categories
-- DOS mode (404)
+- 404
 - Sass (starring [Bangsring](https://github.com/piharpi/bangsring))
 
 ## Contributing
