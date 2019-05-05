@@ -341,9 +341,11 @@
   .list-post.blog {
     padding: 15px 15px 15px 0;
     .list-post-image {
+      top: 4px;
       float: left;
       width: 30px;
       overflow: hidden;
+      position: relative;
       margin-right: 20px;
       border-radius: 2px;
     }
