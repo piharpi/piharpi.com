@@ -19,7 +19,7 @@ author:
 url: https://piharpi.com
 baseurl: ""
 permalink: /:categories/:title/
-google_analytics: UA-105586262-2
+google_analytics: UA-105586262-1
 fb_appid: 1806380839422028
 
 collections:
