@@ -11,6 +11,5 @@ Please report if there is an error on this blog via github  **[issue](https://gi
 
 ### 🎈 Find me
 - github.com/**piharpi** 
-- telegram.com/**piharpi**
-- keybase.io/**piharpi** if you care with security reason.
+- twitter.com/**piharpi**
 - ![email](https://piharpi.github.io/bangsring/assets/img/email.png), an image to avoid **spam!**
