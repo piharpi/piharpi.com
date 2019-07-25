@@ -4,7 +4,7 @@ home: true
 ---
 <div class="home">
   {% if site.projects %}
-  <h4 class="home-title"><span role="img" aria-label="icon-rocket">🚀</span>my works <span class="project-nav"><button id="prevProject" aria-label="arrow left">⟵</button><button id="nextProject" aria-label="arrow right">⟶</button></span></h4>
+  <h4 class="home-title"><span role="img" aria-label="icon-rocket">🚀</span>over here !!<span class="project-nav"><button id="prevProject" aria-label="arrow left">⟵</button><button id="nextProject" aria-label="arrow right">⟶</button></span></h4>
   <div class="content">
         <div class="projects">
             <div class="projects-container" id="projectsContainer">
@@ -28,7 +28,7 @@ home: true
     prev.addEventListener('mousedown', () => projects.scrollLeft -= 245);
   </script>
 
-  <h4 class="home-title"><span role="img" aria-label="icon-book">📘</span>blog posts</h4>
+  <h4 class="home-title"><span role="img" aria-label="icon-book">📘</span>devlog</h4>
   <div class="content">
     {% assign blogs = site.categories.blog %}
     {% if blogs.size > 0 %}
@@ -43,7 +43,7 @@ home: true
           </h4>
         </header>
         <section class="list-post-excerpt">
-          <p class="list-post-excerpt"> — {{ post.excerpt | strip_html | downcase | normalize_whitespace | truncatewords: 18, '...' }} </p>
+          <p class="list-post-excerpt"> — {{ post.excerpt | strip_html | downcase | normalize_whitespace | truncatewords: 12, '...' }} </p>
         </section>
       </article>
     {% endfor %}
@@ -55,7 +55,7 @@ home: true
     </nav>
   </div>
   
-  <h4 class="home-title"><span role="img" aria-label="icon-coffee">☕️</span>programming tips</h4>
+  <h4 class="home-title"><span role="img" aria-label="icon-coffee">☕️</span>try hard</h4>
   <div class="content">
     {% assign tips = site.categories.tips %}
     {% if tips.size > 0 %}
