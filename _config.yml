@@ -2,8 +2,10 @@
 title: Mahendrata Harpi | piharpi
 projects: true # false to hide my work
 description:  >-
- Blog ini tempat saya menulis informasi dan teknologi yang saya 
- suka dan juga sebagai jurnal untuk mendokumentasikan hal-hal yang sudah saya pelajari.
+ This Blog is place where i'm writing about web technology 
+ what i like and as journal for documentation things what i learn, meet me <a href="https://github.com/piharpi" target="_blank">@github</a>.
+#  Blog ini tempat saya menulis informasi dan teknologi yang saya 
+#  suka dan juga sebagai jurnal untuk mendokumentasikan hal-hal yang sudah saya pelajari.
 lang: en-US
 timezone: Asia/Jakarta
 icon: 'favicon.ico'  
