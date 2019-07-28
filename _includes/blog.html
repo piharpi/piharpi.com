@@ -4,16 +4,13 @@
 {% if blogs.size > 0%}
 {% for post in blogs %}
 <article class="list-post blog">
-    <picture class="list-post-image">
-      <img src="{{ post.image }}" alt="">        
-    </picture>
     <header class="list-post-header">
       <h2 class="list-post-title">
         <a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
       </h2>
     </header>
     <section class="list-post-excerpt">
-      <p class="list-post-excerpt"> — {{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 15, '...' }} </p>
+      <p class="list-post-excerpt"> — {{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 12, '...' }} </p>
     </section>
   </article>
 {% endfor %}

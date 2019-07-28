@@ -1,9 +1,9 @@
 // Define defaults for each variable.
-$base-font-family: "Roboto", sans-serif !default;
+$base-font-family: 'Roboto', sans-serif !default;
 $base-syntax-font: "Roboto Mono", Hack, monospace;
-$base-font-size:   16px !default;
-$medium-font-size:  $base-font-size * 0.938 !default;
-$small-font-size: $base-font-size * 0.875 !default;
+$base-font-size:   18px !default;
+$medium-font-size: $base-font-size * 0.938 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.688 !default;
 $spacing-unit:     30px !default;
@@ -19,7 +19,7 @@ $blue-light:     #d8deff !default;
 
 
 // Width of the content area
-$content-width:    750px !default;
+$content-width:    790px !default;
 
 // State of device
 $on-palm:          600px !default;

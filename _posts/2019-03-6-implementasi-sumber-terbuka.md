@@ -4,7 +4,7 @@ date: 2019-3-6 8:28:47 +07:00
 modified: 2019-02-20 11:45:47 +07:00
 categories: blog
 tags: [jekyll, jekyll-theme, open-source]
-image: "/assets/img/posts/blog/osi_keyhole_300X300_90ppi_0.png"
+# image: "/assets/img/posts/blog/osi_keyhole_300X300_90ppi_0.png"
 ---
 
 Sedikit tidak enak didengar jika kata open source ditranslate ke bahasa indonesia, beberapa waktu lalu saya mencari tema yang light, yang akan saya gunakan untuk blog ini, namun saya belum menemukan tema yang cocok, karena saya orangnya sedikit perfectionist klo ada kurangnya engga sreg, mungkin ini salah satu faktor, kenapa klo bikin dummy project gk selesai2 😂. 

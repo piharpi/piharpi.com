@@ -4,7 +4,7 @@ date: 2018-09-28 09:45:47 +07:00
 modified: 2019-02-20 11:45:47 +07:00
 categories: blog
 tags: [blog, netlify, jekyll, github]
-image: "/assets/img/posts/blog/frontslash.png"
+# image: "/assets/img/posts/blog/frontslash.png"
 ---
 
 Website yang sebelumnya menggunakan domain harpi.id ini sering melakukan perubahan karena belum menemukan gaya yang pas, sempat tidur beberapa waktu, merombak tema, dan lainya.

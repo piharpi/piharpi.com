@@ -34,9 +34,6 @@ home: true
     {% if blogs.size > 0 %}
     {% for post in blogs limit:3 %}
       <article class="list-post blog">
-        <picture class="list-post-image">
-          <img src="{{ post.image }}" alt="">        
-        </picture>
         <header class="list-post-header">
           <h4 class="list-post-title">
             <a href="{{ post.url | absolute_url }}">{{ post.title | escape }}.</a>
@@ -47,12 +44,13 @@ home: true
         </section>
       </article>
     {% endfor %}
+
+    <nav class="see-all-container">
+      <a class="button" href="{{ site.url | absolute_url }}/blog">See All</a>
+    </nav>
     {% else %}
     <code>wip hahahaha</code>
     {% endif %}
-    <nav class="see-all-container">
-     <a class="button" href="{{ site.url | absolute_url }}/blog">See All</a>
-    </nav>
   </div>
   
   <h4 class="home-title"><span role="img" aria-label="icon-coffee">☕️</span>try hard</h4>
@@ -76,11 +74,11 @@ home: true
         </small>
       </article>
     {% endfor %}
-    {% else %}
-    <code>wip hahahaha</code>
-    {% endif %}
     <nav class="see-all-container">
-        <a class="button" href="{{ site.url | absolute_url }}/tips">See All</a>
+      <a class="button" href="{{ site.url | absolute_url }}/tips">See All</a>
     </nav>
+    {% else %}
+    <code>Nothing</code>
+    {% endif %}
   </div>
 </div>
