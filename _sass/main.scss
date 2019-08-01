@@ -1,5 +1,7 @@
 // Define defaults for each variable.
-$base-font-family: 'Roboto', sans-serif !default;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+
+$base-font-family: "Roboto", sans-serif, !default;
 $base-syntax-font: "Roboto Mono", Hack, monospace;
 $base-font-size:   18px !default;
 $medium-font-size: $base-font-size * 0.938 !default;

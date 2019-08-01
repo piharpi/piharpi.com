@@ -334,14 +334,15 @@
  * Site blog
  */
 
-  .list-post.blog {
+  .list-post {
     margin-left: 5px;
-    padding: 15px 15px 15px;
-    border-left: 1px dashed $light;
+    padding: 15px 15px 0;
+    display: flex;
+    // border-left: 2px dashed $light;
     @extend %clearfix;
 
     &:not(:first-child) {
-      border-top: 1px dashed $light;
+      // border-top: 2px dashed $light;
     }
   }
   @extend %clearfix;
@@ -363,9 +364,15 @@
 }
 
 .list-post-header {
-  margin-bottom: $spacing-unit - 15;
   display: inline;
   line-height: 15px;
+}
+
+.list-post-date {
+  font-family: $base-syntax-font;
+  font-size: $small-font-size;
+  color: $grey;
+  padding-right: 15px;
 }
 
 .list-post-meta {
@@ -388,7 +395,7 @@
 
 .list-post-title {
   // @include relative-font-size(2);
-  font-weight: 600;
+  margin-top: 2px;
   font-size: $base-font-size;
   display: inherit;
 
@@ -396,10 +403,8 @@
     color: $black;
     text-decoration: none;
     line-height: 22px;
-    opacity: .8;
 
     &:hover, &focus {
-      opacity: 1;
       color: $blue;
     }
   }
@@ -407,12 +412,6 @@
   @include media-query($on-laptop) {
     // @include relative-font-size(2.25);
   }
-}
-
-.list-post-excerpt {
-  font-size: $base-font-size;
-  display: inline;
-  color: $grey;
 }
 
 /**

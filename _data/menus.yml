@@ -1,11 +1,11 @@
 - title : Home
   url   : /
 
-- title : Devlog
+- title : Notes
   url   : /blog/
 
-- title : Try Hard
-  url   : /tips/
+- title : Showcase
+  url   : /blog/
 
 - title : About 
   url   : /about/

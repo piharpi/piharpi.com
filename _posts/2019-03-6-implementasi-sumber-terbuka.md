@@ -2,7 +2,6 @@
 title: Implementasi sumber terbuka 
 date: 2019-3-6 8:28:47 +07:00
 modified: 2019-02-20 11:45:47 +07:00
-categories: blog
 tags: [jekyll, jekyll-theme, open-source]
 # image: "/assets/img/posts/blog/osi_keyhole_300X300_90ppi_0.png"
 ---
