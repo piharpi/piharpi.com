@@ -1,14 +1,14 @@
 - title : Home
   url   : /
-
-- title : Notes
-  url   : /blog/
-
+  
 - title : Showcase
   url   : /blog/
 
 - title : About 
   url   : /about/
+
+- title : Bahasa 
+  url   : '#'
   
 - title : RSS 
   url   : /feed.xml

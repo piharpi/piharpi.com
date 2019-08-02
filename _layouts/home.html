@@ -3,12 +3,13 @@ layout: default
 home: true
 ---
 <div class="home">
-  <h4 class="home-title"><span role="img" aria-label="icon-book">📘</span>devlog</h4>
+  <h4 class="home-title"><span role="img" aria-label="icon-book">📌</span>devlog</h4>
   <div class="content">
+    {{ site.posts.date  }}
     {% assign blogs = site.posts %}
     {% if blogs.size > 0 %}
-    {% for post in blogs limit:3 %}
-      <article class="list-post blog">
+    {% for post in blogs limit:4 %}
+      <article class="list-post">
         <span class="list-post-date">#{{ post.date | date: "%m%d%y" }}</span>
         <header class="list-post-header">
           <h4 class="list-post-title">

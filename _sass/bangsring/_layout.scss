@@ -69,13 +69,11 @@
 
   .page-link {
     color: $black;
-    box-shadow: 1px 1px 0px 0px #dddddd;
+    // box-shadow: 1px 1px 0px 0px #dddddd;
     line-height: $base-line-height - 0.5;
     text-decoration: none;
-    // text-transform: capitalize;
-    background: #ebebeb;
     border-radius: 2px;
-    border: 0;
+    border: 2px solid $blue;
     padding: 5px 8px;
     font-size: $small-font-size;
     opacity: .7;
@@ -92,6 +90,8 @@
 
   .page-link.active {
     opacity: 1;
+    color: $blue;
+    background: #ebebeb;
   }
 
   @include media-query($on-palm) {
@@ -227,13 +227,10 @@
 .button {
   font-size: $small-font-size;
   text-decoration: none;
-  border-bottom: 2px dashed $blue;
-  color: $blue;
+  border-bottom: 2px dashed $black;
+  color: $black;
   &:hover, &:focus {
     text-decoration: none;
-    opacity: 1;
-    color: $black;
-    border-bottom: 2px dashed $black;
   }
   &:active {
     text-decoration: none;
@@ -242,7 +239,8 @@
 
  .home-title {
   font-size: $small-font-size;
-  letter-spacing: 2px;
+  font-family: $base-syntax-font;
+  letter-spacing: 1.5px;
   color: $black;
   text-transform: uppercase;
   font-weight: 700;
@@ -269,7 +267,7 @@
     -ms-user-select: none;
     -webkit-user-select: none;
     &:active {
-      background: #ebebeb;
+      background-color: #ebebeb;
     }
   }
 }
@@ -335,14 +333,13 @@
  */
 
   .list-post {
-    margin-left: 5px;
-    padding: 15px 15px 0;
+    padding: 10px 20px 0;
     display: flex;
     // border-left: 2px dashed $light;
     @extend %clearfix;
 
     &:not(:first-child) {
-      // border-top: 2px dashed $light;
+      border-top: 1px dashed $light;
     }
   }
   @extend %clearfix;
@@ -385,14 +382,6 @@
  * Site tips
  */
 
-.list-post-header.tips {
-  .list-post-title {
-    margin: 0;
-    font-weight: normal;
-  }
-  margin: 0;
-}
-
 .list-post-title {
   // @include relative-font-size(2);
   margin-top: 2px;
@@ -405,7 +394,8 @@
     line-height: 22px;
 
     &:hover, &focus {
-      color: $blue;
+      // color: $blue;
+      text-decoration: underline;
     }
   }
 
