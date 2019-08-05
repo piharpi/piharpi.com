@@ -8,28 +8,30 @@ layout: compress
 {% include head.html %}
 
 <body>
-<div class="wrapper">
+{% include navbar.html %}
+<div class="wrapper post">
 <main class="page-content" aria-label="Content">
-  {% include cover.html %}
   <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
-    <header class="post-header">
-      <h1 class="post-title" itemprop="headline">{{ page.title | escape }}</h1>
-    </header>
-    {% if page.date or page.tags %}
+    {% if page.date %}
     <div class="post-meta">
-      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-        Posted by <span itemprop="name">{{ site.author.name }}</span> on
-      </span> 
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%b %d, %Y" }}
       </time>
-      <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
+      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <span itemprop="name">{{ site.author.name }}</span>
+      </span> 
+      <!-- <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
         {{ page.date | date: "%b %d, %Y" }}
-      </time>
+      </time> -->
       <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
       <span hidden itemprop="image">{{ page.image | absolute_url }}</span>
       <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
-      {% if page.tags and page.tags != empty %}
+    </div>
+    {% endif %}
+    <header class="post-header">
+      <h1 class="post-title" itemprop="headline">{{ page.title | escape }}</h1>
+    </header>
+    {% if page.tags and page.tags != empty %}
       <div class="tags"> 
           {% assign tags = page.tags %}
           🔥 
@@ -40,10 +42,8 @@ layout: compress
           </span>
       </div>
      {% endif %}
-    </div>
-    {% endif %}
     <div class="post-content" itemprop="articleBody">
-        {{ content }}
+      {{ content }}
 
         <!-- {% if page.tweet %}
         <p>Comments this article on <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.</p>
@@ -55,14 +55,14 @@ layout: compress
     {% include comments.html%}
   {% endif %}
   
-  {% if page.next or page.previous %}
-    {% include post-nav.html %}
-  {% endif %}
-
+  
 </main>
+{% if page.next or page.previous %}
+  {% include post-nav.html %}
+{% endif %}
+</div>
 
 {% include footer.html %}
-</div>
 
 </body>
 </html>

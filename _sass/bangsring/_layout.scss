@@ -3,7 +3,8 @@
  */
 
 .site-intro {
-  padding-top: 5em;
+  margin-top: 5em;
+  margin-bottom: 3em;
   
   .intro-image {
     overflow: hidden; // active for border-radius or photo inside the element
@@ -46,7 +47,15 @@
 
 .site-header {
   height: 25px;
-  margin: 16px 0 5em 0;
+  margin: 16px 0 0em 0;
+  max-width: -webkit-calc(890px - (#{$spacing-unit} * 2));
+  max-width:         calc(890px - (#{$spacing-unit} * 2));
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
 }
 
 /**
@@ -56,11 +65,11 @@
 .site-nav {
 
   .trigger {
-    float: left;
+    float: right;
   }
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -73,8 +82,9 @@
     line-height: $base-line-height - 0.5;
     text-decoration: none;
     border-radius: 2px;
-    border: 2px solid $blue;
+    // border: 2px solid $blue;
     padding: 5px 8px;
+    border: 0;
     font-size: $small-font-size;
     opacity: .7;
     letter-spacing: 0.5px;
@@ -251,7 +261,7 @@
 }
 
 /**
- * Site `t
+ * Site
  */
 .project-nav {
   float: right;
