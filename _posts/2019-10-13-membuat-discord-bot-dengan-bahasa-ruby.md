@@ -28,7 +28,7 @@ Apa itu versi major.minor.path ?
 
 Dan berikut merupakan contoh dari pengimplementasian Semver agar terdapat gambaran, contoh ini saya kutip dari [guide rubygems](https://guides.rubygems.org/patterns/#pessimistic-version-constraint) dan saya tambahkan sedikit penjelasan.
 
-```
+```bash
 VERSIONS | KETERANGAN
   2.1.0  | Baseline # Versi awal rilis
   2.2.0  | Introduced some new (backward compatible) features # Mengenalkan suatu fitur baru
