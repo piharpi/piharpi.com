@@ -1,20 +1,19 @@
-<h4 class="home-title"><span role="img" aria-label="book">📘</span>devlog</h4>
+<h4 class="home-title"><span role="img" aria-label="book">📘</span>all devlog</h4>
 <div class="content">
-{% assign blogs = site.categories.blog %}
-{% if blogs.size > 0%}
-{% for post in blogs %}
-<article class="list-post blog">
+  {% assign blogs = site.posts %}
+  {% if blogs.size > 0 %}
+  {% for post in blogs limit:4 %}
+  <article class="list-post">
+    <span class="list-post-date">#{{ post.date | date: "%m%d%y" }}</span>
     <header class="list-post-header">
-      <h2 class="list-post-title">
+      <h4 class="list-post-title">
         <a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
-      </h2>
+      </h4>
     </header>
-    <section class="list-post-excerpt">
-      <p class="list-post-excerpt"> — {{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 12, '...' }} </p>
-    </section>
   </article>
-{% endfor %}
-{% else %}
-<code>wip hahahaha</code>
-{% endif %}
+  {% endfor %}
+
+  {% else %}
+  <code>no logging activity</code>
+  {% endif %}
 </div>

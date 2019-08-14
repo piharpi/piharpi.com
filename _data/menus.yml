@@ -1,14 +1,14 @@
-- title : Home
-  url   : /
-  
-- title : Screencast
-  url   : /blog/
+- title: Home
+  url: /
 
-- title : About 
-  url   : /about/
+- title: Devlog
+  url: /blog/
 
-- title : Bahasa 
-  url   : '#'
-  
-- title : RSS 
-  url   : /feed.xml
+- title: About
+  url: /about/
+
+- title: Work
+  url: "#"
+
+- title: RSS
+  url: /feed.xml

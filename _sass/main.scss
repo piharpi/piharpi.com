@@ -1,32 +1,38 @@
 // Define defaults for each variable.
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
-
-$base-font-family: "Roboto", sans-serif, !default;
-$base-syntax-font: "Roboto Mono", Hack, monospace;
-$base-font-size:   18px !default;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+$base-font-family: "Source Sans Pro",
+sans-serif,
+ !default;
+$base-syntax-font: Menlo,
+Monaco,
+Consolas,
+"Andale Mono",
+"Courier New",
+monospace;
+$base-font-size: 18px !default;
 $medium-font-size: $base-font-size * 0.938 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
+$small-font-size: $base-font-size * 0.875 !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.688 !default;
-$spacing-unit:     30px !default;
+$spacing-unit: 30px !default;
 
 // Element Color
-$light:          #ececec !default; 
-$grey:           #3B454e !default; 
-$neutral:        #f9f9f9 !default;
-$black:          #000  !default;
-$white:          #fff !default;
-$blue:           #0036c7 !default;
-$blue-light:     #d8deff !default;
+$light: #ececec !default;
+$grey: #3B454e !default;
+$neutral: #f9f9f9 !default;
+$black: #000 !default;
+$white: #fff !default;
+$blue: #0036c7 !default;
+$blue-light: #d8deff !default;
 
 
 // Width of the content area
-$content-width:    790px !default;
+$content-width: 750px !default;
 
 // State of device
-$on-palm:          600px !default;
-$on-mobile:        500px !default;
-$on-laptop:        780px !default;
+$on-palm: 600px !default;
+$on-mobile: 500px !default;
+$on-laptop: 780px !default;
 
 // Use media queries like this:
 
@@ -48,10 +54,9 @@ $on-laptop:        780px !default;
 }
 
 // Import Sass partials
-@import
-  "bangsring/fonts",
-  "bangsring/base",
-  "bangsring/post",
-  "bangsring/layout",
-  "bangsring/syntax"
+@import "bangsring/fonts",
+"bangsring/base",
+"bangsring/post",
+"bangsring/layout",
+"bangsring/syntax"
 ;

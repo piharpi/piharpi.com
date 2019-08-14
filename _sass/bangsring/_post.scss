@@ -1,19 +1,12 @@
 .wrapper.post {
   margin-top: 7em;
   max-width: -webkit-calc(#{660px} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{660px} - (#{$spacing-unit} * 2));
+  max-width: calc(#{660px} - (#{$spacing-unit} * 2));
   position: relative;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
-
-  .post-content {
-    > figure, div.highlighter-rouge {
-      margin-left: -60px;
-      margin-right: -60px;
-    }
-  }
 }
 
 /**
@@ -34,10 +27,12 @@
 .post-meta {
   font-size: $small-font-size;
   margin-bottom: 1em;
+
   time {
-  color: $grey;
-  position: relative;
-  margin-right: 24px;
+    color: $grey;
+    position: relative;
+    margin-right: 24px;
+
     &::after {
       background: #eee;
       bottom: 1px;
@@ -49,9 +44,11 @@
       width: 12px;
     }
   }
+
   span[itemprop="author"] {
     color: #222;
     border-bottom: 1px dotted #c6c6c6;
+
     &:hover {
       background-color: #ebebeb;
       color: $blue;
@@ -66,12 +63,28 @@
   font-size: $base-font-size;
   color: #161a1f;
   padding: 5px 0 0 0;
-  
+
   iframe {
     text-align: center;
   }
 
-  > p {
+  figure {
+    img {
+      border-radius: 2px;
+    }
+
+    figcaption {
+      margin-top: 5px;
+    }
+  }
+
+  >figure,
+  div.highlighter-rouge {
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+
+  >p {
     margin: 0;
     padding-top: $spacing-unit - 15;
     padding-bottom: $spacing-unit - 15;
@@ -81,7 +94,8 @@
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
-    li input[type="checkbox"]{
+
+    li input[type="checkbox"] {
       margin-right: 10px;
     }
   }
@@ -90,7 +104,13 @@
     font-weight: 700;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Roboto';
     color: $black;
     font-weight: 700;
     margin-top: $spacing-unit;
@@ -99,14 +119,14 @@
 
   h1 {
     @include relative-font-size(1.750);
-    
+
     // Use this media queries like this, if you want responsive font
     // @include media-query($on-laptop) {
     //   @include relative-font-size(1.75);
     // }
   }
 
-  h2 {    
+  h2 {
     @include relative-font-size(1.563);
   }
 
@@ -128,9 +148,10 @@
     @include relative-font-size(.875);
   }
 
-  ul a, ol a
-  {
+  ul a,
+  ol a {
     border-bottom: 1px dashed #d2c7c7;
+
     &:hover {
       border-bottom: 2px solid #1635de;
     }
@@ -139,7 +160,7 @@
 
 
 hr {
-  border-bottom:0;
+  border-bottom: 0;
   border-style: solid;
   border-color: $light;
 }
@@ -151,31 +172,37 @@ hr {
   border-top: 1px solid $light;
 
   .post-nav-item {
-      border-bottom: 0;       
-      font-weight: 800;
-      padding-bottom: 10px;
-      &:hover, &:focus {
-        h4 {
-          color: $blue;
-        }
-      }
+    border-bottom: 0;
+    font-weight: 800;
+    padding-bottom: 10px;
+
+    &:hover,
+    &:focus {
       h4 {
-        color: $grey;
-        font-size: $small-font-size;
-        margin: 0;
+        color: $blue;
       }
-      width: 50%;
-      padding-top: 10px;
-      text-decoration: none;
-      box-sizing: border-box;
-      &:nth-child(odd) {
-          padding-left: 0;
-          padding-right: 20px;
-      }
-      &:nth-child(even) {
-          text-align: right;
-          padding-right: 0;
-          padding-left: 20px;
-      }
+    }
+
+    h4 {
+      color: $grey;
+      font-size: $small-font-size;
+      margin: 0;
+    }
+
+    width: 50%;
+    padding-top: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    &:nth-child(odd) {
+      padding-left: 0;
+      padding-right: 20px;
+    }
+
+    &:nth-child(even) {
+      text-align: right;
+      padding-right: 0;
+      padding-left: 20px;
+    }
   }
 }
