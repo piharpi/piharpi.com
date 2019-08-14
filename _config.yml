@@ -6,7 +6,7 @@ description: >-
 lang: en-US
 timezone: Asia/Jakarta
 icon: "favicon.ico"
-theme: "dark"
+# theme: "dark"
 
 # User settings
 author:
@@ -18,7 +18,7 @@ author:
 # Url settings
 url: https://piharpi.com
 baseurl: ""
-permalink: /:categories/:title/
+permalink: /blog/:categories/:title/
 google_analytics: UA-105586262-1
 fb_appid: ""
 

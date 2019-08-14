@@ -1,8 +1,9 @@
 // Define defaults for each variable.
-$base-font-family: "Source Sans Pro",
+$first-font-family: Roboto;
+$second-font-family: "Source Sans Pro",
 sans-serif,
  !default;
-$base-syntax-font: Menlo,
+$syntax-font-family: Menlo,
 Monaco,
 Consolas,
 "Andale Mono",
@@ -33,8 +34,7 @@ $on-palm: 600px !default;
 $on-mobile: 500px !default;
 $on-laptop: 780px !default;
 
-// Use media queries like this:
-
+// Media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
 //     padding-right: $spacing-unit / 2;

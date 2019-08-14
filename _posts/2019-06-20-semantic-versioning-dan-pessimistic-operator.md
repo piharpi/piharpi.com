@@ -11,7 +11,7 @@ Pada saat kita merilis suatu paket atau ingin menginstall suatu paket pasti tida
 Mengetahui penomoran suatu rilis sangat penting untuk mencegah hal yang tidak diinginkan saat akan menggunakan paket atau <i>"Dependency hell" </i><sup>[[1](#dependency-hell)]</sup> istilahnya, maka berikut ini penjelasan mengenai Semantic Versioning.
 
 <figure>
-<img src="/assets/img/posts/maxresdefault.jpg">w
+<img src="/assets/img/posts/maxresdefault.jpg">
 <figcaption>Image from perlhacks.com</figcaption>
 </figure>
 <!-- <sup id="dependency-hell">[1]</sup><small> <i>include software performing abnormally, bugs, errors messages when trying to run or install software, or the software ceasing to function.<small> -->

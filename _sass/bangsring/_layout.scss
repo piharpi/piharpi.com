@@ -2,12 +2,12 @@
  * Site intro
  */
 
-.site-intro {
+.introduction {
   margin-top: 5em;
   margin-bottom: 3em;
 
-  .intro-image {
-    overflow: hidden; // active for border-radius or photo inside the element
+  .introduction-image {
+    overflow: hidden;
     background: $blue-light;
     border-radius: 100%;
     width: 103px;
@@ -28,15 +28,14 @@
     }
   }
 
-  .intro-name {
+  .introduction-name {
     font-size: 1.5em;
     font-weight: 600;
+    font-family: $first-font-family;
     margin-bottom: 5px;
-    color: $black;
   }
 
-  .intro-description {
-    font-size: $base-font-size;
+  .introduction-description {
     color: $grey;
     margin: 0;
   }
@@ -46,7 +45,7 @@
  * Site header
  */
 
-.site-header {
+.header {
   height: 25px;
   margin: 16px 0 0em 0;
   max-width: -webkit-calc(890px - (#{$spacing-unit} * 2));
@@ -63,7 +62,7 @@
  * Site nav
  */
 
-.site-nav {
+.nav {
 
   .trigger {
     float: right;
@@ -77,13 +76,12 @@
     display: none;
   }
 
-  .page-link {
+  .menu-link {
     color: $black;
-    // box-shadow: 1px 1px 0px 0px #dddddd;
+    font-family: 'Roboto';
     line-height: $base-line-height - 0.5;
     text-decoration: none;
     border-radius: 2px;
-    // border: 2px solid $blue;
     padding: 5px 8px;
     border: 0;
     font-size: $small-font-size;
@@ -99,7 +97,7 @@
     }
   }
 
-  .page-link.active {
+  .menu-link.active {
     opacity: 1;
     color: $blue;
     background: #ebebeb;
@@ -157,7 +155,7 @@
       top: 0;
     }
 
-    .page-link {
+    .menu-link {
       display: block;
       box-sizing: border-box;
       background: none;
@@ -173,8 +171,8 @@
 
 @include media-query($on-palm) {
 
-  .site-nav .page-link.active,
-  .site-nav .page-link {
+  .site-nav .menu-link.active,
+  .site-nav .menu-link {
     margin-bottom: 18px;
     padding: 0;
     border: 0;
@@ -265,10 +263,9 @@
 
 .home-title {
   font-size: $small-font-size;
-  font-family: $base-syntax-font;
-  // letter-spacing: 1.5px;
+  font-family: $first-font-family;
   color: $black;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: 700;
 
   span[role="img"] {
@@ -324,7 +321,7 @@
 }
 
 .list-post-date {
-  font-family: $base-syntax-font;
+  font-family: $syntax-font-family;
   font-size: $small-font-size;
   color: $grey;
   padding-right: 15px;
