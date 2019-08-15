@@ -55,13 +55,13 @@
     border-bottom: 1px dotted #c6c6c6;
 
     &:hover {
-      background-color: #ebebeb;
-      color: $blue;
+      // background-color: #ebebeb;
+      // color: $blue;
     }
   }
 
   .tag {
-    color: $grey;
+    color: #5a52c7;
     line-height: 1;
     font-weight: 800;
     display: inline-block;
@@ -89,7 +89,7 @@
   }
 
   figure {
-    // margin: 0 calc(50% - 50vw);
+    margin: auto calc(51% - 50vw);
 
     img {
       border-radius: 2px;
@@ -97,16 +97,7 @@
 
     figcaption {
       margin-top: 5px;
-    }
-  }
-
-  // >figure,
-  div.highlighter-rouge {
-    // margin: 0 calc(50% - 50vw);
-
-    pre.highlight {
-      // margin: 0 auto;
-      // max-width: 800px;
+      font-size: 15px;
     }
   }
 
@@ -118,8 +109,7 @@
 
   ul.task-list {
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 
     li input[type="checkbox"] {
       margin-right: 10px;

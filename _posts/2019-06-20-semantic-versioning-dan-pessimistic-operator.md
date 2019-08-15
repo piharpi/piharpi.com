@@ -11,7 +11,7 @@ Pada saat kita merilis suatu paket atau ingin menginstall suatu paket pasti tida
 Mengetahui penomoran suatu rilis sangat penting untuk mencegah hal yang tidak diinginkan saat akan menggunakan paket atau <i>"Dependency hell" </i><sup>[[1](#dependency-hell)]</sup> istilahnya, maka berikut ini penjelasan mengenai Semantic Versioning.
 
 <figure>
-<img src="/assets/img/posts/maxresdefault.jpg">
+<img src="/assets/img/posts/photo-1556075798-4825dfaaf498_ixlib=rb-1.2.jpg">
 <figcaption>Image from perlhacks.com</figcaption>
 </figure>
 
@@ -62,14 +62,22 @@ Berikut adalah **beberapa** perincian dari semantic versioning.
 
 Untuk lebih lanjut dan penjelasan lengkap bisa dibaca [disini](https://semver.org/#semantic-versioning-specification-semver).
 
+> “when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.”
+
 Dengan SemVer ini kita dapat mengetahui pengembangan sistem, baik dari segi pengembang paket maupun pengguna paket, sehingga dapat mengetahui kapan dia harus menghindari atau menggunakan versi MAJOR.
 
 dalam contoh ini saya akan membirikan contoh menggunakan pake humanize dan rails yang paket tidak kompatible
 
-### Footnote
+### Footnotes
 
-<sup id="dependency-hell">[1]</sup><small> <i>include software performing abnormally, bugs, errors messages when trying to run or install software, or the software ceasing to function.<small>
+<sup id="dependency-hell">[1]</sup><small><i>include software performing abnormally, bugs, errors messages when trying to run or install software, or the software ceasing to function.<small>
 
 <!-- ##### Reference
 
 - https://semver.org/ -->
+
+<!--
+All activity, coding or sharing time what i like to writting about my life or short tips, developurs but like human.
+
+
+#5a52c7 -->

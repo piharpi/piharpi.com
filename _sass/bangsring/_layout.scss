@@ -47,7 +47,7 @@
 
 .header {
   height: 25px;
-  margin: 16px 0 0em 0;
+  margin: 1em 0 9em 0;
   max-width: -webkit-calc(890px - (#{$spacing-unit} * 2));
   max-width: calc(890px - (#{$spacing-unit} * 2));
   position: relative;
@@ -266,7 +266,7 @@
   font-size: $small-font-size;
   font-family: $first-font-family;
   color: $black;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
 
   span[role="img"] {
@@ -322,7 +322,7 @@
 }
 
 .list-post-date {
-  font-family: $syntax-font-family;
+  font-family: $first-font-family;
   font-size: $small-font-size;
   color: $grey;
   padding-right: 15px;

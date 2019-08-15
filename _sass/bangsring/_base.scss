@@ -200,10 +200,15 @@ em {
  * Blockquotes
  */
 blockquote {
-  color: $grey;
-  border-left: 4px solid $black;
+  color: #5a52c7;
+  font-style: italic;
+  text-align: center;
+  transform: rotate(-2deg);
+  border: 2px solid #5a52c7;
   padding: 5px 5px 5px 15px;
-  border-radius: 2px;
+  /* border-radius: 3px; */
+  background-color: whitesmoke;
+  font-size: 19px;
   @include relative-font-size(1);
 
   > :last-child {
