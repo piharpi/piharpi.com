@@ -15,7 +15,7 @@
     </label>
     <div class="trigger">
       <div class="trigger-container">
-        {% assign url = page.url%}
+        {% assign url = page.url %}
         {% for menu in site.data.menus %}
         {% if url == menu.url %}
         <a class="menu-link active" href="{{ menu.url | absolute_url }}">{{ menu.title }}</a>

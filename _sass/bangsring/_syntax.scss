@@ -3,34 +3,43 @@
  */
 
 code {
-  letter-spacing: .1px;
   text-rendering: optimizeLegibility;
+  font-feature-settings: "calt"1;
+  font-variant-ligatures: normal;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  font-size: 14px;
-  padding: 1px 3px;
-  // border: 1px solid #d8d8d8;
+  font-size: 15px;
+  padding: 3px 4px;
+  position: relative;
+  top: -1px;
+  border: 1px solid #d8d8d8;
+  background-color: #f6f6f6;
   border-radius: 2px;
   font-family: $syntax-font-family;
 }
 
 pre.highlight {
-  font-variant-ligatures: normal;
-  border-radius: 5px;
-  padding: 15px;
-  overflow: auto;
-  line-height: 17px;
+  margin: 0 calc(50% - 50vw);
+  padding: 25px;
+  line-height: 1;
   font-family: $syntax-font-family;
+  display: block;
+  overflow-x: auto;
 
   >code {
-    font-size: 14px;
-    padding: 0;
-    overflow-x: auto;
+    font-size: 15px;
+    width: 100%;
+    max-width: 37rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2;
+    display: block;
     border: 0;
+    font-variant-ligatures: normal;
+    background-color: transparent;
     font-feature-settings: "calt"1;
-    letter-spacing: .1px;
   }
 }
 

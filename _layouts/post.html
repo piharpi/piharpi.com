@@ -12,6 +12,11 @@ layout: compress
   <div class="wrapper post">
     <main class="page-content" aria-label="Content">
       <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+        <header class="post-header">
+          <h1 class="post-title" itemprop="headline">{{ page.title | escape }}</h1>
+        </header>
+
         {% if page.date %}
         <div class="post-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -20,35 +25,35 @@ layout: compress
           <span itemprop="author" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">{{ site.author.name }}</span>
           </span>
-          <!-- <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
-        {{ page.date | date: "%b %d, %Y" }}
-      </time> -->
+          <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
+            {{ page.date | date: "%b %d, %Y" }}
+          </time>
           <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
           <span hidden itemprop="image">{{ page.image | absolute_url }}</span>
           <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
+
+          {% if page.tags and page.tags != empty %}
+          <div class="tags">
+            {% assign tags = page.tags %}
+            <span itemprop="keywords">
+              {% for tag in tags %}
+              <a class="tag"
+                href="{{site.url}}/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            </span>
+          </div>
+          {% endif %}
         </div>
         {% endif %}
-        <header class="post-header">
-          <h1 class="post-title" itemprop="headline">{{ page.title | escape }}</h1>
-        </header>
-        {% if page.tags and page.tags != empty %}
-        <div class="tags">
-          {% assign tags = page.tags %}
-          🔥
-          <span itemprop="keywords">
-            {% for tag in tags %}
-            <a class="tag"
-              href="{{site.url}}/tags/#{{tag | downcase | slugify}}">{{tag | downcase }}</a>{% unless forloop.last %},{% endunless %}
-            {% endfor %}
-          </span>
-        </div>
-        {% endif %}
+
         <div class="post-content" itemprop="articleBody">
           {{ content }}
 
           <!-- {% if page.tweet %}
-        <p>Comments this article on <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.</p>
+        
         {% endif %} -->
+          <p>Comments this article on <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.
+          </p>
         </div>
 
       </article>

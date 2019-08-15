@@ -126,7 +126,7 @@ figcaption {
  */
 ul,
 ol {
-  margin-left: $spacing-unit;
+  margin-left: $spacing-unit - 10;
 }
 
 li {
@@ -270,7 +270,7 @@ table {
  * When mouse block a text set this color
  */
 ::selection {
-  background: #D6EDFF;
+  // background: transparent;
 }
 
 /**

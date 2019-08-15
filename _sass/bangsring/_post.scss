@@ -14,9 +14,12 @@
  */
 .post-header {
   .post-title {
-    font-size: 44px;
+    text-align: center;
+    font-size: 40px;
+    font-family: $first-font-family;
     line-height: 1.2;
     font-weight: 700;
+    color: #29292c;
     margin-bottom: 20px;
   }
 }
@@ -25,6 +28,8 @@
  * Post meta 
  */
 .post-meta {
+  font-family: $first-font-family;
+  text-align: center;
   font-size: $small-font-size;
   margin-bottom: 1em;
 
@@ -46,12 +51,26 @@
   }
 
   span[itemprop="author"] {
-    color: #222;
+    color: #3B454e;
     border-bottom: 1px dotted #c6c6c6;
 
     &:hover {
       background-color: #ebebeb;
       color: $blue;
+    }
+  }
+
+  .tag {
+    color: $grey;
+    line-height: 1;
+    font-weight: 800;
+    display: inline-block;
+    font-size: $small-font-size - 4;
+    border-bottom: 2px solid $blue-light;
+
+    &:hover {
+      color: $black;
+      border-color: $blue-light;
     }
   }
 }
@@ -60,8 +79,9 @@
  * Post content
  */
 .post-content {
+  margin-top: 4em;
   font-size: $base-font-size;
-  color: #161a1f;
+  color: #283c46;
   padding: 5px 0 0 0;
 
   iframe {
@@ -69,6 +89,8 @@
   }
 
   figure {
+    // margin: 0 calc(50% - 50vw);
+
     img {
       border-radius: 2px;
     }
@@ -78,10 +100,14 @@
     }
   }
 
-  >figure,
+  // >figure,
   div.highlighter-rouge {
-    margin-left: -60px;
-    margin-right: -60px;
+    // margin: 0 calc(50% - 50vw);
+
+    pre.highlight {
+      // margin: 0 auto;
+      // max-width: 800px;
+    }
   }
 
   >p {
@@ -111,7 +137,7 @@
   h5,
   h6 {
     font-family: 'Roboto';
-    color: $black;
+    color: #1d1d1d;
     font-weight: 700;
     margin-top: $spacing-unit;
     margin-bottom: 0;
@@ -166,10 +192,13 @@ hr {
 }
 
 .post-nav {
+  font-family: $first-font-family;
+  font-size: $small-font-size;
   display: flex;
   position: relative;
   margin-top: 5em;
   border-top: 1px solid $light;
+  line-height: 1.4;
 
   .post-nav-item {
     border-bottom: 0;

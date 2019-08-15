@@ -14,7 +14,6 @@ Mengetahui penomoran suatu rilis sangat penting untuk mencegah hal yang tidak di
 <img src="/assets/img/posts/maxresdefault.jpg">
 <figcaption>Image from perlhacks.com</figcaption>
 </figure>
-<!-- <sup id="dependency-hell">[1]</sup><small> <i>include software performing abnormally, bugs, errors messages when trying to run or install software, or the software ceasing to function.<small> -->
 
 ## Semantic Versioning
 
@@ -28,13 +27,14 @@ Apa itu versi major.minor.path ?
 
 Dan berikut merupakan contoh dari pengimplementasian Semver agar terdapat gambaran, contoh ini saya kutip dari [guide rubygems](https://guides.rubygems.org/patterns/#pessimistic-version-constraint) dan saya tambahkan sedikit penjelasan.
 
-```ruby
+```rb
 require "gem"
 
 number = 0
 regexp = /[abc]/
 
 # This is a comment
+
 class Person
 
   attr_accessor :name
@@ -48,11 +48,9 @@ class Person
   end
 end
 
-person = Person.new(:name => "Chris")
+person = Person.new(:name => "Harpi")
 puts "#{Person::greet} #{person1.name}\n"
 ```
-
-#### Perincian SemVer
 
 Berikut adalah **beberapa** perincian dari semantic versioning.
 
@@ -68,6 +66,10 @@ Dengan SemVer ini kita dapat mengetahui pengembangan sistem, baik dari segi peng
 
 dalam contoh ini saya akan membirikan contoh menggunakan pake humanize dan rails yang paket tidak kompatible
 
-##### Reference
+### Footnote
 
-- https://semver.org/
+<sup id="dependency-hell">[1]</sup><small> <i>include software performing abnormally, bugs, errors messages when trying to run or install software, or the software ceasing to function.<small>
+
+<!-- ##### Reference
+
+- https://semver.org/ -->
