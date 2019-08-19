@@ -60,17 +60,23 @@
     }
   }
 
-  .tag {
-    color: #5a52c7;
-    line-height: 1;
-    font-weight: 800;
-    display: inline-block;
-    font-size: $small-font-size - 4;
-    border-bottom: 2px solid $blue-light;
+  .tags {
+    max-width: 200px;
+    margin: 20px auto 0 auto;
 
-    &:hover {
-      color: $black;
-      border-color: $blue-light;
+    .tag {
+      color: #29292c;
+      line-height: 1;
+      font-weight: 800;
+      display: inline-block;
+      font-size: $small-font-size - 4;
+      // border-bottom: 2px solid $blue-light;
+      border-bottom: 0;
+
+      &:hover {
+        color: $black;
+        border-color: $black;
+      }
     }
   }
 }
@@ -83,6 +89,16 @@
   font-size: $base-font-size;
   color: #283c46;
   padding: 5px 0 0 0;
+
+  p.intro {
+    color: #000;
+    margin: 0;
+    background-color: turquoise;
+    transform: rotate(-1deg);
+    padding: 9px;
+    border-radius: 2px;
+    border: 2px solid #000;
+  }
 
   iframe {
     text-align: center;
@@ -97,6 +113,7 @@
 
     figcaption {
       margin-top: 5px;
+      font-style: italic;
       font-size: 15px;
     }
   }

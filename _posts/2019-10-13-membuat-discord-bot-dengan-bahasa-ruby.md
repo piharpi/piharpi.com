@@ -8,7 +8,7 @@ image: "/assets/img/posts/blog/osi_keyhole_300X300_90ppi_0.png"
 
 Pada saat kita merilis suatu paket atau ingin menginstall suatu paket pasti tidak luput dari sistem penomoran versi. nah sistem penomoran ini disebut SemVer(Semantic Versioning).
 
-Mengetahui penomoran suatu rilis sangat penting untuk mencegah hal yang tidak diinginkan saat akan menggunakan paket atau <i>"Dependency hell" </i><sup>[[1](#dependency-hell)]</sup> istilahnya, maka berikut ini penjelasan mengenai Semantic Versioning.
+Mengetahui penomoran suatu rilis sangat penting untuk mencegah hal yang tidak diinginkan saat akan menggunakan paket atau <i>"Dependency hell"</i> <sup>[[1](#dependency-hell)]</sup> istilahnya, maka berikut ini penjelasan mengenai Semantic Versioning.
 
 <figure>
 <img src="/assets/img/posts/p1070511.jpg">

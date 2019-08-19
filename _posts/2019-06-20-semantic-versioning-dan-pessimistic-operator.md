@@ -1,14 +1,20 @@
 ---
-title: Semantic versioning pada gems
+title: Semantic versioning pada gems dan pessimisic opeator
 date: 2019-6-20 8:28:47 +07:00
 modified: 2019-6-20 11:45:47 +07:00
 tags: [semver, versioning]
 image: "/assets/img/posts/blog/osi_keyhole_300X300_90ppi_0.png"
 ---
 
+<!--
+<p class="intro"> -->
+
 Pada saat kita merilis suatu paket atau ingin menginstall suatu paket pasti tidak luput dari sistem penomoran versi. nah sistem penomoran ini disebut SemVer(Semantic Versioning).
 
-Mengetahui penomoran suatu rilis sangat penting untuk mencegah hal yang tidak diinginkan saat akan menggunakan paket atau <i>"Dependency hell" </i><sup>[[1](#dependency-hell)]</sup> istilahnya, maka berikut ini penjelasan mengenai Semantic Versioning.
+<!-- </p> -->
+
+<hr>
+Mengetahui penomoran suatu rilis sangat penting untuk mencegah hal yang tidak diinginkan saat akan menggunakan paket atau <i>"Dependency hell" </i><sup>[1](#dependency-hell)</sup> istilahnya, maka berikut ini penjelasan mengenai Semantic Versioning.
 
 <figure>
 <img src="/assets/img/posts/photo-1556075798-4825dfaaf498_ixlib=rb-1.2.jpg">
@@ -68,16 +74,14 @@ Dengan SemVer ini kita dapat mengetahui pengembangan sistem, baik dari segi peng
 
 dalam contoh ini saya akan membirikan contoh menggunakan pake humanize dan rails yang paket tidak kompatible
 
-### Footnotes
+###### Footnotes
 
-<sup id="dependency-hell">[1]</sup><small><i>include software performing abnormally, bugs, errors messages when trying to run or install software, or the software ceasing to function.<small>
+<sup id="dependency-hell">1</sup>
+<i><small>include software performing abnormally, bugs, errors messages when trying to run or install software, or the software ceasing to function.</small>
 
 <!-- ##### Reference
 
 - https://semver.org/ -->
 
 <!--
-All activity, coding or sharing time what i like to writting about my life or short tips, developurs but like human.
-
-
-#5a52c7 -->
+All activity, coding or sharing time what i like to writting about my life or short tips, developurs but like human. #5a52c7 -->
