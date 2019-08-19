@@ -16,7 +16,7 @@ author:
   avatar: "/assets/img/coco.png"
 
 # Url settings
-url: https://piharpi.com
+url: https://piharpi-dev.netlify.com/
 baseurl: ""
 permalink: /blog/:categories/:title/
 google_analytics: UA-105586262-1
