@@ -268,8 +268,8 @@
   }
 }
 
-.home-title {
-  font-size: $small-font-size;
+.year-post {
+  font-size: 1.2em;
   font-family: $first-font-family;
   color: $black;
   text-transform: capitalize;
@@ -293,7 +293,7 @@
  */
 
   .list-post {
-    padding: 10px 20px 0;
+    padding: 5px 20px 0;
     display: flex;
     @extend %clearfix;
 
