@@ -5,12 +5,15 @@
 .introduction {
   margin-top: 5em;
   margin-bottom: 3em;
+  text-align: center;
 
   .introduction-image {
     overflow: hidden;
-    background: $blue-light;
+    background: #d8deff;
     border-radius: 100%;
     width: 103px;
+    border: 6px solid #eef1ff;
+    box-shadow: 0px 0px 2px 9px #f6f6fa;
     height: 103px;
     animation: .5s ease-in forwards weeng;
     user-select: none;
@@ -32,17 +35,21 @@
     font-size: 1.5em;
     font-weight: 600;
     font-family: $first-font-family;
-    margin-bottom: 5px;
+    margin-top: 8px;
   }
 
   .introduction-description {
-    color: #000;
-    margin: 0;
-    background-color: turquoise;
-    transform: rotate(-1deg);
+    color: #5a5a5a;
+    text-align: center;
+    font-family: Roboto;
+    margin: 0 auto;
+    max-width: 393px;
+    font-size: 16px;
+    /* background-color: turquoise; */
+    /* transform: rotate(-1deg); */
     padding: 9px;
     border-radius: 2px;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
   }
 }
 
@@ -104,6 +111,7 @@
 
   .menu-link.active {
     opacity: 1;
+    border-radius: 4em 1em 2em 1em / 1em 5em 1em 3em;
     color: $blue;
     background: #ebebeb;
   }

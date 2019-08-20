@@ -1,10 +1,11 @@
 <div class="introduction">
-  {% assign url = page.url %}
-  {% if url == "/" %}
-  <figure class="introduction-image">
-    <img src="{{ site.author.avatar | absolute_url }}" alt="{{ site.author.username }}">
-  </figure>
+  {% assign url = page.url %} {% if url == "/" %}
+  <img
+    class="introduction-image"
+    src="{{ site.author.avatar | absolute_url }}"
+    alt="{{ site.author.username }}"
+  />
   {%endif%}
-  <div class="introduction-name">{{ site.title  }}</div>
+  <div class="introduction-name">{{ site.title }}</div>
   <p class="introduction-description">{{ site.description }}</p>
 </div>
