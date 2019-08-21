@@ -105,7 +105,8 @@
   }
 
   figure {
-    margin: auto calc(51% - 50vw);
+    // margin: auto calc(51% - 50vw);
+    margin: auto -2em;
 
     img {
       border-radius: 2px;
