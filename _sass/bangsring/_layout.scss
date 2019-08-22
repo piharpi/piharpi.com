@@ -139,14 +139,13 @@
 
 .header {
   height: auto;
-  margin: 1em 0 1em 0;
   max-width: -webkit-calc(890px - (#{$spacing-unit} * 2));
   max-width: calc(890px - (#{$spacing-unit} * 2));
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  border-bottom: 1px solid $light;
+  padding: $spacing-unit - 15px $spacing-unit;
   @extend %clearfix;
 }
 
@@ -336,7 +335,7 @@
   @extend %clearfix;
 
   &:not(:first-child) {
-    border-top: 1px solid $light;
+    border-top: 1px solid #f3f1f1;
   }
 
   .posts-header {
