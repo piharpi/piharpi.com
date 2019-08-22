@@ -1,27 +1,21 @@
 ---
-title: About piharpi.com
+title: Colophon
 permalink: /about/
-layout: about
-excerpt: Hello folks, My full name is Choirul Mahendrata Harpi, I'm programmer from Banyuwangi, Indonesia now living in Yogyakarta. This blog for documentation about my programming journey in Bahasa, running on jekyll, hosting on netlify and using Bangsring jekyll theme.
+layout: page
+excerpt: Hello peps, I'm student of computer science at AMIKOM university, living in Yogyakarta. This blog for documentation about my programming journey in Bahasa, running on jekyll, hosting on netlify and using Bangsring simple theme.
 comments: false
 ---
 
-Hello folks, My name is Mahendrata Harpi, I'm ~~programmer~~ learner from Banyuwangi, Indonesia now living in Yogyakarta. This blog for documentation about 🎒 my programming journey in Bahasa, running on jekyll, hosting on netlify and using [Bangsring](http://github.com/piharpi/bangsring) jekyll theme.
+Hello peps, I'm student of computer science from Banyuwangi, living in Yogyakarta. This blog for documentation about my programming 🎒 journey in Bahasa, running on jekyll, hosting on netlify and using [bangsring](http://github.com/piharpi/bangsring) simple theme.
 
-I'm happy working using Ruby, Javascript and doing fun with HTML CSS, if you have project one of them you can contact me in above information, i'm also willingness to learn another web technology like elixir or golang, but i'm not sure using PHP.
+Working using Ruby, Javascript and doing fun with HTML CSS, my main framework now is Ruby on Rails, also willingness to learn another web technology, so if you have a question about me or else, just letter on me.
 
-My favorite framework is Rails, ReactJS, Phoenix
+You can **[report](https://github.com/piharpi/me/issues/new?template=bug_report.md)** if there is an broken link(s) or somethings else.
 
-My language is
+_Regardless, Harpi_
 
-- English(conversation)
-- Bahasa(native)
+### Further information
 
-Please report if there is an error on this blog via github **[issue](https://github.com/piharpi/me/issues/new?template=bug_report.md)**.
-
-### 🎈 Further information
-
-- My [resume](http://piharpi.com/download/resume)
+- [resume](http://piharpi.com/resume)
 - justharpi[at]gmail.com
-- github.com/**piharpi**
-  <!-- - ![email](https://piharpi.github.io/bangsring/assets/img/email.png), an image to avoid **spam!** -->
+- github: @piharpi

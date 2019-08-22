@@ -49,22 +49,22 @@ layout: compress
         <div class="post-content" itemprop="articleBody">
           {{ content }}
 
-          <!-- {% if page.tweet %}
-        
-        {% endif %} -->
-          <p>Comments this article on <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.
+          {% if page.tweet %}
+          <p>Comments this article on 
+            <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.
           </p>
+          {% endif %}
         </div>
 
       </article>
       {% if page.comments %}
-      {% include comments.html%}
+        {% include comments.html%}
       {% endif %}
 
 
     </main>
     {% if page.next or page.previous %}
-    {% include post-nav.html %}
+      {% include post-nav.html %}
     {% endif %}
   </div>
 

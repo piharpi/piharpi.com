@@ -1,14 +1,8 @@
 - title: Home
   url: /
 
-# - title: Blog
-#   url: /blog/
-
 - title: About
   url: /about/
 
-- title: Work
-  url: "#"
-
 - title: RSS
-  url: /feed.xml
+  url: /feed.xml/

@@ -2,11 +2,6 @@
   margin-top: 7em;
   max-width: -webkit-calc(#{660px} - (#{$spacing-unit} * 2));
   max-width: calc(#{660px} - (#{$spacing-unit} * 2));
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
 }
 
 /**
