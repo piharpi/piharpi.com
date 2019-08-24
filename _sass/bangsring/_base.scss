@@ -44,6 +44,11 @@ body {
   font-kerning: normal;
   border-top: 5px solid $black;
   box-sizing: border-box;
+
+  @include media-query($on-mobile) {
+    $base-font-size: 17px;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $second-font-family;
+  }
 }
 
 /**
