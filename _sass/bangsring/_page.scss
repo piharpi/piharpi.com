@@ -1,5 +1,4 @@
 .wrapper.post {
-  margin-top: 7em;
   max-width: -webkit-calc(#{660px} - (#{$spacing-unit} * 2));
   max-width: calc(#{660px} - (#{$spacing-unit} * 2));
 }
@@ -7,14 +6,16 @@
 /**
  * Post title
  */
-.post-header {
-  .post-title {
+.header {
+  margin-top: 125px;
+
+  .header-title {
     text-align: center;
     font-size: 2em;
     font-family: $first-font-family;
     line-height: 1.2;
     font-weight: 700;
-    color: #29292c;
+    color: #000;
     margin-bottom: 20px;
   }
 }
@@ -26,7 +27,9 @@
   font-family: $first-font-family;
   text-align: center;
   font-size: $small-font-size;
-  margin-bottom: 1em;
+  margin-bottom: 5em;
+  padding-top: 3px;
+  line-height: 1.3;
 
   time {
     color: $grey;
@@ -52,7 +55,7 @@
 
   .tags {
     max-width: 200px;
-    margin: 20px auto 0 auto;
+    margin: 27px auto 0 auto;
 
     .tag {
       color: #29292c;
@@ -73,11 +76,10 @@
 /**
  * Post content
  */
-.post-content {
-  margin-top: 4em;
+.page-content {
   font-size: $base-font-size;
   color: #283c46;
-  padding: 5px 0 0 0;
+  padding-top: 8px;
 
   p.intro {
     color: #000;
@@ -144,9 +146,9 @@
     @include relative-font-size(1.75);
 
     // Use this media queries like this, if you want responsive font
-    // @include media-query($on-laptop) {
-    //   @include relative-font-size(1.75);
-    // }
+    @include media-query($on-mobile) {
+      @include relative-font-size(1.75);
+    }
   }
 
   h2 {

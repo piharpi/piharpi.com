@@ -10,7 +10,9 @@ layout: compress
 <body>
   {% include navbar.html %}
   <div class="wrapper">
-    <h1 class="page-title">{{ page.title }}.</h1>
+    <header class="header">
+      <h1 class="header-title" itemprop="headline">{{ page.title | escape }}.</h1>
+    </header>
     <main class="page-content" aria-label="Content">
       {{ content }}
     </main>

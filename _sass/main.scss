@@ -21,6 +21,14 @@ $white: #fff !default;
 $blue: #0036c7 !default;
 $blue-light: #d8deff !default;
 
+// light-color 
+// $gray
+// $light
+// $black
+// $blue
+// $silver
+
+
 
 // Width of the content area
 $content-width: 750px !default;
@@ -29,6 +37,10 @@ $content-width: 750px !default;
 $on-palm: 600px !default;
 $on-mobile: 500px !default;
 $on-laptop: 780px !default;
+// $on-mobile: 768px;
+// $on-tablet: 769px;
+// $on-desktop: 1024px;
+// $on-widescreen: 1152px;
 
 // Media queries like this:
 // @include media-query($on-palm) {
@@ -51,7 +63,7 @@ $on-laptop: 780px !default;
 // Import Sass partials
 @import "bangsring/fonts",
 "bangsring/base",
-"bangsring/post",
 "bangsring/layout",
+"bangsring/page",
 "bangsring/syntax"
 ;
