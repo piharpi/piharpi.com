@@ -304,17 +304,8 @@
     }
   }
 
-  footer.site-footer {
+  .footer {
     margin-top: 3em;
-
-    .crafted {
-      text-align: center;
-      float: none;
-    }
-
-    .copyright {
-      display: none;
-    }
   }
 }
 
@@ -418,9 +409,13 @@
   font-size: $small-font-size;
   font-family: $first-font-family;
 
+  b:not(:last-child) {
+    color: black;
+  }
+
   a {
-    color: $black;
-    border-bottom: 1px solid $blue;
+    border: 0;
+    color: #3B454e;
 
     &:hover,
     &:focus {

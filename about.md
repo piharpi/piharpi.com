@@ -2,20 +2,20 @@
 title: Colophon
 permalink: /about/
 layout: page
-excerpt: Hello peps, I'm student of computer science at AMIKOM university, living in Yogyakarta. This blog for documentation about my programming journey in Bahasa, running on jekyll, hosting on netlify and using Bangsring simple theme.
+excerpt: Hello peps, I'm student of computer science at AMIKOM university, living in Jogjakarta. This blog for documentation about my programming journey in Bahasa, running on jekyll, hosting on netlify and using Bangsring simple theme.
 comments: false
 ---
 
-Hello peps, I'm student of computer science from Banyuwangi, living in Yogyakarta. This blog for documentation about my programming 🎒 journey in Bahasa, running on jekyll, hosting on netlify and using [bangsring](http://github.com/piharpi/bangsring) simple theme.
+Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming 🎒 journey in Bahasa, running on jekyll, hosting on netlify and using [bangsring](http://github.com/piharpi/bangsring) simple theme.
 
-Working using Ruby, Javascript and doing fun with HTML CSS, my main framework now is Ruby on Rails, also willingness to learn another web technology, so if you have a question about me or else, just letter on me.
+Day to day use Ruby, Javascript and doing fun with HTML/CSS, Ruby on Rails is my fav framework right now, i also willingness to learn another web technology; but i often forgot. If you have a question about me or else, letter to me.
 
 You can **[report](https://github.com/piharpi/me/issues/new?template=bug_report.md)** if there is an broken link(s) or somethings else.
 
-_Regardless, Harpi_
+_22 August 2019, Harpi_
 
 ### Further information
 
 - [resume](http://piharpi.com/resume)
-- justharpi[at]gmail.com
-- github: @piharpi
+- justharpi[at]gmail[dot]com
+- github.com/piharpi
