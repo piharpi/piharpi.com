@@ -4,5 +4,8 @@
 - title: About
   url: /about/
 
+- title: Projects
+  url: /works/
+
 - title: RSS
   url: /feed.xml/

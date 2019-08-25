@@ -11,7 +11,8 @@ Bissmillah, this page for thanks to amazing people that i meet, who help me out 
 <hr>
 Thanks to my parent, whole teacher, and friends who always supporting me, and special thanks to :
 
-- Mrs. [Irez](<javacript:void(0);>) my teacher at vocational school who always suport me, have owe on she, this is where i'm start learning web development.
-- Mr. [Dimas](<javacript:void(0);>) pull me out from ordinary, thanks for give a trust, he is good person.
+- Mrs. [Irez](<javacript:void(0);>) my teacher at vocational school who always suport me, have owe on she.
+  <!-- - Mr. [Dimas](<javacript:void(0);>) pull me out from ordinary, thanks for give a trust, he is good person. -->
+- <a href="https://et.mk/me" target="_blank">Tama</a> a guy inspirring me to make english content on this site.
 
 Hopefully the knowledge that I got from them can be useful, and become a charity for them, Aamiin.
