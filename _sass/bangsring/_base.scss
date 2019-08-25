@@ -46,7 +46,7 @@ body {
   box-sizing: border-box;
 
   @include media-query($on-mobile) {
-    $base-font-size: 17px;
+    $base-font-size: 18px;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $second-font-family;
   }
 }
