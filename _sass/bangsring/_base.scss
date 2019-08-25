@@ -213,8 +213,8 @@ blockquote {
   padding: 10px;
   border-radius: 1em 4em / 2em 1em;
   background-color: whitesmoke;
-  font-size: 19px;
-  @include relative-font-size(1);
+  font-size: 1em;
+  // @include relative-font-size(1);
 
   > :last-child {
     margin-bottom: 0;
