@@ -6,7 +6,7 @@ excerpt: Hello peps, I'm student of computer science at AMIKOM university, livin
 comments: false
 ---
 
-Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming 🎒 journey, running on jekyll, hosting on netlify and using [bangsring](http://github.com/piharpi/bangsring) simple theme.
+Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming 🎒 journey, running on jekyll, hosting on netlify and using my [own](http://github.com/piharpi/bangsring) simple theme.
 
 Day to day use Ruby, Javascript and doing fun with HTML/CSS, Ruby on Rails is my fav framework right now, i also willingness to learn another web technology; but i often forgot 🌚. If you have a question about me or else, letter to me.
 
