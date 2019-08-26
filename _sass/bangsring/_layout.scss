@@ -105,7 +105,7 @@
       margin-right: 5px;
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-mobile) {
       opacity: .8;
     }
   }
@@ -117,7 +117,7 @@
     background-color: $light;
   }
 
-  @include media-query($on-palm) {
+  @include media-query($on-mobile) {
     position: fixed;
     top: 0;
     left: 0;

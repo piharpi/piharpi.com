@@ -25,13 +25,10 @@ $smoke: #d2c7c7 !default;
 $content-width: 750px !default;
 
 // State of device
-$on-palm: 600px !default;
-$on-mobile: 500px !default;
-$on-laptop: 780px !default;
-// $on-mobile: 768px;
-// $on-tablet: 769px;
-// $on-desktop: 1024px;
-// $on-widescreen: 1152px;
+$on-mobile: 768px;
+$on-tablet: 769px;
+$on-desktop: 1024px;
+$on-widescreen: 1152px;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -44,5 +41,8 @@ $on-laptop: 780px !default;
 }
 
 // Import Sass partials
-@import "bangsring/fonts", "bangsring/base", "bangsring/layout",
-"bangsring/page", "bangsring/syntax";
+@import "bangsring/fonts",
+"bangsring/base",
+"bangsring/layout",
+"bangsring/page",
+"bangsring/syntax";
