@@ -46,7 +46,7 @@
     margin: 0 auto;
     font-size: 16px;
     color: $gray;
-    opacity: 0.8;
+    opacity: 0.9;
     max-width: 393px;
     font-family: $first-font-family;
   }
@@ -184,7 +184,7 @@
   }
 }
 
-.post-year {
+.post-header {
   font-size: 1.2em;
   font-family: $first-font-family;
   text-transform: capitalize;
@@ -192,7 +192,8 @@
 }
 
 .posts {
-  padding: 5px 0 0 0;
+  padding-top: 5px;
+  padding-bottom: 6px;
   display: flex;
   @extend %clearfix;
 
@@ -219,6 +220,9 @@
 
   .posts-title {
     margin-top: 2px;
+    margin-bottom: 0;
+    font-family: $second-font-family;
+    font-weight: normal;
     font-size: 1em;
     display: inherit;
 
