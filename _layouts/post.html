@@ -28,7 +28,7 @@ layout: compress
               {{ page.date | date: "%b %d, %Y" }}
             </time>
             <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
-            <span hidden itemprop="image">{{ page.image | absolute_url }}</span>
+            <span hidden itemprop="image">{{ page.image }}</span>
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
   
             {% if page.tags and page.tags != empty %}
@@ -37,7 +37,7 @@ layout: compress
               <span itemprop="keywords">
                 {% for tag in tags %}
                 <a class="tag"
-                  href="{{site.url}}/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
+                  href="/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
                 {% endfor %}
               </span>
             </div>

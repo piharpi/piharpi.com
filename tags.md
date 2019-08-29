@@ -15,7 +15,7 @@ excerpt: Sorted article by tags.
   <span class="posts-date">{{ post.date | date: "%b %d" }}</span>
   <header class="posts-header">
     <h4 class="posts-title">
-      <a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
+      <a href="{{ post.url }}">{{ post.title | escape }}</a>
     </h4>
   </header>
 </article>
