@@ -1,6 +1,6 @@
 # piharpi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/0e92d3ee-a4c8-45c3-8000-6dee5c3e3876/deploy-status)](https://app.netlify.com/sites/piharpi/deploys)
 
-Personal website running on Jekyll, Ruby, and Netlify.
+Personal website running on Jekyll, Ruby, Netlify and [Bangsring](https://github.com/piharpi/bangsring) Theme.
 
 ## Installation
 
@@ -14,13 +14,6 @@ bundel exec jekyll serve
 ```
 
 Navigate to `localhost:4000`.
-
-## Features
-
-- Posts and pages in Markdown
-- Tags and categories
-- 404
-- Sass (starring [Bangsring](https://github.com/piharpi/bangsring))
 
 ## Contributing
 
