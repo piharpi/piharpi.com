@@ -6,7 +6,7 @@ excerpt: Thanks to amazing people that i met, who help me out from follishness, 
 comments: false
 ---
 
-Bissmillahirahmanhirahim, this page for thanks to amazing people that i met, who help me out from follishness, connecting me with another good person, giving some advice when i'm at a bad things, pulling me from ordinary to be great.
+Bismillahirrahmanirrahim, this page for thanks to amazing people that i met, who help me out from follishness, connecting me with another good person, giving some advice when i'm at a bad things, pulling me from ordinary to be great.
 
 <hr>
 Thanks to my parent, whole teacher, and friends who always supporting me, and special thanks to :
