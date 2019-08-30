@@ -3,8 +3,8 @@
   max-width: calc(#{660px} - (#{$spacing-unit} * 2));
 
   @include media-query($on-mobile) {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: $spacing-unit - 10;
+    padding-right: $spacing-unit - 10;
   }
 }
 

@@ -238,8 +238,8 @@ blockquote {
   @include media-query($on-mobile) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width: calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit - 10;
+    padding-left: $spacing-unit - 10;
   }
 }
 
