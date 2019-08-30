@@ -15,9 +15,9 @@ author:
   avatar: "/assets/img/avatar.jpg"
 
 # Url settings
-url: https://piharpi-dev.netlify.com/
+url: https://piharpi.com
 baseurl: ""
-permalink: /blog/:categories/:title/
+permalink: blog/:categories/:title/
 google_analytics: UA-105586262-1
 fb_appid: ""
 
