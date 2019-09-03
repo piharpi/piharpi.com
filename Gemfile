@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.11.0'
   gem 'jekyll-sitemap'
   gem 'jekyll-sass-converter', '~> 1.5', '>= 1.5.2'
+  gem 'jekyll-compose'
   gem 'rouge', '3.3.0'
 end
 
