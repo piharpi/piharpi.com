@@ -16,6 +16,5 @@ _22 August 2019, Harpi_
 
 ### Further information
 
-- [resume](<javascript::void(0)>) _(soon)_
 - justharpi[at]gmail[dot]com
 - github.com/piharpi

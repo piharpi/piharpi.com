@@ -3,4 +3,5 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .catat
+resume.md
 Gemfile.lock
