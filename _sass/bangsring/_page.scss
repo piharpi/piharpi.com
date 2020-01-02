@@ -1,6 +1,6 @@
 .wrapper.post {
-  max-width: -webkit-calc(#{660px} - (#{$spacing-unit} * 2));
-  max-width: calc(#{660px} - (#{$spacing-unit} * 2));
+  max-width: -webkit-calc(#{750px} - (#{$spacing-unit} * 2));
+  max-width: calc(#{750px} - (#{$spacing-unit} * 2));
 
   @include media-query($on-mobile) {
     padding-left: $spacing-unit - 10;
