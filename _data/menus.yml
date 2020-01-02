@@ -1,11 +1,15 @@
-- title: Home
+- title: "Home"
   url: /
 
-- title: About
+- title: "About"
   url: /about/
 
-- title: Projects
+- title: "Projects"
   url: /works/
 
-- title: RSS
+- title: "Github &#11111;"
+  url: http://github.com/piharpi
+  external: true
+
+- title: "RSS"
   url: /feed.xml/
