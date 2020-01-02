@@ -20,7 +20,11 @@
         {% if url == menu.url %}
         <a class="menu-link active" href="{{ menu.url | absolute_url }}">{{ menu.title }}</a>
         {% else %}
-        <a class="menu-link" href="{{ menu.url | absolute_url }}">{{ menu.title }}</a>
+          {% if menu.external %}
+            <a class="menu-link" href="{{ menu.url | absolute_url }}" target="_blank" rel="noopener">{{ menu.title }}</a>
+          {% else %}
+            <a class="menu-link" href="{{ menu.url | absolute_url }}">{{ menu.title }}</a>
+          {% endif %}
         {% endif %}
         {% endfor %}
       </div>
