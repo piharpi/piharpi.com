@@ -3,8 +3,8 @@ $first-font-family: "Roboto",
 sans-serif !default;
 $second-font-family: "Source Sans Pro",
 sans-serif !default;
-$syntax-font-family: "Fira Code",
-monospace !default;
+$syntax-font-family: 'Ubuntu Mono',
+monospace;
 $base-font-size: 19px !default;
 $medium-font-size: $base-font-size * 0.938 !default;
 $small-font-size: $base-font-size * 0.875 !default;

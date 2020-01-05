@@ -1,5 +1,5 @@
 ---
-title: Hello World, how this site was made.
+title: how this site was made.
 date: 2018-09-28 09:45:47 +07:00
 modified: 2019-08-29 09:24:47 +07:00
 tags: [blog, netlify, jekyll, github]

@@ -6,15 +6,15 @@ excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in
 comments: false
 ---
 
-Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming 🎒 journey, running on jekyll, hosting on netlify and using my [own](http://github.com/piharpi/bangsring) simple theme.
+Hello peeps, I'm student from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming 🎒 journey, running on jekyll, hosting on netlify and using my [own](http://github.com/piharpi/bangsring) simple theme, I name it bangsring.
 
-Day to day use Ruby, Javascript and doing fun with HTML/CSS, Ruby on Rails is my fav framework right now, i also willingness to learn another web technology; but i often forgot 🌚. If you have a question about me or else, letter to me.
+My tech stack are Ruby, Python, TypeScript, ~~Javascript~~ and doing ~~fun~~ with HTML/CSS, i also willingness to learn another web technology; but i often forgot, that my reason why i'm doing writting. If you have a question about me or else, letter to me.
 
 You can **[report](https://github.com/piharpi/me/issues/new?template=bug_report.md)** if there is an broken link(s) or somethings else.
 
 _22 August 2019, Harpi_
 
-### Further information
+### Contact
 
 - justharpi[at]gmail[dot]com
 - github.com/piharpi
