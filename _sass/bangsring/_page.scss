@@ -17,7 +17,7 @@
   .header-title {
     text-align: center;
     font-size: 2em;
-    font-family: $first-font-family;
+    font-family: $syntax-font-family;
     line-height: 1.2;
     font-weight: 700;
     color: $black;
@@ -133,7 +133,7 @@
   h4,
   h5,
   h6 {
-    font-family: $first-font-family;
+    font-family: $syntax-font-family;
     color: $black;
     font-weight: 700;
     margin-top: $spacing-unit;
@@ -164,6 +164,22 @@
 
   h6 {
     @include relative-font-size(0.875);
+  }
+}
+
+.anchor-head {
+  color: $orange;
+  opacity: .5;
+
+  &:hover {
+    color: $orange;
+    opacity: 1;
+  }
+
+  &::before {
+    content: "#";
+    position: absolute;
+    left: 10px;
   }
 }
 

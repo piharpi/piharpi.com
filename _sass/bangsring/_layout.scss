@@ -110,11 +110,17 @@
     }
   }
 
+  // background: #181819;
+  // color: #b3b9c5;
+
+  // yellow color: #fee037
+
   .menu-link.active {
     opacity: 1;
     border-radius: 4em 1em 2em 1em / 1em 5em 1em 3em;
-    color: $blue;
-    background-color: $light;
+    color: $yellow;
+    background-color: $black;
+    font-weight: 600;
   }
 
   @include media-query($on-mobile) {
@@ -207,9 +213,10 @@
 
   .posts-date {
     font-family: $first-font-family;
-    font-size: 17px;
+    font-size: 16px;
     min-width: 55px;
-    color: $gray;
+    color: $black;
+    font-weight: 700;
     padding-right: 10px;
 
     @include media-query($on-mobile) {
@@ -220,19 +227,22 @@
   .posts-title {
     margin-top: 2px;
     margin-bottom: 0;
-    font-family: $second-font-family;
+    font-family: $first-font-family;
     font-weight: normal;
-    font-size: 1em;
+    letter-spacing: .1px;
+    font-size: .9em;
     display: inherit;
 
     a {
-      color: $blue;
+      color: $gray;
       text-decoration: none;
+      // opacity: 0.7;
       line-height: 22px;
 
       &:hover,
       &focus {
         color: $black;
+        // opacity: 1;
       }
     }
   }
@@ -300,7 +310,7 @@
 
     &:hover,
     &:focus {
-      border-bottom: 2px solid $blue;
+      border-bottom: 2px solid $orange;
     }
   }
 }

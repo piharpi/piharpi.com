@@ -4,10 +4,7 @@
 - title: "About"
   url: /about/
 
-- title: "Projects"
-  url: /works/
-
-- title: "Github &#11111;"
+- title: "GitHub &#11111;"
   url: http://github.com/piharpi
   external: true
 

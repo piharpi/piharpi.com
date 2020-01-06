@@ -12,8 +12,6 @@ My tech stack are Ruby, Python, TypeScript, ~~Javascript~~ and doing ~~fun~~ wit
 
 You can **[report](https://github.com/piharpi/me/issues/new?template=bug_report.md)** if there is an broken link(s) or somethings else.
 
-_22 August 2019, Harpi_
-
 ### Contact
 
 - justharpi[at]gmail[dot]com
