@@ -14,7 +14,7 @@ layout: compress
       <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}.</h1>
     </header>
     <main class="page-content" aria-label="Content">
-      {{ content }}
+      {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=4 h_max=4 %}
     </main>
     {% include footer.html %}
   </div>
