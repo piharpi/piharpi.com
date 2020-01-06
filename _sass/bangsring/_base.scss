@@ -27,19 +27,6 @@ figure {
   -webkit-font-smoothing: antialiased;
 }
 
-ul {
-  list-style: none;
-
-  li::before {
-    content: "\2023";
-    color: #f1cc88;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-}
-
-
 /**
  * Basic styling
  */
@@ -196,7 +183,7 @@ a {
 
   &:hover {
     color: $black;
-    border-bottom: 2px solid $orange;
+    border-bottom: 2px solid $yellow;
   }
 }
 

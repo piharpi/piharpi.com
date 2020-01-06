@@ -4,9 +4,9 @@
 - title: "About"
   url: /about/
 
-- title: "GitHub &#11111;"
-  url: http://github.com/piharpi
-  external: true
+- title: "Notes"
+  url: /notes/
+  external: false
 
 - title: "RSS"
   url: /feed.xml/

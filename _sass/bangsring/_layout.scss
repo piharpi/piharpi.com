@@ -117,9 +117,6 @@
 
   .menu-link.active {
     opacity: 1;
-    border-radius: 4em 1em 2em 1em / 1em 5em 1em 3em;
-    color: $yellow;
-    background-color: $black;
     font-weight: 600;
   }
 
@@ -191,8 +188,8 @@
 }
 
 .post-header {
-  font-size: 1.1em;
-  font-family: $syntax-font-family;
+  font-size: 15.625px;
+  font-family: $first-font-family;
   font-weight: 700;
 }
 
@@ -310,7 +307,7 @@
 
     &:hover,
     &:focus {
-      border-bottom: 2px solid $orange;
+      border-bottom: 2px solid $yellow;
     }
   }
 }
