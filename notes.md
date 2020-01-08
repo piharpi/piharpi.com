@@ -6,6 +6,12 @@ excerpt: Catatan Public agar enggak usah pusing-pusing mengingat.
 comments: false
 ---
 
+#### Euforia
+
+Perasaan senang berlebih yang tidak beralasan / tidak rasional.
+
+---
+
 #### Mematikan Jekyll Server
 
 Mengehentikan server Jekyll dengan tombol <kbd>CTRL</kbd> + <kbd>Z</kbd> tidak mengehentikan proses secara penuh, untuk menangani hal ini matikan `PID` dengan cara ini.
