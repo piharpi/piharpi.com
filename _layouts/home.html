@@ -3,8 +3,8 @@ layout: default
 home: true
 ---
 
-{% for post in site.posts %}
 <h4 class="post-header">Recent Posts</h4>
+{% for post in site.posts %}
 <article class="posts">
   <span class="posts-date">{{ post.date | date: "%b %d, %Y" }}</span>
   <header class="posts-header">
