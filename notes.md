@@ -8,14 +8,14 @@ comments: false
 
 #### Rails 6 db:system:change --to command
 
-Untuk menggunakan Rails 6 `db:system:change`, sederhana saja kamu hanya perlu menentukan database adapter dengan `--to` option.
+Untuk menggunakan perintah `db:system:change` pada rails 6 perlu menentukan database adapter dengan `--to` option.
 
 ```bash
 rails db:system:change --to=<adapter>
 # <adapter> : postgresql, mysql, sqlite3, oracle, sqlserver, dll...
 ```
 
-Setelah menjalankan perintah diatas, jangan lupa kemungkinan kamu butuh mengubah versi database adapter di `Gemfile`.
+Setelah menjalankan perintah diatas, jangan lupa untuk mengubah versi database adapter di `Gemfile`.
 
 ---
 
