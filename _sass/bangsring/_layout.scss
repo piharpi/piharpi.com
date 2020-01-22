@@ -245,6 +245,10 @@
   }
 }
 
+.post-updated-at {
+  font-family: "Ubuntu mono", "monospace";
+}
+
 /**
  * Animation 
  */
@@ -302,12 +306,11 @@
   }
 
   a {
-    border: 0;
     color: $gray;
 
     &:hover,
     &:focus {
-      border-bottom: 2px solid $yellow;
+      color: $blue;
     }
   }
 }

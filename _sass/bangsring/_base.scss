@@ -177,13 +177,14 @@ h6>a {
  * Links
  */
 a {
-  color: $black;
-  border-bottom: 1px solid $smoke;
-  text-decoration: none;
+  color: $blue;
+  text-decoration-color: $smoke;
+  opacity: .8;
+
 
   &:hover {
-    color: $black;
-    border-bottom: 2px solid $yellow;
+    color: $blue;
+    opacity: 1;
   }
 }
 
@@ -298,9 +299,9 @@ table {
 /**
  * When mouse block a text set this color
  */
-::selection {
-  // background: transparent;
-}
+// ::selection {
+//   // background: transparent;
+// }
 
 /**
  * Github Gist clear border 
