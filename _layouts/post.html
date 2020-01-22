@@ -46,22 +46,21 @@ layout: compress
 
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=4 h_max=4 %}
-          {% if page.modified %}
-            <small>Updated at <b>{{page.modified | date: "%d %B %Y"}}</b></small>
-          {% endif %}
           {% if page.tweet %}
           <p>Comments this article on 
             <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.
           </p>
           {% endif %}
         </div>
-
       </article>
       {% if page.comments %}
         {% include comments.html%}
       {% endif %}
 
     </main>
+    {% if page.modified %}
+      <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
+    {% endif %}
     {% if page.next or page.previous %}
       {% include post-nav.html %}
     {% endif %}
