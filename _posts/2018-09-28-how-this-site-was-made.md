@@ -15,7 +15,7 @@ All the services are free, source code the site was placed on my [github](https:
 
 <hr>
 
-##### I'm not just tell my story, <br> but i will show you how to create your own site.
+#### Let's do this
 
 So, before we start create a site, you need some tools, you can self paced for how to installing each tools, on this guide i'm just want to show you how to install jekyll and deploying in netlify, but make sure you have each tools below.
 
@@ -54,9 +54,9 @@ Now check your github repository, make sure the files is uploaded correctly.
 
 Go [netlify](https://netlify.com) dashboard, and following this step.
 
-1. click **new site from git**, then choose **Github**.
+1. click `new site from git`, then choose `Github`.
 2. then choose your repository where is the jekyll sources uploaded.
-3. netlify smart enough to configuring, we just need to click **Deploy site** button.
+3. netlify smart enough to configuring, we just need to click `Deploy site button`.
 
 Wait for moment, and voila..! your site's are hosting and using `.netlify.com` tld, if your website wants to look professional, just buy a domain from your favorite domain store. or if you the first time, I advice using namecheap.com*(isn't sponsor)* \*based on my experienced it provides good service and have various TLDs.
 
