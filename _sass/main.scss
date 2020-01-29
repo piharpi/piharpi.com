@@ -1,0 +1,49 @@
+// Define defaults for each variable.
+$first-font-family: "Roboto",
+sans-serif !default;
+$second-font-family: "Source Sans Pro",
+sans-serif !default;
+$syntax-font-family: 'Ubuntu Mono',
+monospace;
+$base-font-size: 19px !default;
+$medium-font-size: $base-font-size * 0.938 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-font-weight: 400 !default;
+$base-line-height: 1.688 !default;
+$spacing-unit: 30px !default;
+
+// Light Element Color
+$black: #181819 !default;
+$white: #fff !default;
+$base: #f9f9f9 !default;
+$gray: #283c46 !default;
+$blue: #0036c7 !default;
+$yellow: #fee037 !default;
+$light: #ececec !default;
+$smoke: #d2c7c7 !default;
+$orange: #fe9b37 !default;
+// Width of the content area
+$content-width: 750px !default;
+
+// State of device
+$on-mobile: 768px;
+$on-tablet: 769px;
+$on-desktop: 1024px;
+$on-widescreen: 1152px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import Sass partials
+@import "bangsring/fonts",
+"bangsring/base",
+"bangsring/layout",
+"bangsring/page",
+"bangsring/syntax";
