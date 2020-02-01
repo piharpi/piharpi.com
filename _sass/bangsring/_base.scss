@@ -35,19 +35,21 @@ body {
   overflow-x: hidden;
   position: relative;
   background: $base;
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $second-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $second-font-family;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern"1;
-  -moz-font-feature-settings: "kern"1;
-  -o-font-feature-settings: "kern"1;
-  font-feature-settings: "kern"1;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   border-top: 5px solid $yellow;
   box-sizing: border-box;
 
   @include media-query($on-mobile) {
     $base-font-size: 18px;
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $second-font-family;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+      $second-font-family;
   }
 }
 
@@ -72,6 +74,11 @@ figure,
   margin-bottom: $spacing-unit - 20;
 }
 
+strong,
+b {
+  color: $black;
+}
+
 kbd {
   -moz-border-radius: 3px;
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px $white inset;
@@ -86,8 +93,8 @@ kbd {
   font-size: 14px;
   line-height: 1.4;
   font-family: $syntax-font-family;
-  margin: 0 .1em;
-  padding: .1em .6em;
+  margin: 0 0.1em;
+  padding: 0.1em 0.6em;
   text-shadow: 0 1px 0 $white;
 }
 
@@ -109,11 +116,10 @@ figure {
   position: relative;
 }
 
-
 /**
  * Images
  */
-figure>img {
+figure > img {
   display: block;
   position: relative;
 }
@@ -138,8 +144,8 @@ li {
   padding-bottom: 1px;
   padding-top: 1px;
 
-  >ul,
-  >ol {
+  > ul,
+  > ol {
     margin-bottom: 2px;
     margin-top: 0;
   }
@@ -157,12 +163,12 @@ h6 {
   font-weight: $base-font-weight;
 }
 
-h1>a,
-h2>a,
-h3>a,
-h4>a,
-h5>a,
-h6>a {
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a {
   text-decoration: none;
   border: none;
 
@@ -172,15 +178,13 @@ h6>a {
   }
 }
 
-
 /**
  * Links
  */
 a {
   color: $blue;
   text-decoration-color: $smoke;
-  opacity: .8;
-
+  opacity: 0.8;
 
   &:hover {
     color: $blue;
@@ -209,7 +213,7 @@ blockquote {
   color: $gray;
   font-style: italic;
   text-align: center;
-  opacity: .9;
+  opacity: 0.9;
   border-top: 1px solid $light;
   border-bottom: 1px solid $light;
   padding: 10px;
@@ -303,9 +307,9 @@ table {
 /**
  * When mouse block a text set this color
  */
-// ::selection {
-//   // background: transparent;
-// }
+::selection {
+  background: rgb(250, 240, 20);
+}
 
 /**
  * Github Gist clear border 

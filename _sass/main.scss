@@ -1,10 +1,7 @@
 // Define defaults for each variable.
-$first-font-family: "Roboto",
-sans-serif !default;
-$second-font-family: "Source Sans Pro",
-sans-serif !default;
-$syntax-font-family: 'Ubuntu Mono',
-monospace;
+$first-font-family: "Roboto", sans-serif !default;
+$second-font-family: "Source Sans Pro", sans-serif !default;
+$syntax-font-family: "Ubuntu Mono", monospace;
 $base-font-size: 19px !default;
 $medium-font-size: $base-font-size * 0.938 !default;
 $small-font-size: $base-font-size * 0.875 !default;
@@ -42,8 +39,5 @@ $on-widescreen: 1152px;
 }
 
 // Import Sass partials
-@import "bangsring/fonts",
-"bangsring/base",
-"bangsring/layout",
-"bangsring/page",
-"bangsring/syntax";
+@import "bangsring/fonts", "bangsring/base", "bangsring/layout",
+  "bangsring/page", "bangsring/syntax";

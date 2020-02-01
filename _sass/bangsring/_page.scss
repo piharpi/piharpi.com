@@ -89,7 +89,7 @@
  */
 .page-content {
   font-size: 1em;
-  color: $gray;
+  color: #434648;
   padding-top: 8px;
 
   iframe {
@@ -97,7 +97,6 @@
   }
 
   figure {
-    
     img {
       border-radius: 2px;
     }
@@ -109,7 +108,7 @@
     }
   }
 
-  >p {
+  > p {
     margin: 0;
     padding-top: $spacing-unit - 15;
     padding-bottom: $spacing-unit - 15;
@@ -171,7 +170,7 @@
 .anchor-head {
   position: relative;
   color: $black;
-  opacity: .4;
+  opacity: 0.4;
 
   &:hover {
     color: $blue;
