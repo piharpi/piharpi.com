@@ -4,7 +4,7 @@
 
 code {
   text-rendering: optimizeLegibility;
-  font-feature-settings: "calt"1;
+  font-feature-settings: "calt" 1;
   font-variant-ligatures: normal;
   white-space: pre;
   word-spacing: normal;
@@ -21,14 +21,14 @@ code {
 }
 
 pre.highlight {
-  margin: 0 calc(51% - 50vw);
+  margin: 0 calc(51% - 51vw);
   padding: 25px;
   line-height: 1;
   font-family: $syntax-font-family;
   display: block;
   overflow-x: auto;
 
-  >code {
+  > code {
     width: 100%;
     max-width: 43rem;
     margin-left: auto;
@@ -38,7 +38,7 @@ pre.highlight {
     border: 0;
     font-variant-ligatures: normal;
     background-color: transparent;
-    font-feature-settings: "calt"1;
+    font-feature-settings: "calt" 1;
   }
 }
 
