@@ -2,6 +2,7 @@
 layout: post
 title: Cara ribet memperbarui forked repo
 date: 2020-01-29 01:00 +0700
+modified: 2020-02-02 16:49:47 +07:00
 description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
 tag:
   - tips
@@ -64,8 +65,6 @@ $ git commit -m "updating origin repo" && git push -u origin master
 
 Selamat mencoba cara ribet ini, semoga bisa dipahami, saya sendiri lebih senang melalui terminal, klo ada yang ribet kenapa cari yang mudah.
 
-<small>
-References.<br/>
-[Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork),
-[Update your fork directly on Github](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/#top)
-</small>
+##### Resource
+- [Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+- [Update your fork directly on Github](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/#top)

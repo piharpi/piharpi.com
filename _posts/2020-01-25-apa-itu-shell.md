@@ -1,13 +1,13 @@
 ---
 title: What is a shell? 🐚 adalah kerang ajaib?
 date: 2020-01-25 11:58:47 +07:00
-# modified: 2020-01-15 09:45:47 +07:00
+modified: 2020-02-02 16:49:47 +07:00
 tags: [unix/linux, cli]
 description: Shell adalah sebuah command-line interpreter; program yang berperan sebagai penerjemah perintah yang diinputkan oleh User yang melalui terminal, sehingga perintah tersebut bisa dimengerti oleh si Kernel.
 image: "/assets/img/posts/shell_evolution.png"
 ---
 
-<a href="http://www.youtube.com/watch?v=tc4ROCJYbm0&t=70" target="_blank" rel="noopener">Dulu ↱</a> Sebelum adanya GUI<sup>[[1]](#gui)</sup> cara user berinteraksi dengan komputer menggunakan CLI yaitu mengetik baris perintah pada sebuah antarmuka dalam bentuk baris teks serperti 👇.
+<a href="http://www.youtube.com/watch?v=tc4ROCJYbm0&t=70" target="_blank" rel="noopener">Dulu ↱</a> Sebelum adanya <abbr title="Graphical User Interface">GUI</abbr> cara user berinteraksi dengan komputer menggunakan CLI yaitu mengetik baris perintah pada sebuah antarmuka dalam bentuk baris teks serperti 👇.
 
 <figure>
 <img src="/assets/img/posts/terminal_nginx.gif" alt="installing nginx in ubuntu">
@@ -16,7 +16,7 @@ image: "/assets/img/posts/shell_evolution.png"
 
 Jika kamu pernah menggunakan unix/linux mungkin pernah menggunakan program diatas, bahkan mungkin setiap hari menggunakannya untuk mengeksekusi suatu perintah melalui <a href="http://en.wikipedia.org/wiki/List_of_terminal_emulators" target="_blank" rel="noopener">terminal emulator ↱</a>.
 
-User<sup>[[2]](#user)</sup> tidak bisa secara langsung berkomunikasi dengan sebuah hardware komputer, maka dari itu kita membutuhkan sebuah sistem operasi; **Kernel** adalah program yang merupakan inti utama dari sistem operasi komputer.
+User<sup>[[1]](#user)</sup> tidak bisa secara langsung berkomunikasi dengan sebuah hardware komputer, maka dari itu kita membutuhkan sebuah sistem operasi; **Kernel** adalah program yang merupakan inti utama dari sistem operasi komputer.
 
 <figure>
 <img src="/assets/img/posts/kernel.png" alt="kernel central of operating system">
@@ -111,15 +111,11 @@ Terakhir untuk tulisan ini, shell memilki berbagai macam, pilihlah shell yang se
 
 Terimakasih sudah baca, _penulis menerima kritik dan saran._
 
-<hr>
-
 <small>Notes</small><br>
-<small id="gui"><sup>[1]</sup> "GUI" Graphical User Interface.</small><br>
-<small id="user"><sup>[2]</sup> "User" Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small><br>
+<small id="user"><sup>[1]</sup> "User" Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small>
 
-<hr>
+##### Resource 
+- [Evolution shells in Linux](http://developer.ibm.com/tutorials/l-linux-shells/)
+- [Kernel Defintion](http://www.linfo.org/kernel.html)
+- [The Shell](http://www.cis.rit.edu/class/simg211/unixintro/Shell.html)
 
-<small>Refferences</small><br>
-<small>http://www.linfo.org/kernel.html</small>,
-<small>http://www.cis.rit.edu/class/simg211/unixintro/Shell.html</small>,
-<small>http://developer.ibm.com/tutorials/l-linux-shells/</small>
