@@ -24,6 +24,7 @@
       display: inline-block;
       font-size: $small-font-size - 3;
       border-bottom: 0;
+      text-decoration-color: $smoke;
 
       &:hover {
         color: $black;
@@ -108,6 +109,21 @@
     }
   }
 
+  a {
+    color: inherit;
+    text-decoration-color: inherit;
+
+    &:hover {
+      color: $blue;
+      text-decoration-color: $blue;
+      opacity: 1;
+    }
+
+    &:focus {
+      color: $blue;
+    }
+  }
+
   > p {
     margin: 0;
     padding-top: $spacing-unit - 15;
@@ -171,6 +187,7 @@
   position: relative;
   color: $black;
   opacity: 0.4;
+  outline: none !important;
 
   &:hover {
     color: $blue;

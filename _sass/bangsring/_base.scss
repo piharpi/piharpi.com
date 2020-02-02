@@ -183,13 +183,18 @@ h6 > a {
  * Links
  */
 a {
-  color: $blue;
+  color: inherit;
   text-decoration-color: $smoke;
-  opacity: 0.8;
+  // opacity: 0.8;
 
   &:hover {
     color: $blue;
     opacity: 1;
+  }
+
+  &:focus {
+    outline: 3px solid rgba(0, 54, 199, 0.6);
+    outline-offset: 2px;
   }
 }
 

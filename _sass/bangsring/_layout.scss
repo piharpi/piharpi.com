@@ -3,7 +3,7 @@
  */
 
 .introduction {
-  margin-top: 5em;
+  margin-top: 5.3em;
   margin-bottom: 4em;
   text-align: center;
 
@@ -19,9 +19,7 @@
     -ms-user-select: none;
     background: #d8deff;
     -webkit-user-select: none;
-    border: 6px solid #eef1ff;
     animation: 0.5s ease-in forwards weeng;
-    box-shadow: 0px 0px 2px 9px #f6f6fa;
 
     &::after {
       top: 0;
@@ -233,7 +231,7 @@
     a {
       color: $gray;
       text-decoration: none;
-      // opacity: 0.7;
+      font-size: 16px;
       line-height: 22px;
 
       &:hover,
