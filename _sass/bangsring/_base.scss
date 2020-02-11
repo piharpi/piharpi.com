@@ -95,7 +95,8 @@ kbd {
   line-height: 1.4;
   font-family: $syntax-font-family;
   margin: 0 0.1em;
-  padding: 0.1em 0.6em;
+  font-weight: 700;
+  padding: 0.01em 0.4em;
   text-shadow: 0 1px 0 $white;
 }
 
