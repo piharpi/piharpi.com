@@ -16,14 +16,14 @@
   <link
     rel="alternate"
     href="{{
-      page.url | absolute_url | remove: 'index.html' | remove: '.html'
+      page.url | remove: 'index.html' | remove: '.html'
     }}"
     hreflang="{{ site.lang }}"
   />
   <link
     rel="canonical"
     href="{{
-      page.url | absolute_url | remove: 'index.html' | remove: '.html'
+      page.url  | remove: 'index.html' | remove: '.html'
     }}"
   />
   {% if paginator.previous_page %}
@@ -31,7 +31,6 @@
     rel="prev"
     href="{{
       paginator.previous_page_path
-        | absolute_url
         | remove: 'index.html'
         | remove: '.html'
     }}"
@@ -41,7 +40,6 @@
     rel="next"
     href="{{
       paginator.next_page_path
-        | absolute_url
         | remove: 'index.html'
         | remove: '.html'
     }}"
@@ -84,7 +82,7 @@
   <meta
     property="og:url"
     content="{{
-      page.url | absolute_url | remove: 'index.html' | remove: '.html'
+      page.url | remove: 'index.html' | remove: '.html'
     }}"
   />
   <meta
@@ -99,9 +97,9 @@
     }}"
   />
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}" />
+  <meta property="og:image" content="{{ page.image  }}" />
   {% else %}
-  <meta property="og:image" content="{{ site.image | absolute_url }}" />
+  <meta property="og:image" content="{{ site.image  }}" />
   {% endif %}
   <meta property="og:image:width" content="640" />
   <meta property="og:image:height" content="640" />
@@ -115,7 +113,7 @@
   <meta
     name="twitter:url"
     content="{{
-      page.url | absolute_url | remove: 'index.html' | remove: '.html'
+      page.url  | remove: 'index.html' | remove: '.html'
     }}"
   />
   <meta name="twitter:site" content="@{{ site.author.username }}" />
@@ -132,17 +130,13 @@
     }}"
   />
   {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+  <meta name="twitter:image" content="{{ page.image  }}" />
   {% else %}
-  <meta name="twitter:image" content="{{ site.image | absolute_url }}" />
+  <meta name="twitter:image" content="{{ site.image  }}" />
   {% endif %} {% feed_meta %}
-  <link rel="icon" href="{{ site.icon | absolute_url }}" type="image/x-icon" />
-  <link
-    rel="shortcut icon"
-    href="{{ site.icon | absolute_url }}"
-    type="image/x-icon"
-  />
+  <link rel="icon" href="{{ site.icon  }}" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ site.icon  }}" type="image/x-icon" />
 
   <link rel="apple-touch-icon" href="{{ site.icon }}" />
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' }}" />
 </head>
