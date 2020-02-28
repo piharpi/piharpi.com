@@ -18,12 +18,12 @@
         {% assign url = page.url %}
         {% for menu in site.data.menus %}
         {% if url == menu.url %}
-        <a class="menu-link active" href="{{ menu.url | absolute_url }}">{{ menu.title }}</a>
+        <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
         {% else %}
           {% if menu.external %}
-            <a class="menu-link" href="{{ menu.url | absolute_url }}" target="_blank" rel="noopener">{{ menu.title }}</a>
+            <a class="menu-link" href="{{ menu.url }}" target="_blank" rel="noopener">{{ menu.title }}</a>
           {% else %}
-            <a class="menu-link" href="{{ menu.url | absolute_url }}">{{ menu.title }}</a>
+            <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
           {% endif %}
         {% endif %}
         {% endfor %}
