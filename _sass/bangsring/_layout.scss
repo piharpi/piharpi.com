@@ -101,6 +101,12 @@
       margin-right: 5px;
     }
 
+    &.rss {
+      position: relative;
+      bottom: -3px;
+      outline: none;
+    }
+
     @include media-query($on-mobile) {
       opacity: 0.8;
     }
