@@ -15,14 +15,14 @@
   <link
     rel="alternate"
     href="{{
-      page.url | remove: 'index.html' | remove: '.html'
+      page.url | remove: 'index.html' | remove: '.html' | absolute_url
     }}"
     hreflang="{{ site.lang }}"
   />
   <link
     rel="canonical"
     href="{{
-      page.url  | remove: 'index.html' | remove: '.html'
+      page.url  | remove: 'index.html' | remove: '.html' | absolute_url
     }}"
   />
   {% if paginator.previous_page %}
@@ -81,7 +81,7 @@
   <meta
     property="og:url"
     content="{{
-      page.url | remove: 'index.html' | remove: '.html'
+      page.url | remove: 'index.html' | remove: '.html' | absolute_url
     }}"
   />
   <meta
@@ -96,9 +96,9 @@
     }}"
   />
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image  }}" />
+  <meta property="og:image" content="{{ page.image | absolute_url }}" />
   {% else %}
-  <meta property="og:image" content="{{ site.image  }}" />
+  <meta property="og:image" content="{{ site.image | absolute_url }}" />
   {% endif %}
   <meta property="og:image:width" content="640" />
   <meta property="og:image:height" content="640" />
@@ -112,7 +112,7 @@
   <meta
     name="twitter:url"
     content="{{
-      page.url  | remove: 'index.html' | remove: '.html'
+      page.url  | remove: 'index.html' | remove: '.html' | absolute_url
     }}"
   />
   <meta name="twitter:site" content="@{{ site.author.username }}" />
@@ -129,9 +129,9 @@
     }}"
   />
   {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image  }}" />
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
   {% else %}
-  <meta name="twitter:image" content="{{ site.image  }}" />
+  <meta name="twitter:image" content="{{ site.image | absolute_url }}" />
   {% endif %} {% feed_meta %}
   <link
     rel="apple-touch-icon"
@@ -167,5 +167,5 @@
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#2c2c2c" />
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' }}" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
