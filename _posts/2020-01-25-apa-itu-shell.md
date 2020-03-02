@@ -32,7 +32,7 @@ Ketika kita menginputkan suatu perintah pada terminal emulator, kernel tidak lan
 <figcaption>Fig 3. bagan komunikasi shell.</figcaption>
 </figure>
 
-<u>Shell adalah sebuah command-line interpreter; program yang berperan sebagai penerjemah perintah yang diinputkan oleh User yang melalui terminal</u>, sehingga perintah tersebut bisa dimengerti oleh si Kernel.
+<mark>Shell adalah sebuah command-line interpreter; program yang berperan sebagai penerjemah perintah yang diinputkan oleh User yang melalui terminal</mark>, sehingga perintah tersebut bisa dimengerti oleh si Kernel.
 
 Login shell biasanya ditetapkan oleh local System Administrator ketika pada saat pertama user kamu dibuat, kamu bisa lihat login shell yang sedang kamu gunakan dengan perintah dibawah ini.
 
@@ -114,8 +114,8 @@ Terimakasih sudah baca, _penulis menerima kritik dan saran._
 <small>Notes</small><br>
 <small id="user"><sup>[1]</sup> "User" Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small>
 
-##### Resource 
+##### Resource
+
 - [Evolution shells in Linux](http://developer.ibm.com/tutorials/l-linux-shells/)
 - [Kernel Defintion](http://www.linfo.org/kernel.html)
 - [The Shell](http://www.cis.rit.edu/class/simg211/unixintro/Shell.html)
-
