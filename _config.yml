@@ -5,20 +5,24 @@ description: >-
   for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
 lang: en-US
 timezone: Asia/Jakarta
+image:
 
-# User settings
+# Profile settings
 author:
   name: Mahendrata Harpi
+  bio: >-
+    He's writing in Bahasa about web technology and experience as a journal 
+    for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
   username: piharpi
   email: justharpi@gmail.com
-  avatar: "/assets/img/avatar.jpg"
+  avatar: /assets/img/avatar.jpg
 
 # Url settings
-url: https://piharpi.com
-baseurl: ""
+url: "https://mahendrata.now.sh"
+baseurl:
 permalink: blog/:categories/:title/
-google_analytics: UA-105586262-1
-fb_appid: ""
+google_analytics:
+fb_appid:
 
 # Collection setting
 collections:
