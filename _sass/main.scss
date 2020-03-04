@@ -1,28 +1,46 @@
-// Define defaults for each variable.
-$first-font-family: "Roboto", sans-serif !default;
-$second-font-family: "Source Sans Pro", sans-serif !default;
-$syntax-font-family: "Ubuntu Mono", monospace;
-$base-font-size: 19px !default;
-$medium-font-size: $base-font-size * 0.938 !default;
-$small-font-size: $base-font-size * 0.875 !default;
-$base-font-weight: 400 !default;
-$base-line-height: 1.688 !default;
-$spacing-unit: 30px !default;
+// Fonts preferences
+$sans-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
+  sans-serif;
+$mono-family: "Ubuntu Mono", monospace;
+$base-font-size: 16px;
+$medium-font-size: $base-font-size * 0.938;
+$small-font-size: $base-font-size * 0.875;
+$base-font-weight: 400;
+$base-line-height: 1.85;
 
-// Light Element Color
-$black: #0d122b !default;
-$white: #fff !default;
-$base: #f9f9f9 !default;
-$gray: #283c46 !default;
-$blue: #0036c7 !default;
-$yellow: #fee037 !default;
-$light: #ececec !default;
-$smoke: #d2c7c7 !default;
-$orange: #fe9b37 !default;
+// Light Color
+$yellow: #fee037;
+$orange: #fe9b37;
+$black: #0d122b;
+$light: #ececec;
+$smoke: #d2c7c7;
+$gray: #434648;
+$white: #fff;
+
+$base-text-color: #3c3f41;
+$blue: #003fff;
+$blue-active: #0036c7;
+
+// TODO:  Collect dark theme color.
+// $black: #0d122b;
+// $white: #fff;
+// $base: #f9f9f9;
+// $gray: #283c46;
+// $blue: #0036c7;
+// $yellow: #fee037;
+// $light: #ececec;
+// $smoke: #d2c7c7;
+// $orange: #fe9b37;
+
 // Width of the content area
-$content-width: 750px !default;
+$wide-size: 890px;
+$narrow-size: 720px;
 
-// State of device
+// Padding unit
+$spacing-full: 30px;
+$spacing-half: $spacing-full / 2;
+
+// State of devices
 $on-mobile: 768px;
 $on-tablet: 769px;
 $on-desktop: 1024px;
@@ -38,6 +56,6 @@ $on-widescreen: 1152px;
   font-size: $base-font-size * $ratio;
 }
 
-// Import Sass partials
+// Import sass files
 @import "bangsring/fonts", "bangsring/base", "bangsring/layout",
-  "bangsring/page", "bangsring/syntax";
+  "bangsring/page", "bangsring/miscellaneous", "bangsring/syntax";
