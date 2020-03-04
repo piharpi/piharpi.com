@@ -1,73 +1,17 @@
-/**
- * Site intro
- */
-
-.introduction {
-  margin-top: 5.3em;
-  margin-bottom: 4em;
-  text-align: center;
-
-  @include media-query($on-mobile) {
-    margin-bottom: 3em;
-  }
-
-  .introduction-image {
-    width: 70px;
-    user-select: none;
-    border-radius: 100%;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    animation: 0.5s ease-in forwards weeng;
-
-    &::after {
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      content: "";
-      position: absolute;
-      background: transparent;
-    }
-  }
-
-  .introduction-name {
-    margin-top: 8px;
-    font-size: 1.5em;
-    font-weight: 600;
-    font-family: $first-font-family;
-  }
-
-  .introduction-description {
-    padding: 10px;
-    margin: 0 auto;
-    font-size: 16px;
-    color: $gray;
-    opacity: 0.9;
-    max-width: 393px;
-    font-family: $first-font-family;
-  }
-}
-
-/**
- * Site navbar
- */
-
+// Navbar
 .navbar {
   height: auto;
-  max-width: -webkit-calc(890px - (#{$spacing-unit} * 2));
-  max-width: calc(890px - (#{$spacing-unit} * 2));
+  max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
+  max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
   position: relative;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid $light;
-  padding: $spacing-unit - 15px $spacing-unit;
+  padding: $spacing-full - 15px $spacing-full;
   @extend %clearfix;
 }
 
-/**
- * Site nav
- */
-
+// Navigation
 .menu {
   .trigger {
     float: right;
@@ -83,15 +27,12 @@
 
   .menu-link {
     color: $black;
-    font-family: $first-font-family;
-    line-height: $base-line-height - 0.5;
+    font-family: $sans-family;
+    line-height: $base-line-height + 0.4;
     text-decoration: none;
-    border-radius: 2px;
     padding: 5px 8px;
-    border: 0;
-    font-size: $small-font-size - 1;
     opacity: 0.7;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
 
     &:hover {
       opacity: 1;
@@ -191,31 +132,60 @@
   }
 }
 
-.post-header {
-  font-size: 15.625px;
-  font-family: $first-font-family;
-  font-weight: 700;
+// Author
+.author {
+  margin-top: 6.3rem;
+  margin-bottom: 7.2rem;
+  text-align: center;
+
+  @include media-query($on-mobile) {
+    margin-bottom: 3em;
+  }
+
+  .author-avatar {
+    width: 70px;
+    border-radius: 100%;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    animation: 0.5s ease-in forwards fadein;
+  }
+
+  .author-name {
+    font-size: 1.7em;
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+
+  .author-bio {
+    margin: 0 auto;
+    color: $gray;
+    opacity: 0.9;
+    max-width: 393px;
+    line-height: 1.688;
+  }
 }
 
-.posts {
+// Content
+.posts-item-note {
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: $black;
+}
+
+// List of posts
+.post-item {
+  display: flex;
   padding-top: 5px;
   padding-bottom: 6px;
-  display: flex;
   @extend %clearfix;
 
   &:not(:first-child) {
     border-top: 1px solid $light;
   }
 
-  .posts-header {
-    display: inline;
-    line-height: 15px;
-  }
-
-  .posts-date {
-    font-family: $first-font-family;
+  .post-item-date {
     min-width: 95px;
-    font-size: 16px;
     color: $black;
     font-weight: 700;
     padding-right: 10px;
@@ -225,81 +195,28 @@
     }
   }
 
-  .posts-title {
-    margin-top: 2px;
-    margin-bottom: 0;
-    font-family: $first-font-family;
+  .post-item-title {
+    margin: 0;
     font-weight: normal;
     letter-spacing: 0.1px;
-    font-size: 0.9em;
-    display: inherit;
 
     a {
       color: $gray;
-      text-decoration: none;
-      font-size: 16px;
-      line-height: 22px;
 
       &:hover,
       &focus {
         color: $black;
-        // opacity: 1;
       }
     }
   }
 }
 
-.post-updated-at {
-  font-family: "Ubuntu mono", "monospace";
-}
-
-/**
- * Animation 
- */
-
-@keyframes weeng {
-  0% {
-    opacity: 0.2;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-/**
- * Responsive Embed : vidio
- */
-
-.embed-responsive {
-  height: 0;
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 56.25%;
-  margin-top: 20px;
-
-  iframe,
-  object,
-  embed {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
-}
-
-/**
- * Site footer
- */
+// Footer
 .footer {
   color: $gray;
   margin-top: 8em;
   margin-bottom: 2em;
   text-align: center;
-  font-size: $small-font-size;
-  font-family: $first-font-family;
 
   @include media-query($on-mobile) {
     margin-top: 3em;
