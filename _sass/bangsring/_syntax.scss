@@ -1,7 +1,4 @@
-/**
- * Code formatting
- */
-
+// Code
 code {
   text-rendering: optimizeLegibility;
   font-feature-settings: "calt" 1;
@@ -17,14 +14,15 @@ code {
   border: 1px solid #d8d8d8;
   background-color: #f6f6f6;
   border-radius: 2px;
-  font-family: $syntax-font-family;
+  font-family: $mono-family;
 }
 
+// Codeblock Theme
 pre.highlight {
   margin: 0 calc(51% - 51vw);
   padding: 25px;
   line-height: 1;
-  font-family: $syntax-font-family;
+  font-family: $mono-family;
   display: block;
   overflow-x: auto;
 
