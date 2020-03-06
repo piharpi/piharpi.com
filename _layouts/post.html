@@ -5,7 +5,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{% include head.html %}
+{% include header.html %}
 
 <body>
   {% include navbar.html %}
@@ -62,7 +62,7 @@ layout: compress
       <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
     {% endif %}
     {% if page.next or page.previous %}
-      {% include post-nav.html %}
+      {% include navigation.html %}
     {% endif %}
   </div>
 
