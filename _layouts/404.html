@@ -4,7 +4,9 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
-{% include head.html %}
+  
+{% include header.html %}
+
 <style>
 body {
   border: 0;
@@ -21,7 +23,6 @@ body {
 .title {
   font-size: 5em;
   font-weight: bold;
-  font-family: 'Fira Code';
   line-height: 1.1;
   color: #ff5555;
   text-shadow: 1px 0px 0px#b45151;
