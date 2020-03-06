@@ -7,7 +7,7 @@ description: Shell adalah sebuah command-line interpreter; program yang berperan
 image: "/assets/img/posts/shell_evolution.png"
 ---
 
-<a href="http://www.youtube.com/watch?v=tc4ROCJYbm0&t=70" target="_blank" rel="noopener">Dulu ↱</a> Sebelum adanya <abbr title="Graphical User Interface">GUI</abbr> cara user berinteraksi dengan komputer menggunakan CLI yaitu mengetik baris perintah pada sebuah antarmuka dalam bentuk baris teks serperti 👇.
+<a href="http://www.youtube.com/watch?v=tc4ROCJYbm0&t=70" target="_blank" rel="noopener">Dulu ↱</a> Sebelum adanya <abbr title="Graphical User Interface">GUI</abbr> cara user berinteraksi dengan komputer menggunakan <abbr title="Command Line Interface">CLI</abbr> yaitu mengetik baris perintah pada sebuah antarmuka dalam bentuk baris teks seperti 👇.
 
 <figure>
 <img src="/assets/img/posts/terminal_nginx.gif" alt="installing nginx in ubuntu">
@@ -76,15 +76,15 @@ Shell mempunyai beberapa macam dan turunan, berikut yang paling umum.
 
 Sedikit penjelasan dari gambar diatas.
 
-- Bourne shell **`sh`**
-  Dikembangkan oleh Stephen Bourne di Bell Labs, yang kala itu sebagai pengganti Thompson shell(diciptakan Ken Thompson), banyak sistem unix-like tetap memiliki `/bin/sh`—yang mana menjadi symbolic link atau hard link, bahkan ketika shell lain yang digunakan tetap **`sh`** adalah sebagai dasarnya, sebagai kompatibilitas perintah.
-- Korn shell **`ksh`** Unix shell yang dikembangkan oleh David Korn di Bell Labs,
-  inisialiasi pengembangan ini berdasar pada source code Bourne shell, namun juga memiliki fitur **`csh`** dan **`sh`**, pengembanganya pun pada saat saya menulis ini pun terus <a href="http://github.com/att/ast" target="_blank" rel="noopener">terawat ↱</a>.
-- Bourne again shell **`bash`**
-  adalah proyek ini open source <a href="http://gnu.org/software/bash/" target="_blank" rel="noopener">GNU project ↱</a> memilki kompatibel dengan **`sh`** yang menggabungkan fitur penting dari **`ksh`** dan **`csh`**, dan menjadi salah satu shell yang paling umum digunakan (umumnya menjadi default shell login Linux dan Apple's macOS Mojave).
-- Z shell **`zsh`** ini mempunyai wadah komunitasnya disebutnya <a href="http://ohmyz.sh/" target="_blank" rel="noopener">"Oh My Zsh" ↱</a>, plug-in dan theme `zsh` bisa kita temukan di komunitas ini, saya saat ini menggunakan `zsh`, shell ini juga menjadi default dari sistem operasi macOS Catalina, yang menggantikan bash.
+- Bourne shell `sh`
+  Dikembangkan oleh Stephen Bourne di Bell Labs, yang kala itu sebagai pengganti Thompson shell(diciptakan Ken Thompson), banyak sistem unix-like tetap memiliki `/bin/sh`—yang mana menjadi symbolic link atau hard link, bahkan ketika shell lain yang digunakan tetap `sh` adalah sebagai dasarnya, sebagai kompatibilitas perintah.
+- Korn shell `ksh` Unix shell yang dikembangkan oleh David Korn di Bell Labs,
+  inisialiasi pengembangan ini berdasar pada source code Bourne shell, namun juga memiliki fitur `csh` dan `sh`, pengembanganya pun pada saat saya menulis ini pun terus <a href="http://github.com/att/ast" target="_blank" rel="noopener">terawat ↱</a>.
+- Bourne again shell `bash`
+  adalah proyek ini open source <a href="http://gnu.org/software/bash/" target="_blank" rel="noopener">GNU project ↱</a> memilki kompatibel dengan `sh` yang menggabungkan fitur penting dari `ksh` dan `csh`, dan menjadi salah satu shell yang paling umum digunakan (umumnya menjadi default shell login Linux dan Apple's macOS Mojave).
+- Z shell `zsh` ini mempunyai wadah komunitasnya disebutnya <a href="http://ohmyz.sh/"    target="_blank" rel="noopener">"Oh My Zsh" ↱</a>, plug-in dan theme `zsh` bisa kita temukan di komunitas ini, saya saat ini menggunakan `zsh`, shell ini juga menjadi default dari sistem operasi macOS Catalina, yang menggantikan bash.
 
-* friendly interactive shell **`fish`**
+- friendly interactive shell `fish`
   yah sesuai dengan <a href="http://fishshell.com/" target="_blank" rel="noopener">deskripsi ↱</a> di web nya, menurut saya shell ini fun banget, fitur yang saya sukai dari shell ini autosuggestions, dan konfigurasi yang mudah melalui web based.
 
 Masih banyak yang belum dijelaskan pada tulisan ini jika masih tertarik, baca lebih <a href="http://en.wikipedia.org/wiki/List_of_command-line_interpreters#Operating_system_shells" target="_blank" rel="noopener">banyak ↱</a> dan juga <a href="http://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="noopener">komparasinya ↱</a> masing-masing shell.
