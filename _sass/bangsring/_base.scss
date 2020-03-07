@@ -1,6 +1,4 @@
-/**
- * Reset some basic elements
- */
+// Reset some basic elements
 html {
   overflow-x: hidden;
   width: 100%;
@@ -26,15 +24,14 @@ figure {
   padding: 0;
 }
 
-/**
- * Basic styling
- */
+// Basic styling
 body {
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
+  color: $text-base-color;
   background-color: $white;
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $sans-family;
+  font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-font-feature-settings: "kern" 1;
@@ -46,13 +43,11 @@ body {
 
   @include media-query($on-mobile) {
     $base-font-size: 18px;
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $sans-family;
+    font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   }
 }
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+// Set `margin-bottom` to maintain vertical rhythm
 h1,
 h2,
 h3,
@@ -71,12 +66,14 @@ figure,
   margin-bottom: $spacing-full - 20;
 }
 
+// strong | kbd
 strong,
 b {
   font-weight: 600;
   color: $black;
 }
 
+// kbd tag
 kbd {
   -moz-border-radius: 3px;
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px $white inset;
@@ -97,9 +94,7 @@ kbd {
   text-shadow: 0 1px 0 $white;
 }
 
-/**
- * Images
- */
+// Image
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -108,32 +103,24 @@ img {
   text-align: center;
 }
 
-/**
- * Figures
- */
+// Figure
 figure {
   position: relative;
 }
 
-/**
- * Images
- */
+// Image inside Figure tag
 figure > img {
   display: block;
   position: relative;
 }
 
-/**
- * Caption Image
- */
+// Image caption
 figcaption {
   font-size: 13px;
   text-align: center;
 }
 
-/**
- * Lists
- */
+// List
 ul,
 ol {
   margin-left: $spacing-full - 10;
@@ -144,7 +131,7 @@ li {
   padding-top: 1px;
 
   &:before {
-    color: $black !important;
+    color: $black;
   }
 
   > ul,
@@ -154,18 +141,18 @@ li {
   }
 }
 
-/**
- * Headings
- */
+// Headings
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: $base-font-weight;
+  color: $black;
+  font-weight: $bold-weight;
 }
 
+// Headings with link
 h1 > a,
 h2 > a,
 h3 > a,
@@ -181,17 +168,13 @@ h6 > a {
   }
 }
 
-/**
- * Links
- */
+// Link
 a {
   color: inherit;
   text-decoration-color: $smoke;
-  // opacity: 0.8;
 
   &:hover {
-    color: $blue;
-    opacity: 1;
+    color: $text-link-blue;
   }
 
   &:focus {
@@ -200,23 +183,17 @@ a {
   }
 }
 
-/**
- * Del
- */
+// Del
 del {
   color: inherit;
 }
 
-/**
- * Em
- */
+// Em
 em {
   color: inherit;
 }
 
-/**
- * Blockquotes
- */
+// Blockquotes
 blockquote {
   color: $gray;
   font-style: italic;
@@ -235,9 +212,7 @@ blockquote {
   }
 }
 
-/**
- * Wrapper
- */
+// Wrapper
 .wrapper {
   max-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full} * 2));
   max-width: calc(#{$narrow-size} - (#{$spacing-full} * 2));
@@ -256,20 +231,17 @@ blockquote {
   }
 }
 
+// Underline
 u {
   text-decoration-color: #d2c7c7;
 }
 
-/**
- * Small
- */
+// Small
 small {
   font-size: 16px;
 }
 
-/**
- * Superscript
- */
+// Superscript
 sup {
   border-radius: 10%;
   top: -3px;
@@ -278,9 +250,7 @@ sup {
   position: relative;
 }
 
-/**
- * Table
- */
+// Table
 table {
   margin: 0 auto;
   border-collapse: collapse;
@@ -302,27 +272,21 @@ table {
   }
 }
 
-/**
- * Clearfix
- */
+// Clearfix
 %clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/**
- * When mouse block a text set this color
- */
+// When mouse block a text set this color
 mark,
 ::selection {
   background: #fffba0;
   color: $black;
 }
 
-/**
- * Github Gist clear border 
- */
+// Github Gist clear border
 .gist {
   table {
     border: 0;
