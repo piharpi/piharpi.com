@@ -2,7 +2,7 @@
 layout: post
 title: Cara ribet memperbarui forked repo
 date: 2020-01-29 01:00 +0700
-modified: 2020-02-02 16:49:47 +07:00
+modified: 2020-03-07 16:49:47 +07:00
 description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
 tag:
   - tips
@@ -20,7 +20,7 @@ Berawal dari saya pengen memperbarui repo yang tua dari suatu organisasi, niatny
 
 Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
 
-#### Melalui Github (cara boring) 💻
+### Melalui Github (cara boring) 💻
 
 1. Buka repo yang hasil fork di Github.
 1. Klik **Pull Requests** di sebelah kanan, lalu **New Pull Request**.
@@ -30,7 +30,7 @@ Ada dua cara untuk memperbarui forked repository menggunakan web interface yang 
 
 \* _pastikan kamu tidak merubah apapun pada forked repo, supaya melakukan merge secara otomatis, kalo tidak ya paling2 konflik._
 
-#### Melalui terminal ⌨️
+### Melalui terminal ⌨️
 
 Tambahkan remote alamat repository yang aslinya disini tak beri nama `upstream`., ganti `ORIGINAL_OWNER` dan `ORIGINAL_REPO` dengan alamat repo aslimu.
 
