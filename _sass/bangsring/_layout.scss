@@ -27,7 +27,6 @@
 
   .menu-link {
     color: $black;
-    font-family: $sans-family;
     line-height: $base-line-height + 0.4;
     text-decoration: none;
     padding: 5px 8px;
@@ -192,6 +191,7 @@
 
   .post-item-title {
     margin: 0;
+    color: $text-base-color;
     font-weight: normal;
     letter-spacing: 0.1px;
 
