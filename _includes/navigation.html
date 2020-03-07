@@ -4,13 +4,13 @@
     class="post-nav-item post-nav-prev"
     href="{{ page.previous | relative_url }}"
   >
-    <h4>Previous</h4>
-    <span>{{ page.previous.title }}</span>
+    <div class="nav-arrow">Previous</div>
+    <span class="post-title">{{ page.previous.title }}</span>
   </a>
   {% endif %} {% if page.next %}
   <a class="post-nav-item post-nav-next" href="{{ page.next | relative_url }}">
-    <h4>Next</h4>
-    <span>{{ page.next.title }}</span>
+    <div class="nav-arrow">Next</div>
+    <span class="post-title">{{ page.next.title }}</span>
   </a>
   {% endif %}
 </nav>
