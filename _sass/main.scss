@@ -5,23 +5,32 @@ $mono-family: "Ubuntu Mono", monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
-$base-font-weight: 400;
 $base-line-height: 1.85;
 
-// Light Color
+// Font weight
+// $light-weight: 300; // uncomment if necessary
+$normal-weight: 400;
+$bold-weight: 700;
+// $black-weight: 900; // uncomment if necessary
+
+//LightColor
+$text-base-color: #434648;
+$text-link-blue: #003fff;
+$text-link-blue-active: #0036c7;
+
 $yellow: #fee037;
 $orange: #fe9b37;
 $black: #0d122b;
 $light: #ececec;
 $smoke: #d2c7c7;
-$gray: #434648;
+$gray: #6b7886;
 $white: #fff;
 
-$base-text-color: #3c3f41;
-$blue: #003fff;
-$blue-active: #0036c7;
-
 // TODO:  Collect dark theme color.
+// $text-base-color: #3c3f41;
+// $text-link-blue: #003fff;
+// $text-link-blue-active: #0036c7;
+
 // $black: #0d122b;
 // $white: #fff;
 // $base: #f9f9f9;
@@ -58,4 +67,4 @@ $on-widescreen: 1152px;
 
 // Import sass files
 @import "bangsring/fonts", "bangsring/base", "bangsring/layout",
-  "bangsring/page", "bangsring/miscellaneous", "bangsring/syntax";
+  "bangsring/post", "bangsring/miscellaneous", "bangsring/syntax";
