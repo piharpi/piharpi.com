@@ -16,7 +16,7 @@ image: "/assets/img/posts/shell_evolution.png"
 
 Jika kamu pernah menggunakan unix/linux mungkin pernah menggunakan program diatas, bahkan mungkin setiap hari menggunakannya untuk mengeksekusi suatu perintah melalui <a href="http://en.wikipedia.org/wiki/List_of_terminal_emulators" target="_blank" rel="noopener">terminal emulator</a>.
 
-User<sup>[[1]](#user)</sup> tidak bisa secara langsung berkomunikasi dengan sebuah hardware komputer, maka dari itu kita membutuhkan sebuah sistem operasi; **Kernel** adalah program yang merupakan inti utama dari sistem operasi komputer.
+User<sup id="user">[[1]](#user-ref)</sup> tidak bisa secara langsung berkomunikasi dengan sebuah hardware komputer, maka dari itu kita membutuhkan sebuah sistem operasi; **Kernel** adalah program yang merupakan inti utama dari sistem operasi komputer.
 
 <figure>
 <img src="/assets/img/posts/kernel.png" alt="kernel central of operating system">
@@ -110,10 +110,11 @@ Terakhir untuk tulisan ini, shell memilki berbagai macam, pilihlah shell yang se
 
 Terimakasih sudah baca, _penulis menerima kritik dan saran._
 
-<small>Notes</small><br>
-<small id="user"><sup>[1]</sup> "User" Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small>
+##### Notes
 
-##### Resource
+<small id="user-ref"><sup>[[1]](#user)</sup> Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small>
+
+##### Resources
 
 - [Evolution shells in Linux](http://developer.ibm.com/tutorials/l-linux-shells/)
 - [Kernel Defintion](http://www.linfo.org/kernel.html)
