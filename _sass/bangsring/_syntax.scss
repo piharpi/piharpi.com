@@ -1,5 +1,6 @@
 // Code
 code {
+  font-family: $mono-family;
   text-rendering: optimizeLegibility;
   font-feature-settings: "calt" 1;
   font-variant-ligatures: normal;
@@ -8,35 +9,32 @@ code {
   word-break: normal;
   word-wrap: normal;
   font-size: 16px;
-  padding: 1px 4px;
-  position: relative;
-  top: -1px;
-  border: 1px solid #d8d8d8;
-  background-color: #f6f6f6;
-  border-radius: 2px;
-  font-family: $mono-family;
+  &.highlighter-rouge {
+    padding: 1px 4px;
+    position: relative;
+    top: -1px;
+    background-color: #f6f6f6;
+    border-radius: 2px;
+  }
 }
 
 // Codeblock Theme
 pre.highlight {
-  margin: 0 calc(51% - 51vw);
-  padding: 25px;
-  line-height: 1;
-  font-family: $mono-family;
+  // margin: 0 calc(51% - 51vw);
+  margin: 0 calc(50% - 26vw);
+  border-radius: 2px;
+  padding: 10px;
   display: block;
   overflow-x: auto;
 
   > code {
     width: 100%;
-    max-width: 43rem;
+    max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
     display: block;
     border: 0;
-    font-variant-ligatures: normal;
-    background-color: transparent;
-    font-feature-settings: "calt" 1;
   }
 }
 
@@ -51,12 +49,12 @@ pre.highlight {
 .highlight,
 .highlight .w {
   color: #fbf1c7;
-  background-color: #282828;
+  background-color: #181819;
 }
 
 .highlight .err {
   color: #fb4934;
-  background-color: #282828;
+  background-color: #181819;
   font-weight: bold;
 }
 

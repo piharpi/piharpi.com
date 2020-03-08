@@ -20,6 +20,8 @@ So, before we start create a site, you need some tools, you can self paced for h
 
 #### Prerequisites
 
+Requirements before we doing magic show.
+
 - [Ruby](https://www.ruby-lang.org/en/downloads/) programming language
 - [Git](https://git-scm.com) (version control)
 - [Netlify](https://netlify.com) and [Github](https://github.com) account
@@ -55,7 +57,7 @@ Go [netlify](https://netlify.com) dashboard, and following this step.
 
 1. click `new site from git`, then choose `Github`.
 2. then choose your repository where is the jekyll sources uploaded.
-3. netlify smart enough to configuring, we just need to click `Deploy site button`.
+3. netlify smart enough to configuring, we just need's are hosting's are hosting's are hosting's are hosting to click `Deploy site button`.
 
 Wait for moment, and voila..! your site's are hosting and using `.netlify.com` tld, if your website wants to look professional, just buy a domain from your favorite domain store. or if you the first time, I advice using namecheap.com*(isn't sponsor)* \*based on my experienced it provides good service and have various TLDs.
 
