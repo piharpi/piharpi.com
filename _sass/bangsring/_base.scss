@@ -204,14 +204,7 @@ h6 > a {
 a {
   color: inherit;
   text-decoration-color: $smoke;
-  &[target="_blank"]::after {
-    content: " \2197";
-    font-size: $small-font-size;
-    line-height: 0;
-    position: relative;
-    bottom: 5px;
-    vertical-align: baseline;
-  }
+
   &:hover {
     color: $text-link-blue;
   }
