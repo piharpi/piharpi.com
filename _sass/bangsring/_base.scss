@@ -121,9 +121,46 @@ figcaption {
 }
 
 // List
+ul {
+  list-style: none;
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+  li::before {
+    content: "\03BB";
+    display: inline-block;
+    width: 1em;
+    position: relative;
+    margin-left: -1em;
+    font-weight: $bold-weight;
+  }
+}
+
+ol {
+  list-style: none;
+  counter-reset: li;
+  li {
+    position: relative;
+    counter-increment: li;
+    &::before {
+      content: counter(li);
+      display: inline-block;
+      width: 1em;
+      margin-right: 0.5em;
+      margin-left: -1.6em;
+      text-align: right;
+      direction: rtl;
+      font-weight: $bold-weight;
+      font-size: $small-font-size;
+    }
+  }
+}
+
 ul,
 ol {
-  margin-left: $spacing-full - 10;
+  margin-top: 0;
+  margin-left: $spacing-full;
 }
 
 li {
@@ -150,6 +187,10 @@ h5,
 h6 {
   color: $black;
   font-weight: $bold-weight;
+  & + ul,
+  & + ol {
+    margin-top: 10px;
+  }
 }
 
 // Headings with link
@@ -172,7 +213,14 @@ h6 > a {
 a {
   color: inherit;
   text-decoration-color: $smoke;
-
+  &[target="_blank"]::after {
+    content: " \2197";
+    font-size: $small-font-size;
+    line-height: 0;
+    position: relative;
+    bottom: 5px;
+    vertical-align: baseline;
+  }
   &:hover {
     color: $text-link-blue;
   }
