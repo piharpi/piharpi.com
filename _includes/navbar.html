@@ -3,16 +3,13 @@
     <input type="checkbox" id="menu-trigger" class="menu-trigger" />
     <label for="menu-trigger">
       <span class="menu-icon">
-        <svg viewBox="0 0 18 15" width="18px" height="15px" style="background: white;">
-          <path fill="#fff"
-            d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
-          <path fill="#fff"
-            d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
-          <path fill="#fff"
-            d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
-        </svg>
+        <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 512 512'><path d='M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z'/></svg>
       </span>
     </label>
+    <a id="mood">
+      <svg class="mood-sunny" xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 512 512'><title>LIGHT</title><line x1='256' y1='48' x2='256' y2='96' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='256' y1='416' x2='256' y2='464' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='403.08' y1='108.92' x2='369.14' y2='142.86' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='142.86' y1='369.14' x2='108.92' y2='403.08' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='464' y1='256' x2='416' y2='256' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='96' y1='256' x2='48' y2='256' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='403.08' y1='403.08' x2='369.14' y2='369.14' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='142.86' y1='142.86' x2='108.92' y2='108.92' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><circle cx='256' cy='256' r='80' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/></svg>
+      <svg class="mood-moon" xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 512 512'><title>DARK</title><line x1='256' y1='48' x2='256' y2='96' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='256' y1='416' x2='256' y2='464' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='403.08' y1='108.92' x2='369.14' y2='142.86' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='142.86' y1='369.14' x2='108.92' y2='403.08' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='464' y1='256' x2='416' y2='256' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='96' y1='256' x2='48' y2='256' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='403.08' y1='403.08' x2='369.14' y2='369.14' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='142.86' y1='142.86' x2='108.92' y2='108.92' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><circle cx='256' cy='256' r='80' style='stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/></svg>
+    </a>
     <div class="trigger">
       <div class="trigger-container">
         {% assign url = page.url %}
