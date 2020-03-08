@@ -6,7 +6,7 @@ excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. his blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/mahendrata.now.sh" target="_blank" rel="noopener">bangsring</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/mahendrata.now.sh" target="_blank" rel="noopener">bangsring</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
 
 If you have a question about him or else, just send a letter to him.
 
