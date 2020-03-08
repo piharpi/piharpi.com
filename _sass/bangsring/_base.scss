@@ -76,16 +76,12 @@ b {
 // kbd tag
 kbd {
   -moz-border-radius: 3px;
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px $white inset;
   -webkit-border-radius: 3px;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px $white inset;
-  background-color: #f7f7f7;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px $white inset;
-  color: #333;
+  border: 1px solid $light;
+  border-radius: 2px;
+  color: $black;
   display: inline-block;
-  font-size: 14px;
+  font-size: $small-font-size;
   line-height: 1.4;
   font-family: $mono-family;
   margin: 0 0.1em;
