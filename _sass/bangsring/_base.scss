@@ -40,11 +40,6 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   box-sizing: border-box;
-
-  @include media-query($on-mobile) {
-    $base-font-size: 18px;
-    font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
-  }
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
