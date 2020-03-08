@@ -21,7 +21,7 @@ Setelah menjalankan perintah diatas, jangan lupa untuk mengubah versi database a
 
 #### Mematikan Jekyll Server
 
-Mengehentikan server Jekyll dengan tombol <kbd>CTRL</kbd> + <kbd>Z</kbd> tidak mengehentikan proses secara penuh, untuk menangani hal ini matikan `PID` dengan cara ini.
+Mengehentikan server Jekyll dengan tombol <kbd>CTRL</kbd> + <kbd>Z</kbd> tidak menghentikan proses secara penuh, untuk menangani hal ini matikan `PID` dengan cara ini.
 
 ```bash
 $ lsof -wni tcp:4000
