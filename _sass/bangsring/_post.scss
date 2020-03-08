@@ -153,7 +153,8 @@
       &::before {
         content: "#";
         position: absolute;
-        right: 5px;
+        right: -3px;
+        width: 1em;
         font-weight: $bold-weight;
       }
     }
@@ -184,12 +185,6 @@
   h6 {
     @include relative-font-size(0.875);
   }
-}
-
-hr {
-  border-bottom: 0;
-  border-style: solid;
-  border-color: $light;
 }
 
 .post-nav {

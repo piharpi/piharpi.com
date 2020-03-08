@@ -12,33 +12,27 @@ $normal-weight: 400;
 $bold-weight: 700;
 // $black-weight: 900; // uncomment if necessary
 
-//LightColor
+//Light Colors
 $text-base-color: #434648;
 $text-link-blue: #003fff;
 $text-link-blue-active: #0036c7;
 
-$yellow: #fee037;
-$orange: #fe9b37;
 $black: #0d122b;
 $light: #ececec;
 $smoke: #d2c7c7;
 $gray: #6b7886;
 $white: #fff;
 
-// TODO:  Collect dark theme color.
-// $text-base-color: #3c3f41;
-// $text-link-blue: #003fff;
-// $text-link-blue-active: #0036c7;
+// Dark Colors
+$dark-text-base-color: #d9d7e0;
+$dark-text-link-blue: #ff5277;
+$dark-text-link-blue-active: #ff2957;
 
-// $black: #0d122b;
-// $white: #fff;
-// $base: #f9f9f9;
-// $gray: #283c46;
-// $blue: #0036c7;
-// $yellow: #fee037;
-// $light: #ececec;
-// $smoke: #d2c7c7;
-// $orange: #fe9b37;
+$dark-black: #131418;
+$dark-white: #f0f8ff;
+$dark-light: #1b1d25;
+$dark-smoke: #4a4d56;
+$dark-gray: #767f87;
 
 // Width of the content area
 $wide-size: 890px;
@@ -66,4 +60,5 @@ $on-widescreen: 1152px;
 
 // Import sass files
 @import "bangsring/fonts", "bangsring/base", "bangsring/layout",
-  "bangsring/post", "bangsring/miscellaneous", "bangsring/syntax";
+  "bangsring/post", "bangsring/miscellaneous", "bangsring/syntax",
+  "bangsring/dark";

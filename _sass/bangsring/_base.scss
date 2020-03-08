@@ -61,11 +61,18 @@ figure,
   margin-bottom: $spacing-full - 20;
 }
 
-// strong | kbd
+// strong | bold
 strong,
 b {
-  font-weight: 600;
+  font-weight: $bold-weight;
   color: $black;
+}
+
+// horizontal rule
+hr {
+  border-bottom: 0;
+  border-style: solid;
+  border-color: $light;
 }
 
 // kbd tag
@@ -80,7 +87,7 @@ kbd {
   line-height: 1.4;
   font-family: $mono-family;
   margin: 0 0.1em;
-  font-weight: 700;
+  font-weight: $bold-weight;
   padding: 0.01em 0.4em;
   text-shadow: 0 1px 0 $white;
 }
@@ -290,7 +297,7 @@ table {
   font-size: $small-font-size;
 
   th {
-    font-weight: 700;
+    font-weight: $bold-weight;
     background: #f5f5f5;
     text-align: left;
     border-bottom: 2px solid #f5f5f5;
