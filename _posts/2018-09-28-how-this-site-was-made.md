@@ -10,7 +10,7 @@ The website was made using Jekyll the one of open source static sites generator,
 
 <hr>
 
-All the services are free, source code the site was placed on my [github](https://github.com/piharpi/piharpi.com) repository and intergration with [netlify](https://netlify.com) service, another service that you can use is [github page](https://pages.github.com/) for hosting your own static site.
+All the services are free, source code the site was placed on my [github](https://github.com/piharpi/mahendrata.now.sh) repository and intergration with [netlify](https://netlify.com) service, another service that you can use is [github page](https://pages.github.com/) for hosting your own static site.
 
 <hr>
 

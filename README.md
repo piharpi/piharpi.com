@@ -7,8 +7,8 @@ Personal website running on Jekyll, Ruby, Netlify and [Bangsring](https://github
 Run local server:
 
 ```bash
-git clone https://github.com/piharpi/piharpi.com.git
-cd piharpi.com
+git clone https://github.com/piharpi/mahendrata.now.sh.git
+cd mahendrata.now.sh
 bundle install
 bundel exec jekyll serve
 ```
