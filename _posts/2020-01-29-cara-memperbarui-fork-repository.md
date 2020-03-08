@@ -20,7 +20,7 @@ Berawal dari saya pengen memperbarui repo yang tua dari suatu organisasi, niatny
 
 Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
 
-### Melalui Github (cara boring) 💻
+### Melalui Github (boring way) 💻
 
 1. Buka repo yang hasil fork di Github.
 1. Klik **Pull Requests** di sebelah kanan, lalu **New Pull Request**.
