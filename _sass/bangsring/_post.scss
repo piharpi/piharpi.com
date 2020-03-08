@@ -152,21 +152,21 @@
   }
 
   h1 {
-    @include relative-font-size(1.75);
+    @include relative-font-size(1.5);
   }
 
   h2 {
-    @include relative-font-size(1.563);
+    @include relative-font-size(1.375);
   }
 
   h3 {
-    @include relative-font-size(1.438);
+    @include relative-font-size(1.25);
     border-bottom: 1px solid $light;
     padding-bottom: 4px;
   }
 
   h4 {
-    @include relative-font-size(1.188);
+    @include relative-font-size(1.25);
   }
 
   h5 {
