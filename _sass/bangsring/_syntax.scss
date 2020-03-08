@@ -20,8 +20,11 @@ code {
 
 // Codeblock Theme
 pre.highlight {
-  // margin: 0 calc(51% - 51vw);
   margin: 0 calc(50% - 26vw);
+  @include media-query($on-mobile) {
+    margin: 0 calc(51% - 51vw);
+    padding-left: 20px;
+  }
   border-radius: 2px;
   padding: 10px;
   display: block;
