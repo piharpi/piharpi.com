@@ -1,7 +1,8 @@
 (() => {
   // Theme switch
-  const themeSwitch = document.getElementById("mood");
   const root = document.body;
+  const themeSwitch = document.getElementById("mood");
+  const themeData = root.getAttribute("data-theme");
 
   if (themeSwitch) {
     initTheme(localStorage.getItem("theme"));
@@ -27,7 +28,7 @@
       } else if (state === "light") {
         root.removeAttribute("data-theme");
       } else {
-        localStorage.setItem("theme", "light");
+        localStorage.setItem("theme", themeData);
       }
     }
   }
