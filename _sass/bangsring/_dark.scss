@@ -184,4 +184,21 @@ body[data-theme="dark"] {
       }
     }
   }
+
+  // 404 Page
+  .wrapper.not-found {
+    .title {
+      color: $dark-white;
+      text-shadow: 1px 0px 0px $dark-text-link-blue;
+    }
+    .phrase {
+      color: $dark-text-base-color;
+    }
+    .solution {
+      color: $dark-text-link-blue;
+    }
+    .solution:hover {
+      color: $dark-text-link-blue-active;
+    }
+  }
 }
