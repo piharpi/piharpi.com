@@ -1,9 +1,9 @@
-- title: "home"
+- title: home
   url: /
 
-- title: "about"
+- title: about
   url: /about/
 
-- title: "notes"
+- title: notes
   url: /notes/
   external: false
