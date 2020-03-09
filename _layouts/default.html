@@ -3,7 +3,7 @@ layout: compress
 ---
 <!--
   🚨 Oh so you're an inspector? 
-  You may need this: https://github.com/piharpi/mahendrata.now.sh you're welcome.
+  You may need this: {{ site.repo }} you're welcome.
 -->
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
@@ -19,5 +19,5 @@ layout: compress
     {% include footer.html %}
   </div>
 </body>
-
+<!-- LAST BUILD: {{ site.time | date_to_rfc822 }} -->
 </html>

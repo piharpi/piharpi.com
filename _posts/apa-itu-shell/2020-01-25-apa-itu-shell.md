@@ -4,13 +4,13 @@ date: 2020-01-25 11:58:47 +07:00
 modified: 2020-02-02 16:49:47 +07:00
 tags: [unix/linux, cli]
 description: Shell adalah sebuah command-line interpreter; program yang berperan sebagai penerjemah perintah yang diinputkan oleh User yang melalui terminal, sehingga perintah tersebut bisa dimengerti oleh si Kernel.
-image: "/assets/img/posts/shell_evolution.png"
+image: "/apa-itu-shell/shell_evolution.png"
 ---
 
 <a href="http://www.youtube.com/watch?v=tc4ROCJYbm0&t=70" target="_blank" rel="noopener">Dulu</a> Sebelum adanya <abbr title="Graphical User Interface">GUI</abbr> cara user berinteraksi dengan komputer menggunakan <abbr title="Command Line Interface">CLI</abbr> yaitu mengetik baris perintah pada sebuah antarmuka dalam bentuk baris teks seperti 👇.
 
 <figure>
-<img src="/assets/img/posts/terminal_nginx.gif" alt="installing nginx in ubuntu">
+<img src="/apa-itu-shell/terminal_nginx.gif" alt="installing nginx in ubuntu">
 <figcaption>Fig 1. Terminal emulator, instalasi package dan check service.</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ Jika kamu pernah menggunakan unix/linux mungkin pernah menggunakan program diata
 User<sup id="user">[[1]](#user-ref)</sup> tidak bisa secara langsung berkomunikasi dengan sebuah hardware komputer, maka dari itu kita membutuhkan sebuah sistem operasi; **Kernel** adalah program yang merupakan inti utama dari sistem operasi komputer.
 
 <figure>
-<img src="/assets/img/posts/kernel.png" alt="kernel central of operating system">
+<img src="/apa-itu-shell/kernel.png" alt="kernel central of operating system">
 <figcaption>Fig 2. bagan kernel.</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Kernel memfasilitasi interaksi antara komponen perangkat keras dan perangkat lun
 Ketika kita menginputkan suatu perintah pada terminal emulator, kernel tidak langsung mengerti perintah yang kita ketik, kita membutuhkan suatu interface sebagai perantara menuju kernel yaitu **Shell**.
 
 <figure>
-<img src="/assets/img/posts/shell.png" alt="shell">
+<img src="/apa-itu-shell/shell.png" alt="shell">
 <figcaption>Fig 3. bagan komunikasi shell.</figcaption>
 </figure>
 
@@ -54,14 +54,14 @@ $ (dollar sign)   # sh, ksh, bash
 Shell prompt adalah tempat dimana kita menuliskan suatu perintah, berikut adalah terminologinya ini membantu, jika kamu ingin mengetahui bagian-bagianya.
 
 <figure>
-<img src="/assets/img/posts/term_shell_prompt.png" alt="shell">
+<img src="/apa-itu-shell/term_shell_prompt.png" alt="shell">
 <figcaption>Fig 4. bagian-bagin dari shell prompt.</figcaption>
 </figure>
 
 Dibawah ini salah satu contoh perintah sederhana untuk menampilkan sebuah arsitektur CPU komputer yang sedang saya gunakan.
 
 <figure>
-<img src="/assets/img/posts/terminal_lscpu.gif" alt="installing nginx in ubuntu">
+<img src="/apa-itu-shell/terminal_lscpu.gif" alt="installing nginx in ubuntu">
 <figcaption>Fig 5. menampilkan informasi tentang arsitektur CPU.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Dari perintah yang contohkan, ketika user mengetikan suatu inputan perintah di t
 Shell mempunyai beberapa macam dan turunan, berikut yang paling umum.
 
 <figure>
-<img src="/assets/img/posts/shell_evolution.png" alt="shell evolution">
+<img src="/apa-itu-shell/shell_evolution.png" alt="shell evolution">
 <figcaption>Fig 6. evaluasi shell dari tahun ke tahun.</figcaption>
 </figure>
 
