@@ -20,7 +20,7 @@ author:
 # Url settings
 url: "https://mahendrata.now.sh"
 baseurl:
-permalink: blog/:categories/:title/
+permalink: /:categories/:title/
 google_analytics:
 fb_appid:
 
