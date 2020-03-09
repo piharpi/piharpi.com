@@ -185,6 +185,20 @@ body[data-theme="dark"] {
     }
   }
 
+  // Footer
+  .footer {
+    span.footer_item {
+      color: $dark-white;
+    }
+    a.footer_item:not(:last-child) {
+      color: $dark-white;
+    }
+    .footer_theme-copyright {
+      color: $dark-gray;
+      opacity: 0.4;
+    }
+  }
+
   // 404 Page
   .wrapper.not-found {
     .title {

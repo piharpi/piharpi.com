@@ -267,9 +267,31 @@
   @include media-query($on-mobile) {
     margin-top: 3em;
   }
-
-  b:not(:last-child) {
+  span.footer_item {
     color: $black;
+    opacity: 0.8;
+    font-weight: $bold-weight;
+    font-size: $small-font-size;
+  }
+  a.footer_item {
+    color: $black;
+    opacity: 0.8;
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .footer_theme-copyright {
+    font-size: $small-font-size - 1;
+    margin-top: 3px;
+    display: block;
+    color: $gray;
+    opacity: 0.8;
   }
 }
 
