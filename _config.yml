@@ -7,6 +7,7 @@ lang: en-US
 timezone: Asia/Jakarta
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/piharpi/mahendrata.now.sh
+mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
