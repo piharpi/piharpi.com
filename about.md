@@ -10,7 +10,7 @@ He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation
 
 If you have a question about him or else, just send a letter to him.
 
-You can [report](http://github.com/piharpi/mahendrata.now.sh/issues/new) if there is an broken link(s) or somethings else.
+You can [report](mailto:{{site.author.email}}?subject=harpi.rock report&body=Write your report here... Thanks) if there is an broken link(s) or somethings else.
 
 ##### may u needs ✨
 
