@@ -15,22 +15,23 @@ excerpt: Sorted article by tags.
 
 <p>
 {% for tag in site.tags %}
-{% capture name %}{{ tag | first }}{% endcapture %}
-<a class="tag" href="">{{ name | upcase }}(2)</a>
+  {% capture name %}{{ tag | first }}{% endcapture %}
+  <a class="tag" href="#{{name | downcase | slugify}}">{{ name | upcase }}(2)</a>
 {% endfor %}
 </p>
-{% for tag in site.tags %} {% capture name %}{{ tag | first }}{% endcapture %}
 
-<h4 class="post-header" id="{{ name | downcase | slugify }}">
-  {{ name }}
-</h4>
-{% for post in site.tags[name] %}
-<article class="posts">
-  <span class="posts-date">{{ post.date | date: "%b %d" }}</span>
-  <header class="posts-header">
-    <h4 class="posts-title">
+{% for tag in site.tags %}
+{% capture name %}{{ tag | first }}{% endcapture %}
+
+  <h3 class="post-header" id="{{ name | downcase | slugify }}">
+    {{ name | downcase }}
+  </h3>
+
+  <ul>
+  {% for post in site.tags[name] %}
+  <li>
       <a href="{{ post.url }}">{{ post.title | escape }}</a>
-    </h4>
-  </header>
-</article>
-{% endfor %} {% endfor %}
+  </li>
+  {% endfor %} 
+  </ul>
+{% endfor %}
