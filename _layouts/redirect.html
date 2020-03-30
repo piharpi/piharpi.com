@@ -1,0 +1,23 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<meta http-equiv="refresh" content="0;url={{ page.redirect_url }}"/>
+{% include header.html %}
+<body>
+  <main aria-label="Content">
+    {% include navbar.html %}
+    <div class="wrapper not-found">
+      <div class="container">
+        <div class="title">{{ page.title }}</div>
+        <p class="phrase">Wait for moment it will be redirect to {{ page.title | downcase}}</p>
+        <a class="solution" href="{{ page.redirect_url }}">click here unless redirect</a>
+      </div>
+    </div>
+    {% include footer.html %}
+  </main>
+</body>
+
+</html>
