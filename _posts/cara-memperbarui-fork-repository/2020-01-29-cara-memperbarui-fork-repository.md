@@ -37,10 +37,10 @@ Tambahkan remote alamat repository yang aslinya disini tak beri nama `upstream`.
 ```bash
 $ git add remote upstream git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git
 $ git remote -v
-> origin    git@github.com:piharpi/www.git (fetch) # forked repo
-> origin    git@github.com:piharpi/www.git (push) # forked repo
-> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (fetch) # upstream repo / original repo
-> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (push) # upstream repo / original repo
+> origin git@github.com:piharpi/www.git (fetch) # forked repo
+> origin git@github.com:piharpi/www.git (push) # forked repo
+> upstream git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (fetch) # upstream repo / original repo
+> upstream git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (push) # upstream repo / original repo
 ```
 
 Checkout ke local branch `master`.
