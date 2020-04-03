@@ -28,7 +28,7 @@ Ada dua cara untuk memperbarui forked repository menggunakan web interface yang 
 1. Tekan **Create Pull Request**, beri judul pull request, Tekan **Send Pull Request**.
 1. Tekan **Merge Pull Request** dan **Confirm Merge**.
 
-\* _pastikan kamu tidak merubah apapun pada forked repo, supaya melakukan merge secara otomatis, kalo tidak ya paling2 konflik._
+_\*) pastikan kamu tidak merubah apapun pada forked repo, supaya melakukan merge secara otomatis, kalo tidak ya paling2 konflik._
 
 ### Melalui terminal ⌨️
 
