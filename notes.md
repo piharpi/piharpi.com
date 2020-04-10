@@ -1,8 +1,8 @@
 ---
-title: Pub Notes
+title: Micropost as a Notes
 permalink: /notes/
 layout: page
-excerpt: Catatan Public agar enggak usah pusing-pusing mengingat.
+excerpt: My simple and memorable article.
 comments: false
 ---
 
