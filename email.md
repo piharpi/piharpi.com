@@ -1,6 +1,6 @@
 ---
 title: Email
-redirect_url: mailto:mahendrata@harpi.rocks
+redirect_url: mailto:contact@harpi.rocks
 layout: redirect
 permalink: "/email/"
 ---
