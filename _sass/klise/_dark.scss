@@ -87,6 +87,11 @@ body[data-theme="dark"] {
     }
   }
 
+  // Image caption
+figcaption {
+  color: $dark-gray;
+}
+
   // List
   li {
     &:before {
