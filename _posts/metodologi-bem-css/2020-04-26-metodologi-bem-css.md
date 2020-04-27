@@ -5,6 +5,7 @@ date: 2020-04-26 01:00 +0700
 description: Konvensi penamaan suatu hal pada pemprograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 tag:
   - css
+  - frontend
   - cleancode
 image: /metodologi-bem-css/ilustrasi-bem-css.png
 ---
@@ -16,7 +17,7 @@ image: /metodologi-bem-css/ilustrasi-bem-css.png
 
 Konvensi penamaan suatu hal pada pemprograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 
-Sering terjadi; beberapa waktu tidak membuka file project yang semula kita paham dengan baris kode yang ditulis seketika lupa apa maksud baris kode tersebut, dikarenakan ke**tidak** strukturan kode dan penamaan yang tidak konsisten, sehingga hanya Tuhan saja yang mengetahui maksud baris kode tersebut.
+Sering terjadi; beberapa waktu tidak membuka file project yang semula kita paham dengan baris kode yang ditulis; seketika juga lupa apa maksud baris kode tersebut, kemungkinan dikarenakan struktur kode yang berantakan, penamaan class selector yang tidak memilki arti/makna yang jelas dan juga tidak memiliki kekonsistenan gaya penulisan, sehingga hanya Tuhan saja yang mengetahui maksud baris kode tersebut.
 
 Beruntungnya terdapat beberapa metodologi CSS yang bisa digunakan SMACSS, OOCSS, SUITCSS, Atomic dan **BEM** yang mana akan dibahas tulisan ini.
 
@@ -24,24 +25,24 @@ Metodologi BEM hadir bertujuan untuk menyelesaikan permasalahan diatas yaitu nam
 
 ### Dive in BEM
 
-BEM sendiri merupakan singkatan dari **B**lock, **E**lement, **M**odifier dari **tiga kata** tersebut miliki konsep kerja masing-masing, namun sebelum menjalaskan konsep itu, akan saya berikan ilustrasi pengimplementasianya supaya lebih mudah dipahami.
+BEM sendiri merupakan singkatan dari **B**lock, **E**lement, **M**odifier dari **tiga kata** tersebut miliki konsep kerja masing-masing, namun sebelum menjelaskan konsep itu, saya akan memberikan ilustrasi pengimplementasian BEM supaya lebih mudah dipahami.
 
 ---
 
-[Katakanlah](#kembali) saya akan membuat sebuah komponen **card** yang mana komponen ini memiliki gambar **background,** user **avatar,** **deskripsi** singkat dan **footer** yang berisi external **link** (github, twitter), berikut ini ilustrasi dalam gambar.
+[Katakanlah](#kembali) saya akan membuat sebuah komponen yang saya beri nama **card** yang mana komponen ini memiliki gambar **background,** user **avatar,** **deskripsi** singkat dan **footer** yang berisi external **link** (github, twitter), berikut ini ilustrasi dalam bentuk hand draw.
 
 <figure>
   <img src="/metodologi-bem-css/bem-css.png" alt="Konsep yang akan diterapkan dengan BEM CSS.">
   <figcaption>Fig 1. Konsep yang akan diterapkan dengan BEM CSS.</figcaption>
 </figure>
 
-Dari gambar diatas dapat dijelaskan bahwa:
+Dari gambar diatas saya akan menjelaskan mana yang bagian block, element dan modifier, berikut ini penjelasanya:
 
 **Block** merupkan entity yang berdiri sendiri, memiliki makna dirinya sendiri, pada gambar diatas bahwa card bertindak sebagai wrapper(pembungkus) dari element yang didalamnya, aturan penamaan block ialah `.namablock`, maka block card menjadi `.card`
 
 ---
 
-**Element** bagian dari **Block** yang tidak berdiri sendiri dan secara _semantic_ bergatung pada **Block**, contoh pada gambar diatas : background, avatar, title, description, footer merupakan bagian-bagian dari `.card`, karena posisinya berada didalam **Block** `.card`, aturan penamaan menggunakan double underline(\_\_) setelah nama block diikuti nama element `.namablock__namaelement` maka masing-masing element tersebut`.card__background` `.card__avatar` `.card__title` `.card__description` `.card__footer`.
+**Element** bagian dari **Block** yang tidak berdiri sendiri dan secara _semantic_ bergatung pada **Block**, contoh pada gambar diatas : background, avatar, title, description, footer merupakan bagian-bagian dari `.card`, karena posisinya berada didalam **Block** `.card`, aturan penamaan menggunakan double underline(\_\_) setelah nama block diikuti nama element `.namablock__namaelement` maka masing-masing element tersebut `.card__background` `.card__avatar` `.card__title` `.card__description` `.card__footer`.
 
 ---
 
@@ -116,7 +117,7 @@ Jika kita tuliskan di CSS, struktur akan lebih terlihat tegas, mempunyai makna y
 }
 ```
 
-Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--circle`? dapat dijelaskan disini, `.--circle` akan mengubah elemen `.__avatar` yang dimiliki oleh block `.card` menjadi bulat, cukup meaningful bukan?
+Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--circle`? dapat dijelaskan bahwa `.--circle` akan mengubah elemen `.__avatar` yang dimiliki oleh block `.card` menjadi bulat, cukup meaningful bukan?
 
 ```html
 <!-- Block .card sebuah component card -->
@@ -171,7 +172,7 @@ Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--cir
 
 ## Output Learning
 
-Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep diatas, sengaja tidak saya lampirkan CSS karena terlalu panjang nantinya, namun hasil dan source code bisa diakses pada [disini](https://codesandbox.io/s/bem-css-y55p2?file=/index.html) atau playground dibawah ini.
+Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep diatas, sengaja tidak saya lampirkan CSS karena terlalu panjang nantinya, namun hasil dan source code bisa diakses [disini](https://codesandbox.io/s/bem-css-y55p2?file=/index.html) atau playground dibawah ini.
 
 
 <iframe
@@ -185,7 +186,7 @@ Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep diat
 
 ### Conclusion
 
-BEM adalah sebuah metode _naming convention_ yang bertujuan menulis secara jelas classes sehingga memiliki makna yang tegas, tujuan dapat diprediksi(_predictable)_, sehingga sesama kolega mempunyai standar penulisan yang jelas, dan tidak saling membingungkan.
+BEM adalah sebuah metode _naming convention_ yang bertujuan menulis secara jelas classes sehingga memiliki makna yang tegas, tujuan penamaan dapat diprediksi(_predictable)_, sehingga sesama kolega mempunyai standar penulisan yang jelas, dan tidak saling membingungkan.
 
 <u>Sekarang bukan cuma kamu dan Tuhan saja yang paham kodemu, tapi semua orang tahu apa yang kamu lakukan dan kamu maksud dari kode CSS tersebut. Finally everybody knows what you did.</u>
 
