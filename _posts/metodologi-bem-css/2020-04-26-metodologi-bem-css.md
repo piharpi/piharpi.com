@@ -196,7 +196,7 @@ BEM adalah sebuah metode _naming convention_ yang bertujuan menulis secara jelas
 
 Yah, tentu saja ada yang menganggap bahwa BEM ini tidak terlalu penting, menggunakan BEM memang **bukan** sebuah keharusan, kembali pada hal yang dikerjakan apakah sebuah pekerjaan skala kecil dan apakah tanpa BEM pekerjaan bisa _maintainable_ atau sebaliknya, juga tergantung kesepakatan sesama koléga.
 
-**Namun**, menggunakan BEM ini menurut saya rasa membantu dalam pengembangan sehingga kode memilki aturan penulisan sama antar koléga, mencegah terjadinya redundansi kode css dan tingkat [specifity](https://specificity.keegan.st/) yang jelas sehingga mencegah terjadinya [error](https://www.phase2technology.com/blog/used-and-abused-css).
+**Namun**, menggunakan BEM ini menurut opini pribadi, sangat membantu dalam melakukan suatu pengembangan user interface web, dengan menggunakan BEM kode memiliki aturan penulisan yang sama antar koléga, mencegah terjadinya redundansi kode css dan tingkat [specifity](https://specificity.keegan.st/) yang jelas, sehingga mencegah terjadinya [error](https://www.phase2technology.com/blog/used-and-abused-css).
 
 Masih pengen gali lebih dalam tentang BEM? [kunjungi](https://en.bem.info/methodology/quick-start/)
 situs resminya.
