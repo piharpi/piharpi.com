@@ -89,7 +89,11 @@ Jika kita tuliskan di CSS, struktur akan lebih terlihat tegas, mempunyai makna y
 
 **Pro,** BEM jelas less-confusing, dengan adanya **Block** sebagai inti komponen(wrapper), **Element** bagian dari block, dan **Modifier** sebagai pengubah behaviour, kita bisa mengerti peran masing-masing class selector dan setiap class selector memilki penamaan *unique/*unik, sehingga kita tidak lagi mengalami konflik dengan nama class selector yang lain (**Modularity**), Jika suatu nama block sudah tersedia maka harusnya itu dapat digunakan kembali dan itu akan mengurangi jumlah baris css yang ditulis (**Reusabilty**), struktur yang sederhana tetapi jelas, mempermudah developer untuk bisa mengingat kembali kode yang ia tulis ataupun pada saat prosses debugging (**Structure**).
 
+---
+
 **Kontra,** harus melakukan _nesting/repeated_ penamaan, dan harus memberikan double-underscore(\_\_) atau double-dashes(—) pada saat pemberian nama classes yang membuat beberapa orang tidak menyukai itu, dan suatu saat nama class selector akan semakin panjang tergantung pada nama elemen dan block.
+
+---
 
 **Solusi Kontra,** dapat diatasi dengan menggunakan [Sass](https://sass-lang.com/) jika kalian biasa menggunakanya itu akan lebih baik.
 
@@ -112,7 +116,7 @@ Jika kita tuliskan di CSS, struktur akan lebih terlihat tegas, mempunyai makna y
 }
 ```
 
-Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--circle`? dapat dijelaskan disini, `--circle` akan mengubah elemen `.__avatar` yang dimiliki oleh block `.card` menjadi bulat, cukup meaningful bukan?
+Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--circle`? dapat dijelaskan disini, `.--circle` akan mengubah elemen `.__avatar` yang dimiliki oleh block `.card` menjadi bulat, cukup meaningful bukan?
 
 ```html
 <!-- Block .card sebuah component card -->
@@ -138,8 +142,8 @@ Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--cir
     documentation things that he learned.
   </p>
 
-  <!-- Element .**card__footer** bagian dari block .card -->
-  <div class="**card__footer**">
+  <!-- Element .card__footer bagian dari block .card -->
+  <div class="card__footer">
     Follow me on
 
     <!-- Block .link component -->
@@ -167,12 +171,17 @@ Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--cir
 
 ## Output Learning
 
-Gambar dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep diatas, sengaja tidak saya lampirkan CSS karena terlalu panjang nantinya, namun hasil diatas dan source code bisa diakses pada [disini](https://codesandbox.io/s/bem-css-y55p2?file=/index.html).
+Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep diatas, sengaja tidak saya lampirkan CSS karena terlalu panjang nantinya, namun hasil dan source code bisa diakses pada [disini](https://codesandbox.io/s/bem-css-y55p2?file=/index.html) atau playground dibawah ini.
 
-<figure>
-  <img src="/metodologi-bem-css/implementing-bem-css.png" alt="Hasil dari metodologi BEM CSS">
-  <figcaption>Fig 3. Hasil dari metodologi BEM CSS </figcaption>
-</figure>
+
+<iframe
+     src="https://codesandbox.io/embed/bem-css-y55p2?autoresize=1&fontsize=14&hidenavigation=1&view=preview"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="BEM CSS"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+<figcaption>Embed Hasil dari metodologi BEM CSS </figcaption>
 
 ### Conclusion
 
