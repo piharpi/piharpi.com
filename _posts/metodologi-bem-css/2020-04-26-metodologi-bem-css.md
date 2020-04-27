@@ -121,10 +121,10 @@ Struktur gaya penulisan nama class selector yang sederhana tetapi jelas, memperm
 }
 ```
 
-Implementasi pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--circle`? dapat dijelaskan bahwa `.--circle` akan mengubah elemen `.__avatar` yang dimiliki oleh block `.card` menjadi bulat, cukup meaningful bukan?
+Implementasi class selector yang sudah dibuat pada HTML, bisa ditebak apa yang terjadi dengan `.card__avatar--circle`? dapat dijelaskan bahwa modifier `--circle` akan mengubah element `__avatar` yang dimiliki oleh block `.card` menjadi berbentuk bulat, cukup _meaningful_ bukan?
 
 ```html
-<!-- Block .card sebuah component card -->
+<!-- Block .card sebuah inti component card -->
 <div class="card">
   <!-- Element .card__background bagian dari block .card -->
   <div class="card__background"></div>
@@ -190,16 +190,16 @@ Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep diat
 
 ### Conclusion
 
-BEM adalah sebuah metode _naming convention_ yang bertujuan menulis secara jelas classes sehingga memiliki makna yang tegas, tujuan penamaan dapat diprediksi(_predictable)_, sehingga sesama kolega mempunyai standar penulisan yang jelas, dan tidak saling membingungkan.
+BEM adalah sebuah metode _naming convention_ yang bertujuan menulis secara jelas classes sehingga memiliki makna yang tegas, tujuan penamaan dapat diprediksi(_predictable)_, sehingga sesama koléga mempunyai standar penulisan yang jelas, dan tidak saling membingungkan.
 
 <u>Sekarang bukan cuma kamu dan Tuhan saja yang paham kodemu, tapi semua orang tahu apa yang kamu lakukan dan kamu maksud dari kode CSS tersebut. Finally everybody knows what you did.</u>
 
-Yah, tentu saja ada yang menganggap bahwa BEM ini tidak terlalu penting, menggunakan BEM memang **bukan** sebuah keharusan, kembali pada hal yang dikerjakan apakah sebuah pekerjaan skala kecil dan apakah tanpa BEM pekerjaan bisa _maintainable_ atau sebaliknya, juga tergantung kesepakatan sesama kolega.
+Yah, tentu saja ada yang menganggap bahwa BEM ini tidak terlalu penting, menggunakan BEM memang **bukan** sebuah keharusan, kembali pada hal yang dikerjakan apakah sebuah pekerjaan skala kecil dan apakah tanpa BEM pekerjaan bisa _maintainable_ atau sebaliknya, juga tergantung kesepakatan sesama koléga.
 
-**Namun**, menggunakan BEM ini menurut saya rasa membantu dalam pengembangan sehingga kode memilki aturan penulisan sama antar kolega, mencegah terjadinya redundansi kode css dan tingkat [specifity](https://specificity.keegan.st/) yang jelas sehingga mencegah terjadinya [error](https://www.phase2technology.com/blog/used-and-abused-css).
+**Namun**, menggunakan BEM ini menurut saya rasa membantu dalam pengembangan sehingga kode memilki aturan penulisan sama antar koléga, mencegah terjadinya redundansi kode css dan tingkat [specifity](https://specificity.keegan.st/) yang jelas sehingga mencegah terjadinya [error](https://www.phase2technology.com/blog/used-and-abused-css).
 
-Masih pengen gali lebih dalam? [kunjungi](https://en.bem.info/methodology/quick-start/)
-
+Masih pengen gali lebih dalam tentang BEM? [kunjungi](https://en.bem.info/methodology/quick-start/)
+situs resminya.
 
 ##### Resources
 
