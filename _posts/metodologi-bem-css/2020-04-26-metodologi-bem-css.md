@@ -55,7 +55,7 @@ Dari gambar diatas saya akan menjelaskan mana yang bagian block, element dan mod
   <figcaption>Fig 2. Ilustrasi implementasi BEM CSS.</figcaption>
 </figure>
 
-Jika kita tuliskan di CSS, struktur akan lebih terlihat tegas, mempunyai makna yang jelas, karena setiap class selector memilki peran dan saling berkaitan.
+Jika ilustrasi diatas kita tuliskan di CSS, hasil penyusunan struktur class selector akan lebih terlihat tegas, mempunyai makna yang jelas, karena setiap class selector memilki peran dan saling berkaitan.
 
 ```scss
 // CSS
@@ -88,15 +88,19 @@ Jika kita tuliskan di CSS, struktur akan lebih terlihat tegas, mempunyai makna y
 
 ## Pros and Cons
 
-**Pro,** BEM jelas less-confusing, dengan adanya **Block** sebagai inti komponen(wrapper), **Element** bagian dari block, dan **Modifier** sebagai pengubah behaviour, kita bisa mengerti peran masing-masing class selector dan setiap class selector memilki penamaan *unique/*unik, sehingga kita tidak lagi mengalami konflik dengan nama class selector yang lain (**Modularity**), Jika suatu nama block sudah tersedia maka harusnya itu dapat digunakan kembali dan itu akan mengurangi jumlah baris css yang ditulis (**Reusabilty**), struktur yang sederhana tetapi jelas, mempermudah developer untuk bisa mengingat kembali kode yang ia tulis ataupun pada saat prosses debugging (**Structure**).
+**Pro,** BEM jelas less-confusing, dengan adanya **Block** sebagai inti komponen(wrapper), **Element** bagian dari block, dan **Modifier** sebagai pengubah behaviour, kita bisa mengerti peran masing-masing class selector dan setiap class selector memilki penamaan *unique/*unik, sehingga kita tidak lagi mengalami konflik dengan nama class selector yang lain (**Modularity**).
+
+Jika suatu nama block sudah tersedia, maka seharusnya itu dapat digunakan kembali sehingga tidak terjadi duplikasi nama class selector, juga memiliki gaya penulisan yang konsisten dan akan mengurangi jumlah baris css yang ditulis (**Reusabilty**).
+
+Struktur gaya penulisan nama class selector yang sederhana tetapi jelas, mempermudah developer untuk bisa mengingat kembali kode yang ia tulis ataupun pada saat prosses debugging (**Structure**).
 
 ---
 
-**Kontra,** harus melakukan _nesting/repeated_ penamaan, dan harus memberikan double-underscore(\_\_) atau double-dashes(—) pada saat pemberian nama classes yang membuat beberapa orang tidak menyukai itu, dan suatu saat nama class selector akan semakin panjang tergantung pada nama elemen dan block.
+**Kontra,** harus melakukan _nesting/repeated_ penamaan, dan harus memberikan double-underscore(\_\_) atau double-dashes(\-\-) pada saat pemberian nama class selector yang membuat beberapa orang tidak menyukai itu, dan suatu saat nama class selector akan semakin panjang tergantung pada nama block dan elemen yang digunakan.
 
 ---
 
-**Solusi Kontra,** dapat diatasi dengan menggunakan [Sass](https://sass-lang.com/) jika kalian biasa menggunakanya itu akan lebih baik.
+**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/) jika kalian biasa menggunakanya ini, kode akan terlihat lebih baik.
 
 ```scss
 // SCSS
