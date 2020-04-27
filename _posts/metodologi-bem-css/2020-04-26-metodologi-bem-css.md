@@ -96,11 +96,11 @@ Struktur gaya penulisan nama class selector yang sederhana tetapi jelas, memperm
 
 ---
 
-**Kontra,** harus melakukan _nesting/repeated_ penamaan, dan harus memberikan double-underscore(\_\_) atau double-dashes(\-\-) pada saat pemberian nama class selector yang membuat beberapa orang tidak menyukai itu, dan suatu saat nama class selector akan semakin panjang tergantung pada nama block dan elemen yang digunakan.
+**Kontra,** harus melakukan _nesting/repeated_ penamaan, dan harus memberikan double-underscore(\_\_) atau double-dashes(\-\-) pada saat pemberian nama class selector; yang mana beberapa orang tidak menyukai, dan suatu saat nama class selector akan semakin panjang tergantung pada nama block dan elemen yang digunakan.
 
 ---
 
-**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/) jika kalian biasa menggunakanya ini, kode akan terlihat lebih baik.
+**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan dash harus tetap digunakan karena itu aturan BEM.
 
 ```scss
 // SCSS
