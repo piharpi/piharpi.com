@@ -17,7 +17,7 @@ image: /metodologi-bem-css/ilustrasi-bem-css.png
 
 Konvensi penamaan suatu hal pada pemprograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 
-Sering terjadi; beberapa waktu tidak membuka file project yang semula kita paham dengan baris kode yang ditulis; seketika juga lupa apa maksud baris kode tersebut, kemungkinan dikarenakan struktur kode yang berantakan, penamaan class selector yang tidak memilki arti/makna yang jelas dan juga tidak memiliki kekonsistenan gaya penulisan, sehingga hanya Tuhan saja yang mengetahui maksud baris kode tersebut.
+Sering terjadi; suatu ketika membuka file project yang semula kita paham dengan baris kode yang ditulis; seketika juga lupa apa maksud baris kode tersebut, kemungkinan dikarenakan struktur kode yang berantakan, penamaan class selector yang tidak memilki arti/makna yang jelas dan juga tidak memiliki kekonsistenan gaya penulisan, sehingga hanya Tuhan saja yang mengetahui maksud baris kode tersebut.
 
 Beruntungnya terdapat beberapa metodologi CSS yang bisa digunakan SMACSS, OOCSS, SUITCSS, Atomic dan **BEM** yang mana akan dibahas tulisan ini.
 
