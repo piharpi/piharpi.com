@@ -3,7 +3,7 @@ layout: post
 title: Metodologi BEM dan finally everybody knows what you did.
 date: 2020-04-26 01:00 +0700
 modified: 2020-05-01 03:32 +0700
-description: Konvensi penamaan suatu hal pada pemprograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
+description: Konvensi penamaan suatu hal pada pemrograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 tag:
   - css
   - frontend
@@ -16,7 +16,7 @@ image: /metodologi-bem-css/ilustrasi-bem-css.png
 
 ## TL;DR
 
-Konvensi penamaan suatu hal pada pemprograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
+Konvensi penamaan suatu hal pada pemrograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 
 Sering terjadi; suatu ketika membuka file project yang semula kita paham dengan baris kode yang ditulis; seketika juga lupa apa maksud baris kode tersebut, kemungkinan dikarenakan struktur kode yang berantakan, penamaan class selector yang tidak memilki arti/makna yang jelas dan juga tidak memiliki kekonsistenan gaya penulisan, sehingga hanya Tuhan saja yang mengetahui maksud baris kode tersebut.
 
