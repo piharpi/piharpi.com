@@ -30,7 +30,7 @@ BEM sendiri merupakan singkatan dari **B**lock, **E**lement, **M**odifier dari *
 
 ---
 
-[Katakanlah](#kembali) saya akan membuat sebuah komponen yang saya beri nama **card** yang mana komponen ini memiliki gambar **background,** user **avatar,** **deskripsi** singkat dan **footer** yang berisi external **link** (github, twitter), berikut ini ilustrasi dalam bentuk hand draw.
+Katakanlah saya akan membuat sebuah komponen yang saya beri nama **card** yang mana komponen ini memiliki gambar **background,** user **avatar,** **deskripsi** singkat dan **footer** yang berisi external **link** (github, twitter), berikut ini ilustrasi dalam bentuk hand draw.
 
 <figure>
   <img src="/metodologi-bem-css/bem-css.png" alt="Konsep yang akan diterapkan dengan BEM CSS.">
