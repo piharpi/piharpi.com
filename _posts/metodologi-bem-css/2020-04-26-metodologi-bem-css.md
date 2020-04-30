@@ -2,6 +2,7 @@
 layout: post
 title: Metodologi BEM dan finally everybody knows what you did.
 date: 2020-04-26 01:00 +0700
+modified: 2020-05-01 03:32 +0700
 description: Konvensi penamaan suatu hal pada pemprograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 tag:
   - css
@@ -21,7 +22,7 @@ Sering terjadi; suatu ketika membuka file project yang semula kita paham dengan 
 
 Beruntungnya terdapat beberapa metodologi CSS yang bisa digunakan SMACSS, OOCSS, SUITCSS, Atomic dan **BEM** yang mana akan dibahas tulisan ini.
 
-Metodologi BEM hadir bertujuan untuk menyelesaikan permasalahan diatas yaitu naming convention dan struktur pada classes di HTML dan CSS, sehingga kode dapat dipahami dengan mudah oleh developer, BEM ini [dikembangkan](http://bem.info) oleh Yandex perusahaan teknologi asal Rusia, BEM termasuk metode yang sering dipakai para developer saat ini karena memilki beberapa benefits: modularity, reusabililty dan structure.
+Metodologi BEM hadir bertujuan untuk menyelesaikan permasalahan di atas yaitu naming convention dan struktur pada classes di HTML dan CSS, sehingga kode dapat dipahami dengan mudah oleh developer, BEM ini [dikembangkan](http://bem.info) oleh Yandex perusahaan teknologi asal Rusia, BEM termasuk metode yang sering dipakai para developer saat ini karena memilki beberapa benefits: modularity, reusabililty dan structure.
 
 ### Dive in BEM
 
@@ -36,13 +37,13 @@ BEM sendiri merupakan singkatan dari **B**lock, **E**lement, **M**odifier dari *
   <figcaption>Fig 1. Konsep yang akan diterapkan dengan BEM CSS.</figcaption>
 </figure>
 
-Dari gambar diatas saya akan menjelaskan mana yang bagian block, element dan modifier, berikut ini penjelasanya:
+Dari gambar di atas saya akan menjelaskan mana yang bagian block, element dan modifier, berikut ini penjelasanya:
 
-**Block** merupkan entity yang berdiri sendiri, memiliki makna dirinya sendiri, pada gambar diatas bahwa card bertindak sebagai wrapper(pembungkus) dari element yang didalamnya, aturan penamaan block ialah `.namablock`, maka block card menjadi `.card`
+**Block** merupkan entity yang berdiri sendiri, memiliki makna dirinya sendiri, pada gambar di atas bahwa card bertindak sebagai wrapper(pembungkus) dari element yang didalamnya, aturan penamaan block ialah `.namablock`, maka block card menjadi `.card`
 
 ---
 
-**Element** bagian dari **Block** yang tidak berdiri sendiri dan secara _semantic_ bergatung pada **Block**, contoh pada gambar diatas : background, avatar, title, description, footer merupakan bagian-bagian dari `.card`, karena posisinya berada didalam **Block** `.card`, aturan penamaan menggunakan double underline(\_\_) setelah nama block diikuti nama element `.namablock__namaelement` maka masing-masing element tersebut `.card__background` `.card__avatar` `.card__title` `.card__description` `.card__footer`.
+**Element** bagian dari **Block** yang tidak berdiri sendiri dan secara _semantic_ bergatung pada **Block**, contoh pada gambar di atas : background, avatar, title, description, footer merupakan bagian-bagian dari `.card`, karena posisinya berada didalam **Block** `.card`, aturan penamaan menggunakan double underline(\_\_) setelah nama block diikuti nama element `.namablock__namaelement` maka masing-masing element tersebut `.card__background` `.card__avatar` `.card__title` `.card__description` `.card__footer`.
 
 ---
 
@@ -55,7 +56,7 @@ Dari gambar diatas saya akan menjelaskan mana yang bagian block, element dan mod
   <figcaption>Fig 2. Ilustrasi implementasi BEM CSS.</figcaption>
 </figure>
 
-Jika ilustrasi diatas kita tuliskan di CSS, hasil penyusunan struktur class selector akan lebih terlihat tegas, mempunyai makna yang jelas, karena setiap class selector memilki peran dan saling berkaitan.
+Jika ilustrasi di atas kita tuliskan di CSS, hasil penyusunan struktur class selector akan lebih terlihat tegas, mempunyai makna yang jelas, karena setiap class selector memilki peran dan saling berkaitan.
 
 ```scss
 // CSS
@@ -176,7 +177,7 @@ Implementasi class selector yang sudah dibuat pada HTML, bisa ditebak apa yang t
 
 ## Output Learning
 
-Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep diatas, sengaja tidak saya lampirkan CSS karena terlalu panjang nantinya, namun hasil dan source code bisa diakses [disini](https://codesandbox.io/s/bem-css-y55p2?file=/index.html) atau playground dibawah ini.
+Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep di atas, sengaja tidak saya lampirkan CSS karena terlalu panjang nantinya, namun hasil dan source code bisa diakses [disini](https://codesandbox.io/s/bem-css-y55p2?file=/index.html) atau playground dibawah ini.
 
 
 <iframe
