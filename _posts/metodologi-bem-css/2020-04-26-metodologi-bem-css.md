@@ -20,7 +20,7 @@ Konvensi penamaan suatu hal pada pemrograman — memang terkadang menjadi masala
 
 Sering terjadi; suatu ketika membuka file project yang semula kita paham dengan baris kode yang ditulis; seketika juga lupa apa maksud baris kode tersebut, kemungkinan dikarenakan struktur kode yang berantakan, penamaan class selector yang tidak memilki arti/makna yang jelas dan juga tidak memiliki kekonsistenan gaya penulisan, sehingga hanya Tuhan saja yang mengetahui maksud baris kode tersebut.
 
-Beruntungnya terdapat beberapa metodologi CSS yang bisa digunakan SMACSS, OOCSS, SUITCSS, Atomic dan **BEM** yang mana akan dibahas tulisan ini.
+Beruntungnya terdapat beberapa metodologi CSS yang bisa digunakan untuk mengatasi masalah di atas yaitu; SMACSS, OOCSS, SUITCSS, Atomic dan **BEM** yang mana akan dibahas tulisan ini.
 
 Metodologi BEM hadir bertujuan untuk menyelesaikan permasalahan di atas yaitu naming convention dan struktur pada classes di HTML dan CSS, sehingga kode dapat dipahami dengan mudah oleh developer, BEM ini [dikembangkan](http://bem.info) oleh Yandex perusahaan teknologi asal Rusia, BEM termasuk metode yang sering dipakai para developer saat ini karena memilki beberapa benefits: modularity, reusabililty dan structure.
 
