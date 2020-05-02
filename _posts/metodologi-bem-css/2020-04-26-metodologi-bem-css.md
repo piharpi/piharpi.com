@@ -2,7 +2,7 @@
 layout: post
 title: Metodologi BEM dan finally everybody knows what you did.
 date: 2020-04-26 01:00 +0700
-modified: 2020-05-01 03:32 +0700
+modified: 2020-05-02 09:20 +0700
 description: Konvensi penamaan suatu hal pada pemrograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 tag:
   - css
