@@ -22,7 +22,7 @@ Sering terjadi; suatu ketika membuka file project yang semula kita paham dengan 
 
 Beruntungnya terdapat beberapa metodologi CSS yang bisa digunakan untuk mengatasi masalah di atas yaitu; SMACSS, OOCSS, SUITCSS, Atomic dan **BEM** yang mana akan dibahas tulisan ini.
 
-Metodologi BEM hadir bertujuan untuk menyelesaikan permasalahan di atas yaitu naming convention dan struktur pada classes di HTML dan CSS, sehingga kode dapat dipahami dengan mudah oleh developer, BEM ini [dikembangkan](http://bem.info) oleh Yandex perusahaan teknologi asal Rusia, BEM termasuk metode yang sering dipakai para developer saat ini karena memilki beberapa benefits: modularity, reusabililty dan structure.
+Metodologi BEM hadir bertujuan untuk menyelesaikan permasalahan di atas yaitu *naming convention*/konvensi penamaan dan struktur pada classes di HTML dan CSS, sehingga kode dapat dipahami dengan mudah oleh developer, BEM ini [dikembangkan](http://bem.info) oleh Yandex perusahaan teknologi asal Rusia, BEM termasuk metode yang sering dipakai para developer saat ini karena memilki beberapa benefits: modularity, reusabililty dan structure.
 
 ### Dive in BEM
 
@@ -49,7 +49,7 @@ Dari gambar di atas saya akan menjelaskan mana yang bagian block, element dan mo
 
 **Modifier** sebuah state yang ditugaskan untuk melakukan pengubahan _behaviour_ (bentuk, penampilan, ukuran) dari **Block** ataupun **Element**. Katakanlah saya ingin mengubah penampilan yang semula avatar kotak menjadi avatar berbentuk radius circle/melingkar, aturan penamaan modifier ini menggunakan double hyphen(\-\-) setelah nama **Block** atau juga **Element,** dan diikuti nama modifiernya `.namablock__namaelement--namamodifier` maka yang dihasilkan `.card__avatar--circle`.
 
-**\*)** Kita bisa menyesuikan nama entitas yang akan kita gunakan, yang terpenting *naming*/penamaan tersebut dapat membedakan antara block, element, modifier, yang mana sudah menjadi ketentuan dari metodologi BEM.
+**\*)** Kita bisa membuat [skema penamaan sendiri](https://en.bem.info/methodology/naming-convention/#your-naming-system), yang terpenting skema tersebut dapat membedakan antara block, element, modifier, yang mana sudah menjadi ketentuan dari metodologi BEM, pada tulisan ini skema penamaan mengacu pada [Two Dashes Style](https://en.bem.info/methodology/naming-convention/#two-dashes-style).
 
 <figure>
   <img src="/metodologi-bem-css/ilustrasi-bem-css.png" alt="Ilustrasi implementasi BEM CSS.">
@@ -101,7 +101,7 @@ Struktur gaya penulisan nama class selector yang sederhana tetapi jelas, memperm
 
 ---
 
-**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan hyphen sebagai pembeda antara block, element, modifier harus tetap digunakan karena itu bagian dari [naming convention](https://en.bem.info/methodology/naming-convention/#your-naming-system) BEM.
+**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan hyphen sebagai pembeda antara block, element, modifier harus tetap digunakan yang mana bagian dari [konsep](https://en.bem.info/methodology/key-concepts/) BEM.
 
 ```scss
 // SCSS
