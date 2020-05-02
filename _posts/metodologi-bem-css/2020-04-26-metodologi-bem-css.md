@@ -47,7 +47,7 @@ Dari gambar di atas saya akan menjelaskan mana yang bagian block, element dan mo
 
 ---
 
-**Modifier** sebuah state yang ditugaskan untuk melakukan pengubahan _behaviour_ (bentuk, penampilan, ukuran) dari **Block** ataupun **Element**. Katakanlah saya ingin mengubah penampilan yang semula avatar kotak menjadi avatar berbentuk radius circle/melingkar, aturan penamaan modifier ini menggunakan double dashes(—) setelah nama **Block** atau juga **Element,** dan diikuti nama modifiernya `.namablock__namaelement--namamodifier` maka yang dihasilkan `.card__avatar--circle`.
+**Modifier** sebuah state yang ditugaskan untuk melakukan pengubahan _behaviour_ (bentuk, penampilan, ukuran) dari **Block** ataupun **Element**. Katakanlah saya ingin mengubah penampilan yang semula avatar kotak menjadi avatar berbentuk radius circle/melingkar, aturan penamaan modifier ini menggunakan double hyphen(\-\-) setelah nama **Block** atau juga **Element,** dan diikuti nama modifiernya `.namablock__namaelement--namamodifier` maka yang dihasilkan `.card__avatar--circle`.
 
 **\*)** Aturan *naming/*penamaan ini sudah menjadi ketentuan dari metodologi BEM.
 
@@ -78,7 +78,7 @@ Jika ilustrasi di atas kita tuliskan di CSS, hasil penyusunan struktur class sel
 
 // Modifier mengubah behaviour Block atapun Element
 // Penamaan Block dengan Modifier,
-// 2 dashes setelah block ataupun setelah element
+// 2 hyphens setelah block ataupun setelah element
 .link--blue {}
 .link--light {}
 
@@ -97,11 +97,11 @@ Struktur gaya penulisan nama class selector yang sederhana tetapi jelas, memperm
 
 ---
 
-**Kontra,** harus melakukan _nesting/repeated_ penamaan, dan harus memberikan double-underscore(\_\_) atau double-dashes(\-\-) pada saat pemberian nama class selector; yang mana beberapa orang tidak menyukai, dan suatu saat nama class selector akan semakin panjang tergantung pada nama block dan elemen yang digunakan.
+**Kontra,** harus melakukan _nesting/repeated_ penamaan, dan harus memberikan double-underscore(\_\_) atau double-hyphen(\-\-) pada saat pemberian nama class selector; yang mana beberapa orang tidak menyukai, dan suatu saat nama class selector akan semakin panjang tergantung pada nama block dan elemen yang digunakan.
 
 ---
 
-**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan dash harus tetap digunakan karena itu aturan BEM.
+**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan hyphen harus tetap digunakan karena itu aturan BEM.
 
 ```scss
 // SCSS
