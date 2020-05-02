@@ -49,7 +49,7 @@ Dari gambar di atas saya akan menjelaskan mana yang bagian block, element dan mo
 
 **Modifier** sebuah state yang ditugaskan untuk melakukan pengubahan _behaviour_ (bentuk, penampilan, ukuran) dari **Block** ataupun **Element**. Katakanlah saya ingin mengubah penampilan yang semula avatar kotak menjadi avatar berbentuk radius circle/melingkar, aturan penamaan modifier ini menggunakan double hyphen(\-\-) setelah nama **Block** atau juga **Element,** dan diikuti nama modifiernya `.namablock__namaelement--namamodifier` maka yang dihasilkan `.card__avatar--circle`.
 
-**\*)** Aturan *naming/*penamaan ini sudah menjadi ketentuan dari metodologi BEM.
+**\*)** Kita bisa menyesuikan nama entitas yang akan kita gunakan, yang terpenting *naming*/penamaan tersebut dapat membedakan antara block, element, modifier, yang mana sudah menjadi ketentuan dari metodologi BEM.
 
 <figure>
   <img src="/metodologi-bem-css/ilustrasi-bem-css.png" alt="Ilustrasi implementasi BEM CSS.">
@@ -101,7 +101,7 @@ Struktur gaya penulisan nama class selector yang sederhana tetapi jelas, memperm
 
 ---
 
-**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan hyphen harus tetap digunakan karena itu aturan BEM.
+**Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan hyphen sebagai pembeda antara block, element, modifier harus tetap digunakan karena itu bagian dari [naming convention](https://en.bem.info/methodology/naming-convention/#your-naming-system) BEM.
 
 ```scss
 // SCSS
