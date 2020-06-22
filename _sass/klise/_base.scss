@@ -126,11 +126,12 @@ ul {
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\03BB";
+    content: "\FE63";
     display: inline-block;
-    width: 1em;
+    top: -1px;
+    width: 1.2em;
     position: relative;
-    margin-left: -1em;
+    margin-left: -1.3em;
     font-weight: $bold-weight;
   }
 }
@@ -243,7 +244,7 @@ blockquote {
   // opacity: 0.9;
   border-top: 1px solid $light;
   border-bottom: 1px solid $light;
-  border-left: 5px solid $light;  
+  border-left: 5px solid $light;
   padding: 10px;
   // margin-left: 10px;
   // margin-right: 10px;
