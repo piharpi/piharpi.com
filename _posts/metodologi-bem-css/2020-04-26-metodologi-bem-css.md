@@ -24,7 +24,7 @@ Beruntungnya terdapat beberapa metodologi CSS yang bisa digunakan untuk mengatas
 
 Metodologi BEM hadir bertujuan untuk menyelesaikan permasalahan di atas yaitu *naming convention*/konvensi penamaan dan struktur pada classes di HTML dan CSS, sehingga kode dapat dipahami dengan mudah oleh developer, BEM ini [dikembangkan](http://bem.info) oleh Yandex perusahaan teknologi asal Rusia, BEM termasuk metode yang sering dipakai para developer saat ini karena memilki beberapa benefits: modularity, reusabililty dan structure.
 
-### Dive in BEM
+#### Dive in BEM
 
 BEM sendiri merupakan singkatan dari **B**lock, **E**lement, **M**odifier dari **tiga kata** tersebut miliki konsep kerja masing-masing, namun sebelum menjelaskan konsep itu, saya akan memberikan ilustrasi pengimplementasian BEM supaya lebih mudah dipahami.
 
@@ -59,7 +59,6 @@ Dari gambar di atas saya akan menjelaskan mana yang bagian block, element dan mo
 Jika ilustrasi di atas kita tuliskan di CSS, hasil penyusunan struktur class selector akan lebih terlihat tegas, mempunyai makna yang jelas, karena setiap class selector memilki peran dan saling berkaitan.
 
 ```scss
-// CSS
 // Block tanpa ada simbol apapun,
 // sebagai inti komponen
 .card {}
@@ -104,7 +103,6 @@ Struktur gaya penulisan nama class selector yang sederhana tetapi jelas, memperm
 **Solusi Kontra,** dapat diatasi dengan menggunakan preprocessor [Sass](https://sass-lang.com/), sehingga selector tidak terlalu panjang, akan terlihat lebih rapi dan lebih tersetruktur, namun underscore dan hyphen sebagai pembeda antara block, element, modifier harus tetap digunakan yang mana bagian dari [konsep](https://en.bem.info/methodology/key-concepts/) BEM.
 
 ```scss
-// SCSS
 .card {
   &__background {}
   &__avatar {
