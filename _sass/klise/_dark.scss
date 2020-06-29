@@ -46,6 +46,10 @@ body[data-theme="dark"] {
     }
   }
 
+  pre.highlight {
+    background-color: $dark-light;
+  }
+
   // kbd tag
   kbd {
     border-color: $dark-light;
@@ -88,9 +92,9 @@ body[data-theme="dark"] {
   }
 
   // Image caption
-figcaption {
-  color: $dark-gray;
-}
+  figcaption {
+    color: $dark-gray;
+  }
 
   // List
   li {
@@ -113,6 +117,9 @@ figcaption {
 
   // Navbar
   .navbar {
+    @include media-query($on-mobile) {
+      border: 0;
+    }
     border-color: $dark-light;
     .menu {
       a#mood {
@@ -129,6 +136,11 @@ figcaption {
       }
       @include media-query($on-mobile) {
         background-color: $dark-black;
+        @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+          -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+          background-color: rgba(19, 20, 24, 0.89);
+        }
         border-color: $dark-light;
 
         .menu-icon {
