@@ -26,6 +26,9 @@ permalink: /:title/
 google_analytics:
 fb_appid:
 
+disqus:
+  shortname: 'harpi'
+
 # Collection setting
 collections:
   posts:
