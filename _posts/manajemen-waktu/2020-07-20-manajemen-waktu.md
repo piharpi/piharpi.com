@@ -31,7 +31,7 @@ Setelah kita mengkategorikan kegiatan tersebut, setiap kegiatan di atas memiliki
 Beliau pernah mengucapkan kalimat di atas "Apa yang penting biasanya tidak mendadak dan apa yang mendadak biasanya tidak penting" dan kalimat tersebut adalah asal mula dari Eisenhower Matrix.
 
 <figure>
-  <img src="eisenhower_decision_matrix.jpeg" alt="eisenhower_decision_matrix.jpeg">
+  <img src="/manajemen-waktu/eisenhower_decision_matrix.jpeg" alt="eisenhower_decision_matrix.jpeg">
   <figcaption>The Eisenhower Decision Matrix.</figcaption>
 </figure>
 
