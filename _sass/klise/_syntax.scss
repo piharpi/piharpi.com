@@ -10,11 +10,12 @@ code {
   word-wrap: normal;
   font-size: 13px;
   &.highlighter-rouge {
-    padding: 2px 2px;
+    padding: 2px 3px;
     position: relative;
     border-radius: 3px;
     top: -1px;
-    background-color: #f6f6f6;
+    background-color: rgba(128, 128, 128, 0.1);
+    border: 1px solid rgba(128, 128, 128, 0.1);
   }
 }
 
@@ -25,9 +26,9 @@ pre.highlight {
     // margin: 0 calc(51% - 51vw);
     // padding-left: 20px;
   }
-  border-radius: 2px;
-  background-color: #f6f6f6;
-  // border: 1px solid #ececec;
+  border-radius: 4px;
+  background-color: rgba(128, 128, 128, 0.1);
+  border: 1px solid rgba(128, 128, 128, 0.1);
   padding: 10px;
   display: block;
   overflow-x: auto;
