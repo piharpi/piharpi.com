@@ -4,7 +4,7 @@ date: 2020-07-20 09:45:47 +07:00
 tags: [time-management, self-management]
 image: /manajemen-waktu/eisenhower_decision_matrix.jpeg
 description: Manajemen waktu sangat penting, untuk memprioritaskan mana hal-hal yang memang perlu kita lakukan dahulu dan yang mana harus kita tunda dulu, manajemen waktu yang baik membuat kita bekerja dengan cerdas; dibanding bekerja dengan keras.
-comments: true
+comments: false
 ---
 
 
