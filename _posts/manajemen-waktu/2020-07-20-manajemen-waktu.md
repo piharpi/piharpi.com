@@ -1,6 +1,7 @@
 ---
 title: Manajemen waktu yang seharusnya dilakukan
 date: 2020-07-20 09:45:47 +07:00
+modified: 2020-09-07 09:20:47 +07:00
 tags: [time-management, self-management]
 image: /manajemen-waktu/eisenhower_decision_matrix.jpeg
 description: Manajemen waktu sangat penting, untuk memprioritaskan mana hal-hal yang memang perlu kita lakukan dahulu dan yang mana harus kita tunda dulu, manajemen waktu yang baik membuat kita bekerja dengan cerdas; dibanding bekerja dengan keras.
@@ -73,4 +74,4 @@ Kenali kegiatan yang akan kalian lakukan, termasuk dalam kategori waktu yang man
 
 ---
 
-Ya, walaupun saya terkadang keluar dari aturan-aturan di atas, tapi disini saya hanya ingin berbagi, pelan-pelan saya implementasikan di kehidupan, Terimakasih sudah menyimak tulisan ini apabila kalian berkenan silahkan komentar dibawah.
+Ya, walaupun saya terkadang keluar dari aturan-aturan di atas, tapi disini saya hanya ingin berbagi, pelan-pelan saya implementasikan di kehidupan, Terimakasih sudah menyimak tulisan ini :<
