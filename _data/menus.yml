@@ -1,5 +1,8 @@
 - title: home
   url: /
+
+- title: posts
+  url: /archive/
   
 - title: about
   url: /about/

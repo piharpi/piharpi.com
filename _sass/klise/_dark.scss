@@ -122,11 +122,11 @@ body[data-theme="dark"] {
     }
     border-color: $dark-light;
     .menu {
-      a#mood {
-        .mood-sunny {
+      a#mode {
+        .mode-sunny {
           display: block;
         }
-        .mood-moon {
+        .mode-moon {
           display: none;
         }
       }
@@ -236,6 +236,12 @@ body[data-theme="dark"] {
     }
     .solution:hover {
       color: $dark-text-link-blue-active;
+    }
+  }
+
+  .search-article {
+    input[type="search"] {
+      color: $dark-text-base-color;
     }
   }
 }

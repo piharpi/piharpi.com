@@ -17,7 +17,7 @@
   -ms-user-select: none;
   -webkit-user-select: none;
 
-  a#mood {
+  a#mode {
     float: left;
     left: 8px;
     top: 6px;
@@ -34,7 +34,7 @@
       -webkit-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
-    .mood-moon {
+    .mode-moon {
       display: block;
       line {
         stroke: $black;
@@ -46,7 +46,7 @@
         stroke: $black;
       }
     }
-    .mood-sunny {
+    .mode-sunny {
       display: none;
       line {
         stroke: $dark-white;
@@ -120,7 +120,7 @@
       background-color: rgba(255, 255, 255, 0.89);
     }
 
-    a#mood {
+    a#mode {
       left: 10px;
       top: 12px;
     }
@@ -222,6 +222,7 @@
 
 // Content
 .posts-item-note {
+  font-size: $base-font-size;
   font-weight: 700;
   margin-bottom: 5px;
   color: $black;
@@ -254,8 +255,13 @@
     color: $text-base-color;
     font-weight: normal;
     letter-spacing: 0.1px;
+    border: 0;
+    padding: 0;
+    font-size: $base-font-size;
 
     a {
+      color: $text-base-color;
+
       &:hover,
       &focus {
         color: $black;
@@ -329,3 +335,55 @@
 div#disqus_thread {
   margin-top: 55px;
 }
+
+
+.search-article {
+  position: relative;
+  margin-bottom: 50px;
+
+  label[for="search-input"] {
+    position: relative;
+    top: 10px;
+    left: 11px;
+  }
+
+  input[type="search"] {
+    border: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 10px 10px 35px;
+    -webkit-appearance: none;
+    font-size: $base-font-size;
+    color: $text-base-color;
+    background-color: rgba(128, 128, 128, 0.1);
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    &::-webkit-input-placeholder {
+      color: #808080;
+    }
+    &::-webkit-search-decoration,
+    &::-webkit-search-results-decoration {
+      display: none;
+    }
+  }
+}
+
+#search-results {
+  text-align: center;
+  li {
+    text-align: left;
+  }
+}
+
+.archive-tags {
+  height: auto;
+  .tag-item {
+    padding: 1px 3px;
+    border-radius: 2px;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+} 
