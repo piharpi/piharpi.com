@@ -16,4 +16,3 @@ You can [report](mailto:{{site.author.email}}?subject=harpi.rock report&body=Wri
 
 - [{{site.author.email}}](/email)
 - [github.com/{{site.author.username}}](/github)
-- [twitter](/twitter)
