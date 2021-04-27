@@ -1,5 +1,5 @@
 # Site settings
-title: Mahendrata Harpi ⚡
+title: Mahendrata Harpi | @piharpi
 description: >-
   He's write in Bahasa about what interests him and as a journal 
   for documentation things that he learned, meet him  <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
@@ -11,12 +11,12 @@ mode: "dark" # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Mahendrata Harpi
+  name: Harπ
   bio: >-
     He's write in Bahasa about what interests him and as a journal 
     for documentation things that he learned, meet him  <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
   username: piharpi
-  email: contact@harpi.rocks
+  email: email@doesnt.exist
   avatar: /assets/img/avatar.jpg
 
 # Url settings
