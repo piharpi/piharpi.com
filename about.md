@@ -10,6 +10,8 @@ He's a student from Jawa Timur, Indonesia, living in D.I Yogyakarta. the blog fo
 
 If you have a question about him or else, just send a letter to him. You can [report](https://github.com/piharpi/harpi.rocks/issues/new) if there is an broken link(s) or somethings else.
 
+*Keep it low, make it flow. ✌️*
+
 ##### may u needs ✨
 
 - [github.com/{{site.author.username}}](/github)
