@@ -2,7 +2,7 @@
 layout: post
 title: Metodologi BEM dan finally everybody knows what you did.
 date: 2020-04-26 01:00 +0700
-modified: 2020-05-02 09:20 +0700
+modified: 2021-06-09 09:20 +0700
 description: Konvensi penamaan suatu hal pada pemrograman — memang terkadang menjadi masalah, sering membuat kerumitan programmer dan koléga-nya, termasuk memberi nama class selector CSS, hal yang sepele tapi ternyata bisa menjadi senjata makan tuan ketika bekerja dengan skala file CSS yang besar.
 tag:
   - css
@@ -189,13 +189,11 @@ Dibawah ini merupakan hasil komponen card yang saya buat berdasarkan konsep di a
 
 ### Conclusion
 
-BEM adalah sebuah metode _naming convention_ yang bertujuan menulis secara jelas classes sehingga memiliki makna yang tegas, tujuan penamaan dapat diprediksi(_predictable)_, sehingga sesama koléga mempunyai standar penulisan yang jelas, dan tidak saling membingungkan.
+BEM adalah sebuah metode _naming convention_ yang bertujuan menulis secara jelas selector/classes sehingga memiliki makna yang tegas, tujuan penamaan dapat diprediksi(_predictable)_, sehingga sesama rekan kerja mempunyai standar penulisan yang jelas, dan tidak saling membingungkan.
 
-<u>Sekarang bukan cuma kamu dan Tuhan saja yang paham kodemu, tapi semua orang tahu apa yang kamu lakukan dan kamu maksud dari kode CSS tersebut. Finally everybody knows what you did.</u>
+menggunakan BEM memang **bukan** sebuah keharusan, kembali pada hal yang dikerjakan apakah sebuah pekerjaan skala kecil dan apakah tanpa BEM pekerjaan bisa _maintainable_ atau sebaliknya, atau tergantung preferensi masing-masing.
 
-Yah, tentu saja ada yang menganggap bahwa BEM ini tidak terlalu penting, menggunakan BEM memang **bukan** sebuah keharusan, kembali pada hal yang dikerjakan apakah sebuah pekerjaan skala kecil dan apakah tanpa BEM pekerjaan bisa _maintainable_ atau sebaliknya, juga tergantung kesepakatan sesama koléga.
-
-**Namun**, menggunakan BEM ini menurut opini pribadi, sangat membantu dalam melakukan suatu pengembangan user interface web, dengan menggunakan BEM kode memiliki aturan penulisan yang sama antar koléga, mencegah terjadinya redundansi kode css dan tingkat [specifity](https://specificity.keegan.st/) yang jelas, sehingga mencegah terjadinya [error](https://www.phase2technology.com/blog/used-and-abused-css).
+Namun, menurut opini saya menggunakan BEM kode css menjadi lebh rapi, memiliki aturan penulisan yang sama antar rekan kerja, mencegah terjadinya redundansi kode css, karena tingkat [CSS specifity](https://specificity.keegan.st/) yang jelas.
 
 Masih pengen gali lebih dalam tentang BEM? [kunjungi](https://en.bem.info/methodology/quick-start/)
 situs resminya.
