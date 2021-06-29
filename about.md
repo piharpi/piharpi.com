@@ -12,7 +12,8 @@ If you have a question about him or else, just send a letter to him. You can [re
 
 *Keep it low, make it flow. ✌️*
 
-##### may u needs ✨
+##### may u needs?
 
-- [github.com/{{site.author.username}}](/github)
-- [instagram.com/{{site.author.username}}](/instagram)
+* [github.com/{{site.author.username}}](/github)
+* ~~[instagram.com/{{site.author.username}}](/instagram)~~ * nOT rLLY with this one
+* [{{site.author.email}}](mailto:{{site.author.email}})
