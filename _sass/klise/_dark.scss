@@ -2,6 +2,15 @@ body[data-theme="dark"] {
   color: $dark-text-base-color;
   background-color: $dark-black;
 
+  .author-avatar-wrapper {
+    .author-avatar {
+      box-shadow: none;
+    }
+    .author-status {
+      border-color: $dark-black;
+    }
+  }
+
   // Heading
   h1,
   h2,

@@ -194,17 +194,57 @@
     margin-bottom: 3em;
   }
 
-  .author-avatar {
+  .author-avatar-wrapper {
+    position: relative;
     width: 70px;
     height: 70px;
+    margin: 0 auto;
+  }
+
+  .author-avatar {
     border-radius: 100%;
     user-select: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.06), 0 4px 8px rgba(0, 0, 0, 0.06),
+      0 8px 16px rgba(0, 0, 0, 0.06), 0 16px 32px rgba(0, 0, 0, 0.06), 0 32px 64px rgba(0, 0, 0, 0.06);
     background-color: $black;
     -ms-user-select: none;
     -webkit-user-select: none;
     -webkit-animation: 0.5s ease-in forwards fadein;
     animation: 0.5s ease-in forwards fadein;
     opacity: 1;
+  }
+
+  .author-status {
+    border-radius: 100%;
+    background-color: rgba(87, 242, 135, 0.95);
+    border: 2px solid $white;
+    width: 11px;
+    height: 11px;
+    left: 51px;
+    bottom: 0;
+    position: absolute;
+    transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 65ms;
+    text-decoration: none;
+
+    &:hover {
+      height: 23px;
+      border: 2px solid $white;
+      width: 112px;
+      border-radius: 10px;
+      bottom: -9px;
+      left: 50px;
+      overflow: hidden;
+
+      &::after {
+        content: "👨🏿‍💻️ Open To Work";
+        -webkit-animation: 150ms ease-in fadein;
+        animation: 150ms ease-in fadein;
+        font-size: 13px;
+        color: $dark-black;
+        position: absolute;
+        left: 6px;
+      }
+    }
   }
 
   .author-name {
@@ -246,7 +286,22 @@
     padding-right: 10px;
 
     @include media-query($on-mobile) {
-      font-size: 16px;
+      // font-size: 16px;
+      display: none;
+    }
+  }
+
+  .post-item-emoticon {
+    @extend .post-item-date;
+    min-width: 20px;
+    cursor: default;
+
+    &::selection {
+      background-color: transparent;
+    }
+
+    @include media-query($on-mobile) {
+      display: block;
     }
   }
 
@@ -336,7 +391,6 @@ div#disqus_thread {
   margin-top: 55px;
 }
 
-
 .search-article {
   position: relative;
   margin-bottom: 50px;
@@ -386,4 +440,4 @@ div#disqus_thread {
     border: 1px solid rgba(128, 128, 128, 0.1);
     background-color: rgba(128, 128, 128, 0.1);
   }
-} 
+}

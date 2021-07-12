@@ -1,9 +1,12 @@
 <div class="author">
-  <img
-    class="author-avatar"
-    src="{{ site.author.avatar }}"
-    alt="{{ site.author.username }}"
-  />
+  <div class="author-avatar-wrapper">
+    <img class="author-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.username }}" />
+    {%- if site.author.open_to_work -%}
+    <a target="_blank"
+      href="mailto:{{site.author.email}}?cc=justhapri@gmail.com&subject=We're%20Hiring&body=Hello Mahendrata Harpi, we're [company name] based in [address] looking for a [poisition], We hope you available to fill the position ...."
+      class="author-status"></a>
+    {%- endif -%}
+  </div>
   <h2 class="author-name">{{ site.author.name }}</h2>
   <p class="author-bio">{{ site.author.bio }}</p>
 </div>
