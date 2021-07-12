@@ -1,5 +1,6 @@
 ---
-title: How this site was born 👶
+title: How this site was born
+icon: 🏗️
 date: 2018-09-28 09:45:47 +07:00
 modified: 2020-06-22 10:53:47 +07:00
 tags: [blog, jamstack, jekyll, github]

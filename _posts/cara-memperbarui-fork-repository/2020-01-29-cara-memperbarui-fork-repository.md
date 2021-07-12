@@ -1,5 +1,6 @@
 ---
 layout: post
+icon: 🍴️
 title: Cara ribet memperbarui forked repo
 date: 2020-01-29 01:00 +0700
 modified: 2020-03-07 16:49:47 +07:00

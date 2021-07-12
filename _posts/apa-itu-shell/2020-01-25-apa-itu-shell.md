@@ -1,5 +1,6 @@
 ---
-title: What is a shell? 🐚 sebuah kerang ajaib?
+icon: 🐚
+title: Mengenal shell di lingkungan Linux
 date: 2020-01-25 11:58:47 +07:00
 modified: 2021-06-07 16:49:47 +07:00
 tags: [unix/linux, cli]

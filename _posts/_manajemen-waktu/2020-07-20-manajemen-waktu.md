@@ -1,5 +1,6 @@
 ---
-title: Manajemen waktu yang seharusnya dilakukan
+icon: 📑️
+title: Manajemen waktu Eisenhower Matrix
 date: 2020-07-20 09:45:47 +07:00
 modified: 2020-09-07 09:20:47 +07:00
 tags: [time-management, self-management]
@@ -29,14 +30,14 @@ Setelah kita mengkategorikan kegiatan tersebut, setiap kegiatan di atas memiliki
 > What is important is seldom urgent and what is urgent is seldom important.<br>
 > --- Dwight D. Eisenhower
 
-Beliau pernah mengucapkan kalimat di atas "Apa yang penting biasanya tidak mendadak dan apa yang mendadak biasanya tidak penting" dan kalimat tersebut adalah asal mula dari Eisenhower Matrix.
+Beliau pernah mengucapkan kalimat di atas "Apa yang penting biasanya tidak mendesak dan apa yang mendesak biasanya tidak terlalu penting" dan kalimat tersebut adalah asal mula dari Eisenhower Matrix.
 
 <figure>
   <img src="/manajemen-waktu/eisenhower_decision_matrix.jpeg" alt="eisenhower_decision_matrix.jpeg">
   <figcaption>The Eisenhower Decision Matrix.</figcaption>
 </figure>
 
-Dengan menggunakan Eisenhower Decision Matrix kalian bisa memisahkan kegiatan apa yang perlu segera ditindak dan kegiatan mana yang bisa ditunda, bagan ini dibagi menjadi empat kuadran.
+Dengan menggunakan Eisenhower Decision Matrix kalian bisa memisahkan kegiatan apa yang perlu segera dilakukan dan kegiatan mana yang bisa ditunda, bagan ini dibagi menjadi empat kuadran.
 
 ---
 
@@ -71,7 +72,3 @@ Dengan menggunakan Eisenhower Decision Matrix kalian bisa memisahkan kegiatan ap
 #### Kesimpulan
 
 Kenali kegiatan yang akan kalian lakukan, termasuk dalam kategori waktu yang mana? jika sudah, prioritaskanlah kegiatan dengan menggunakan Eisenhower Decision Matrix.
-
----
-
-Ya, walaupun saya terkadang keluar dari aturan-aturan di atas, tapi disini saya hanya ingin berbagi, pelan-pelan saya implementasikan di kehidupan, Terimakasih sudah menyimak tulisan ini :<
