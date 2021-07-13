@@ -223,22 +223,19 @@
     left: 51px;
     bottom: 0;
     position: absolute;
-    transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 65ms;
+    transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 65ms, border-radius 0ms;
     text-decoration: none;
 
     &:hover, &:focus {
-      height: 23px;
-      border: 2px solid $white;
-      width: 112px;
       border-radius: 10px;
-      bottom: -9px;
+      height: 23px;
+      width: 112px;
+      bottom: -12px;
       left: 50px;
       overflow: hidden;
 
       &::after {
         content: "👨🏿‍💻️ Open To Work";
-        -webkit-animation: 150ms ease-in fadein;
-        animation: 150ms ease-in fadein;
         font-size: 13px;
         color: $dark-black;
         position: absolute;
